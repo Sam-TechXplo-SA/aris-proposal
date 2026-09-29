@@ -1,42 +1,35 @@
 import { cn } from "@/utils";
+import Image from "next/image";
 
 interface WordmarkProps {
-  /** "full" — mark plus name lockup; "mark" — the square monogram alone (collapsed nav). */
+  /** "full" — the Aris Brokers logo lockup; "mark" — the Africa stripes alone (collapsed nav). */
   variant?: "full" | "mark";
-  /** "brand" for light surfaces; "inverted" for the red sign-in panel; "onDark" for the dark grey sidebar. */
-  tone?: "brand" | "inverted" | "onDark";
+  /** "brand" follows the light/dark theme; "onDark" for always-dark surfaces (sidebar, sign-in panel). */
+  tone?: "brand" | "onDark";
+  /** "lg" for hero placements such as the sign-in panel. */
+  size?: "md" | "lg";
   className?: string;
 }
 
-// Aris brand lockup: a red square monogram next to the name and a small descriptor.
-// Text-only — no image asset.
-export default function Wordmark({ variant = "full", tone = "brand", className = "" }: WordmarkProps) {
-  const inverted = tone === "inverted";
-  const mark = (
-    <span
-      className={cn(
-        "flex size-8 shrink-0 items-center justify-center rounded-lg text-[15px] font-bold tracking-tight",
-        inverted ? "bg-white text-brand-600" : "bg-brand-500 text-white shadow-theme-xs",
-      )}
-      aria-hidden
-    >
-      A
-    </span>
+const LOGO = { w: 626, h: 203 };
+const MARK = { w: 150, h: 169 };
+
+// Aris Brokers logo. The "-on-dark" assets lift the grey "BROKERS" and the red so they hold contrast on charcoal.
+export default function Wordmark({ variant = "full", tone = "brand", size: scale = "md", className = "" }: WordmarkProps) {
+  const size = variant === "mark" ? MARK : LOGO;
+  const name = variant === "mark" ? "aris-mark" : "aris-logo";
+  const sizing = variant === "mark" ? "h-8 w-auto" : scale === "lg" ? "h-20 w-auto" : "h-10 w-auto";
+
+  const img = (src: string, extra = "") => (
+    <Image src={src} alt="Aris Brokers" width={size.w} height={size.h} priority className={cn(sizing, extra)} />
   );
 
-  if (variant === "mark") return <span className={className}>{mark}</span>;
+  if (tone === "onDark") return <span className={cn("inline-flex", className)}>{img(`/images/logo/${name}-on-dark.png`)}</span>;
 
   return (
-    <span className={cn("flex items-center gap-2.5", className)}>
-      {mark}
-      <span className="flex flex-col leading-none">
-        <span className={cn("text-[15px] font-semibold tracking-tight", inverted || tone === "onDark" ? "text-white" : "text-gray-900 dark:text-white")}>
-          Aris Brokers
-        </span>
-        <span className={cn("mt-1 text-[11px] font-medium", inverted ? "text-white/70" : tone === "onDark" ? "text-gray-400" : "text-gray-500 dark:text-gray-400")}>
-          Claims System
-        </span>
-      </span>
+    <span className={cn("inline-flex", className)}>
+      {img(`/images/logo/${name}.png`, "dark:hidden")}
+      {img(`/images/logo/${name}-on-dark.png`, "hidden dark:block")}
     </span>
   );
 }

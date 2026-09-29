@@ -1,5 +1,6 @@
 "use client";
 
+import Wordmark from "@/components/common/Wordmark";
 import { initialsOf } from "@/components/header/ClientUserMenu";
 import { useAuth } from "@/context/AuthContext";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -22,15 +23,19 @@ export default function ClientSidebar() {
 
   return (
     <aside className="fixed inset-y-0 left-0 z-50 hidden w-64 flex-col border-r border-side-panel-border bg-side-panel px-3 text-gray-100 lg:flex rtl:right-0 rtl:left-auto rtl:border-r-0 rtl:border-l">
-      <Link href="/portal" className="flex min-h-16 shrink-0 items-center gap-2.5 px-2.5 py-3">
-        <span className="flex size-8 shrink-0 items-center justify-center rounded-lg bg-brand-500 text-[12px] font-bold tracking-wide text-white">
+      <Link href="/portal" className="flex min-h-16 shrink-0 items-center px-2.5 py-3">
+        <Wordmark tone="onDark" />
+      </Link>
+      {/* The client org the portal is for — Aris leads, the org is the context. */}
+      <div className="mx-1 flex items-center gap-2.5 rounded-lg border border-white/10 bg-white/5 px-2.5 py-2">
+        <span className="flex size-7 shrink-0 items-center justify-center rounded-md bg-white/10 text-[11px] font-semibold tracking-wide text-white">
           {org ? initialsOf(org.name) : "—"}
         </span>
         <span className="min-w-0 leading-tight">
-          <span className="line-clamp-2 block text-theme-sm leading-snug font-semibold text-white">{org?.name ?? "Claims portal"}</span>
+          <span className="line-clamp-2 block text-theme-xs leading-snug font-semibold text-white">{org?.name ?? "Claims portal"}</span>
           <span className="block truncate text-[11px] text-gray-400">Claims portal</span>
         </span>
-      </Link>
+      </div>
 
       <nav className="no-scrollbar flex flex-1 flex-col gap-6 overflow-y-auto pt-3" aria-label="Primary">
         {CLIENT_NAV_GROUPS.map((group) => (
@@ -54,7 +59,7 @@ export default function ClientSidebar() {
       </nav>
 
       {broker && (
-        <div className="mb-3 rounded-lg border border-white/10 bg-white/5 p-3">
+        <div className="mb-4 rounded-lg border border-white/10 bg-white/5 p-3">
           <p className="text-[11px] font-semibold tracking-wider text-gray-500 uppercase">Your broker</p>
           <div className="mt-2 flex items-center gap-2.5">
             <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-white/10 text-theme-xs font-semibold text-white">{initialsOf(broker.name)}</span>
@@ -67,10 +72,6 @@ export default function ClientSidebar() {
           </div>
         </div>
       )}
-      <p className="mb-4 flex items-center gap-2 px-2.5 text-[11px] text-gray-500">
-        <span className="size-2 rounded-[3px] bg-brand-500" aria-hidden />
-        Powered by <span className="font-medium text-gray-300">{state.companySettings.companyName.replace(/\s*\(Pty\)\s*Ltd\.?$/i, "")}</span>
-      </p>
     </aside>
   );
 }

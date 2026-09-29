@@ -1,6 +1,7 @@
 "use client";
 
-import ClientUserMenu, { initialsOf } from "@/components/header/ClientUserMenu";
+import Wordmark from "@/components/common/Wordmark";
+import ClientUserMenu from "@/components/header/ClientUserMenu";
 import Button from "@/components/ui/button/Button";
 import { useAuth } from "@/context/AuthContext";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -17,19 +18,17 @@ export default function ClientTopNav() {
   const { currentUser } = useAuth();
   const { state } = useData();
   const org = findClient(state, currentUser?.clientId);
-  const brokerName = state.companySettings.companyName.replace(/\s*\(Pty\)\s*Ltd\.?$/i, "");
   const section = CLIENT_NAV_ITEMS.find((i) => isClientNavActive(pathname, i.href))?.label ?? "My Claims";
 
   return (
     <header className="sticky top-0 z-40 border-b border-gray-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 dark:border-gray-800 dark:bg-gray-900/90">
       <div className="flex h-16 w-full items-center justify-between gap-4 px-4 md:px-6 lg:px-8">
         <Link href="/portal" className="flex min-w-0 items-center gap-3 lg:hidden">
-          <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-brand-500 text-theme-xs font-bold tracking-wide text-white shadow-theme-xs">
-            {org ? initialsOf(org.name) : "—"}
-          </span>
-          <span className="min-w-0 leading-tight">
+          <Wordmark className="shrink-0" />
+          <span className="hidden h-6 w-px shrink-0 bg-gray-200 min-[480px]:block dark:bg-gray-800" aria-hidden />
+          <span className="hidden min-w-0 leading-tight min-[480px]:block">
             <span className="block truncate text-theme-sm font-semibold text-gray-900 dark:text-white">{org?.name ?? "Claims portal"}</span>
-            <span className="block truncate text-theme-xs text-gray-500 dark:text-gray-400">Claims portal · powered by {brokerName}</span>
+            <span className="block truncate text-theme-xs text-gray-500 dark:text-gray-400">Claims portal</span>
           </span>
         </Link>
 

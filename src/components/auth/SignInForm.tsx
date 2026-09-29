@@ -87,7 +87,11 @@ export default function SignInForm() {
                 <Input type="password" placeholder="Enter any password" />
               </div>
               <div className="pt-2">
-                <Button className="w-full" size="md" disabled={!activeUserId}>
+                <Button
+                  className="w-full bg-charcoal-900 hover:bg-charcoal-800 active:bg-charcoal-950 focus-visible:ring-charcoal-900/30 dark:bg-white dark:text-charcoal-900 dark:hover:bg-gray-100"
+                  size="md"
+                  disabled={!activeUserId}
+                >
                   Sign in
                 </Button>
               </div>
