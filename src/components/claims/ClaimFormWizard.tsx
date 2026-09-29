@@ -9,6 +9,7 @@ import Alert from "@/components/ui/alert/Alert";
 import Button from "@/components/ui/button/Button";
 import StepProgress from "@/components/ui/step-progress/StepProgress";
 import { CLAIM_FORM_SCHEMAS } from "@/data/claim-forms";
+import { shortStepLabel } from "@/data/claim-forms/stepLabels";
 import type { ClaimField, RepeatingGroup } from "@/data/claim-forms/types";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "@/i18n/navigation";
@@ -192,7 +193,7 @@ export default function ClaimFormWizard({ slug, claim, portal }: { slug: string;
     return <Alert variant="error" title="Form unavailable" message={`No claim form is configured for "${slug}".`} />;
   }
 
-  const steps = schema.sections.map((s) => ({ key: s.id, label: s.title }));
+  const steps = schema.sections.map((s) => ({ key: s.id, label: shortStepLabel(s.title), fullLabel: s.title }));
   const activeSection = schema.sections[stepIndex];
   const fieldsForSection = schema.fields.filter((f) => f.section === activeSection.id);
   const groupsForSection = schema.repeatingGroups.filter((g) => g.section === activeSection.id);

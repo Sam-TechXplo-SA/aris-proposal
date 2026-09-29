@@ -12,7 +12,18 @@ import { useClaimAccess } from "@/lib/mock/useClaimAccess";
 import { useParams } from "next/navigation";
 import { useState } from "react";
 
-const ASSESSMENT_STEPS = ASSESSMENT_SEQUENCE.map((status) => ({ key: status, label: statusLabel(status) }));
+// One-word stepper labels; the full status name shows on hover.
+const ASSESSMENT_SHORT: Record<string, string> = {
+  submitted_to_insurer: "Submitted",
+  under_assessment: "Assessing",
+  assessment_completed: "Assessed",
+  awaiting_insurer_decision: "Decision",
+};
+const ASSESSMENT_STEPS = ASSESSMENT_SEQUENCE.map((status) => ({
+  key: status,
+  label: ASSESSMENT_SHORT[status] ?? statusLabel(status),
+  fullLabel: statusLabel(status),
+}));
 
 // ux-blueprint.md §5 task matrix: "Process/forward claim to insurer" — small field set,
 // frequent touch, inline on the claim record. Status progression is gated on the
