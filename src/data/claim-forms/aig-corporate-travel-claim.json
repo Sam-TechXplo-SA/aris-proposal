@@ -1,0 +1,2714 @@
+{
+  "id": "aig-corporate-travel-claim",
+  "insurer": "AIG",
+  "title": "Corporate Travel Claim Form",
+  "description": "Travel Claim Form",
+  "filenameField": "surname",
+  "sections": [
+    {
+      "id": "claimType",
+      "title": "Notes & Type of Claim"
+    },
+    {
+      "id": "insured",
+      "title": "Section 1 – Insured Person"
+    },
+    {
+      "id": "deathAccident",
+      "title": "Section 2 – Death / Personal Accident"
+    },
+    {
+      "id": "medical",
+      "title": "Section 3 – Medical Claims"
+    },
+    {
+      "id": "baggage",
+      "title": "Section 4 – Baggage, Cash and Travel Documents"
+    },
+    {
+      "id": "missingArticles",
+      "title": "Missing / Damaged Articles Schedule"
+    },
+    {
+      "id": "cancellation",
+      "title": "Section 5 – Cancellation, Curtailment or Alteration"
+    },
+    {
+      "id": "travelDelay",
+      "title": "Section 6 – Travel Delay"
+    },
+    {
+      "id": "personalLiability",
+      "title": "Section 7 – Personal Liability"
+    },
+    {
+      "id": "eft",
+      "title": "Section 8 – Electronic Funds Transfer, Declaration and Authority"
+    }
+  ],
+  "fields": [
+    {
+      "id": "notesNote",
+      "section": "claimType",
+      "type": "note",
+      "label": "1. For all claims, please complete SECTION 1 and SECTION 8. 2. All supporting documentation MUST be submitted together with this form in order to avoid unnecessary delays. 3. For all claims relating to LOSS or THEFT, please provide a carrier and/or police report. 4. Please supply a copy of your POLICY RECEIPT. 5. Please supply a copy of your AIR TICKET."
+    },
+    {
+      "id": "typeOfClaim",
+      "section": "claimType",
+      "label": "Type of Claim",
+      "type": "choice",
+      "multi": true,
+      "page": 0,
+      "options": [
+        {
+          "value": "deathPersonalAccident",
+          "label": "Death/Personal Accident",
+          "x": 377.4,
+          "y": 318.83
+        },
+        {
+          "value": "medical",
+          "label": "Medical",
+          "x": 377.4,
+          "y": 333.23
+        },
+        {
+          "value": "travelDelay",
+          "label": "Travel Delay",
+          "x": 377.4,
+          "y": 348.83
+        },
+        {
+          "value": "baggageCashDocuments",
+          "label": "Baggage/Cash/Documents",
+          "x": 377.4,
+          "y": 364.43
+        },
+        {
+          "value": "cancellationCurtailment",
+          "label": "Cancellation & Curtailment",
+          "x": 377.4,
+          "y": 380.83
+        },
+        {
+          "value": "personalLiability",
+          "label": "Personal Liability",
+          "x": 377.4,
+          "y": 395.63
+        }
+      ]
+    },
+    {
+      "id": "cardPolicyNo",
+      "section": "insured",
+      "label": "Card No / Policy Receipt No",
+      "type": "text",
+      "page": 0,
+      "x0": 180,
+      "x1": 540,
+      "rows": [
+        468.2
+      ]
+    },
+    {
+      "id": "surname",
+      "section": "insured",
+      "label": "Surname",
+      "type": "text",
+      "required": true,
+      "page": 0,
+      "x0": 100,
+      "x1": 540,
+      "rows": [
+        484.3
+      ]
+    },
+    {
+      "id": "firstNames",
+      "section": "insured",
+      "label": "First Names",
+      "type": "text",
+      "page": 0,
+      "x0": 112,
+      "x1": 445,
+      "rows": [
+        500.2
+      ]
+    },
+    {
+      "id": "age",
+      "section": "insured",
+      "label": "Age",
+      "type": "text",
+      "page": 0,
+      "x0": 478,
+      "x1": 540,
+      "rows": [
+        500.2
+      ]
+    },
+    {
+      "id": "postalAddressLine1",
+      "section": "insured",
+      "label": "Postal Address",
+      "type": "text",
+      "page": 0,
+      "x0": 125,
+      "x1": 540,
+      "rows": [
+        516.3
+      ]
+    },
+    {
+      "id": "postalAddressLine2",
+      "section": "insured",
+      "label": "Postal Address (cont.)",
+      "type": "text",
+      "page": 0,
+      "x0": 60,
+      "x1": 449,
+      "rows": [
+        532.4
+      ]
+    },
+    {
+      "id": "postalCode",
+      "section": "insured",
+      "label": "Code",
+      "type": "text",
+      "page": 0,
+      "x0": 483,
+      "x1": 540,
+      "rows": [
+        532.4
+      ]
+    },
+    {
+      "id": "emailAddress",
+      "section": "insured",
+      "label": "E-mail Address",
+      "type": "text",
+      "page": 0,
+      "x0": 125,
+      "x1": 540,
+      "rows": [
+        548.3
+      ]
+    },
+    {
+      "id": "telBusinessCode",
+      "section": "insured",
+      "label": "Tel. No. Business — Country Code (inside the brackets, e.g. 27)",
+      "type": "text",
+      "page": 0,
+      "x0": 135.4,
+      "x1": 152.9,
+      "rows": [
+        564.4
+      ],
+      "align": "center",
+      "maxLength": 4,
+      "inputMode": "tel",
+      "placeholder": "27"
+    },
+    {
+      "id": "telBusinessNumber",
+      "section": "insured",
+      "label": "Tel. No. Business — Number (after the brackets)",
+      "type": "text",
+      "page": 0,
+      "x0": 159,
+      "x1": 295,
+      "rows": [
+        564.4
+      ],
+      "maxLength": 16,
+      "inputMode": "tel",
+      "placeholder": "11 123 4567"
+    },
+    {
+      "id": "telResidenceCode",
+      "section": "insured",
+      "label": "Tel. No. Residence — Country Code (inside the brackets, e.g. 27)",
+      "type": "text",
+      "page": 0,
+      "x0": 382.9,
+      "x1": 397.9,
+      "rows": [
+        564.4
+      ],
+      "align": "center",
+      "maxLength": 4,
+      "inputMode": "tel",
+      "placeholder": "27"
+    },
+    {
+      "id": "telResidenceNumber",
+      "section": "insured",
+      "label": "Tel. No. Residence — Number (after the brackets)",
+      "type": "text",
+      "page": 0,
+      "x0": 406,
+      "x1": 540,
+      "rows": [
+        564.4
+      ],
+      "maxLength": 16,
+      "inputMode": "tel",
+      "placeholder": "11 123 4567"
+    },
+    {
+      "id": "idNo",
+      "section": "insured",
+      "label": "ID No",
+      "type": "text",
+      "page": 0,
+      "x0": 88,
+      "x1": 290,
+      "rows": [
+        580.4
+      ]
+    },
+    {
+      "id": "travelDateFromDay",
+      "section": "insured",
+      "label": "Travel Date From — Day (DD, fill the gap before the first /)",
+      "type": "text",
+      "page": 0,
+      "x0": 352,
+      "x1": 367.5,
+      "rows": [
+        580.4
+      ],
+      "startSize": 6.35,
+      "floorSize": 5.5,
+      "maxLength": 2,
+      "inputMode": "numeric",
+      "pattern": "[0-9]{1,2}",
+      "placeholder": "DD"
+    },
+    {
+      "id": "travelDateFromMonth",
+      "section": "insured",
+      "label": "Travel Date From — Month (MM, fill the gap between the / and /20)",
+      "type": "text",
+      "page": 0,
+      "x0": 372,
+      "x1": 378.5,
+      "rows": [
+        580.4
+      ],
+      "startSize": 6.35,
+      "floorSize": 5.5,
+      "maxLength": 2,
+      "inputMode": "numeric",
+      "pattern": "[0-9]{1,2}",
+      "placeholder": "MM"
+    },
+    {
+      "id": "travelDateFromYear",
+      "section": "insured",
+      "label": "Travel Date From — Year (YY, fill the gap after the printed 20)",
+      "type": "text",
+      "page": 0,
+      "x0": 392,
+      "x1": 400.5,
+      "rows": [
+        580.4
+      ],
+      "startSize": 6.35,
+      "floorSize": 5.5,
+      "maxLength": 2,
+      "inputMode": "numeric",
+      "pattern": "[0-9]{1,2}",
+      "placeholder": "YY"
+    },
+    {
+      "id": "travelDateToDay",
+      "section": "insured",
+      "label": "Travel Date To — Day (DD, fill the gap before the second /)",
+      "type": "text",
+      "page": 0,
+      "x0": 409.5,
+      "x1": 416,
+      "rows": [
+        580.4
+      ],
+      "startSize": 6.35,
+      "floorSize": 5.5,
+      "maxLength": 2,
+      "inputMode": "numeric",
+      "pattern": "[0-9]{1,2}",
+      "placeholder": "DD"
+    },
+    {
+      "id": "travelDateToMonth",
+      "section": "insured",
+      "label": "Travel Date To — Month (MM, fill the gap between the / and /20)",
+      "type": "text",
+      "page": 0,
+      "x0": 419.3,
+      "x1": 426,
+      "rows": [
+        580.4
+      ],
+      "startSize": 6.35,
+      "floorSize": 5.5,
+      "maxLength": 2,
+      "inputMode": "numeric",
+      "pattern": "[0-9]{1,2}",
+      "placeholder": "MM"
+    },
+    {
+      "id": "travelDateToYear",
+      "section": "insured",
+      "label": "Travel Date To — Year (YY, fill the gap after the printed 20)",
+      "type": "text",
+      "page": 0,
+      "x0": 440,
+      "x1": 465,
+      "rows": [
+        580.4
+      ],
+      "startSize": 6.35,
+      "floorSize": 5.5,
+      "maxLength": 2,
+      "inputMode": "numeric",
+      "pattern": "[0-9]{1,2}",
+      "placeholder": "YY"
+    },
+    {
+      "id": "dateOfLossEvent",
+      "section": "insured",
+      "label": "Date of Accidental Death/Illness/Injury/Loss/Theft",
+      "type": "text",
+      "page": 0,
+      "x0": 272,
+      "x1": 540,
+      "rows": [
+        596.5
+      ]
+    },
+    {
+      "id": "placeOfLossEvent",
+      "section": "insured",
+      "label": "Place of Accidental Death/Illness/Injury/Loss/Theft",
+      "type": "text",
+      "page": 0,
+      "x0": 276,
+      "x1": 540,
+      "rows": [
+        612.4
+      ]
+    },
+    {
+      "id": "airTicketPayment",
+      "section": "insured",
+      "label": "How did you pay for your Air Ticket?",
+      "type": "choice",
+      "page": 0,
+      "options": [
+        {
+          "value": "cash",
+          "label": "Cash",
+          "x": 269.2,
+          "y": 623.93
+        },
+        {
+          "value": "creditCard",
+          "label": "Credit Card",
+          "x": 369.6,
+          "y": 623.93
+        }
+      ]
+    },
+    {
+      "id": "airTicketBank",
+      "section": "insured",
+      "label": "Bank",
+      "type": "text",
+      "page": 0,
+      "x0": 100,
+      "x1": 230,
+      "rows": [
+        648
+      ]
+    },
+    {
+      "id": "airTicketCardNo",
+      "section": "insured",
+      "label": "Card No",
+      "type": "text",
+      "page": 0,
+      "x0": 276,
+      "x1": 540,
+      "rows": [
+        648
+      ]
+    },
+    {
+      "id": "descriptionOfAccident",
+      "section": "deathAccident",
+      "label": "Description of Accident",
+      "type": "text",
+      "multiline": true,
+      "page": 0,
+      "x0": 155,
+      "x1": 540,
+      "rows": [
+        697.54,
+        713.5,
+        729.58,
+        745.66
+      ]
+    },
+    {
+      "id": "deathDocumentationNote",
+      "section": "deathAccident",
+      "type": "note",
+      "label": "The following documentation is required in order to substantiate your claim: 1. Certified copies of the abridged and final death certificate. 2. A certified copy of the Post Mortem Report. 3. A certified copy of the FULL Inquest Report including all witness statements pertaining thereto. 4. The police accident report if death was due to a motor accident. 5. The police station and reference number if death is the subject of a criminal investigation. 6. Copies of any newspaper clippings, eye-witness statements or incident reports that may be available."
+    },
+    {
+      "id": "consultedPractitioner",
+      "section": "medical",
+      "label": "Did you consult a Medical Practitioner?",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 484.7,
+          "y": 246.53
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 527.6,
+          "y": 247.13
+        }
+      ]
+    },
+    {
+      "id": "practitionerName",
+      "section": "medical",
+      "label": "Name of Practitioner",
+      "type": "text",
+      "page": 1,
+      "x0": 159,
+      "x1": 540,
+      "rows": [
+        270.5
+      ]
+    },
+    {
+      "id": "practitionerTelCode",
+      "section": "medical",
+      "label": "Tel. No. — Country Code (inside the brackets, e.g. 27)",
+      "type": "text",
+      "page": 1,
+      "x0": 108.9,
+      "x1": 126.4,
+      "rows": [
+        286.49
+      ],
+      "align": "center",
+      "maxLength": 4,
+      "inputMode": "tel",
+      "placeholder": "27"
+    },
+    {
+      "id": "practitionerTelNumber",
+      "section": "medical",
+      "label": "Tel. No. — Number (after the brackets)",
+      "type": "text",
+      "page": 1,
+      "x0": 133,
+      "x1": 540,
+      "rows": [
+        286.49
+      ],
+      "maxLength": 16,
+      "inputMode": "tel",
+      "placeholder": "11 123 4567"
+    },
+    {
+      "id": "hospitalisedInpatient",
+      "section": "medical",
+      "label": "Were you hospitalised as an inpatient?",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 485.6,
+          "y": 298.93
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 527.4,
+          "y": 298.93
+        }
+      ]
+    },
+    {
+      "id": "detailedDiagnosis",
+      "section": "medical",
+      "label": "Detailed Diagnosis",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 152,
+      "x1": 540,
+      "rows": [
+        322.01,
+        338.09
+      ]
+    },
+    {
+      "id": "receivedTreatmentBefore",
+      "section": "medical",
+      "label": "Have you ever received treatment for this or a related illness?",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 486.7,
+          "y": 349.13
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 528.5,
+          "y": 349.13
+        }
+      ]
+    },
+    {
+      "id": "treatmentReportNote",
+      "section": "medical",
+      "type": "note",
+      "label": "If YES, please supply Medical Practitioner's report stating what treatment received prior to the commencement of your journey."
+    },
+    {
+      "id": "normalPractitionerContact",
+      "section": "medical",
+      "label": "Please supply name and telephone number of your normal Medical Practitioner",
+      "type": "text",
+      "page": 1,
+      "x0": 60,
+      "x1": 540,
+      "rows": [
+        436.61
+      ]
+    },
+    {
+      "id": "chartisNotified",
+      "section": "medical",
+      "label": "Have you notified Chartis Travel Guard of your claim?",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 486.7,
+          "y": 447.13
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 528.5,
+          "y": 447.13
+        }
+      ]
+    },
+    {
+      "id": "chartisWhenWhere",
+      "section": "medical",
+      "label": "If YES, when and where?",
+      "type": "text",
+      "page": 1,
+      "x0": 60,
+      "x1": 540,
+      "rows": [
+        484.27
+      ]
+    },
+    {
+      "id": "chartisNoReason",
+      "section": "medical",
+      "label": "If NO, give reasons why not",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 60,
+      "x1": 540,
+      "rows": [
+        516.31,
+        532.27,
+        548.35
+      ]
+    },
+    {
+      "id": "medicalAidMember",
+      "section": "medical",
+      "label": "Are you a member of Medical Aid",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 486.7,
+          "y": 558.83
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 528.5,
+          "y": 558.83
+        }
+      ]
+    },
+    {
+      "id": "medicalAidName",
+      "section": "medical",
+      "label": "Name of Medical Aid",
+      "type": "text",
+      "page": 1,
+      "x0": 240,
+      "x1": 538,
+      "rows": [
+        615.91
+      ]
+    },
+    {
+      "id": "medicalAidNumber",
+      "section": "medical",
+      "label": "Members Medical Aid Number",
+      "type": "text",
+      "page": 1,
+      "x0": 240,
+      "x1": 538,
+      "rows": [
+        631.87
+      ]
+    },
+    {
+      "id": "delayLossDamageDescription",
+      "section": "baggage",
+      "label": "Describe how the Delay/Loss/Theft/Damage occurred",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 60,
+      "x1": 540,
+      "rows": [
+        715.06,
+        731.02
+      ]
+    },
+    {
+      "id": "carrierPoliceReportedNote",
+      "section": "baggage",
+      "type": "note",
+      "label": "Carrier/Police to whom Loss/Theft/Damage reported:"
+    },
+    {
+      "id": "whenAndWhereReported",
+      "section": "baggage",
+      "label": "When and where",
+      "type": "text",
+      "page": 1,
+      "x0": 145,
+      "x1": 540,
+      "rows": [
+        778.66
+      ]
+    },
+    {
+      "id": "reasonNotReported",
+      "section": "baggage",
+      "label": "If NOT reported, give reason why not",
+      "type": "text",
+      "page": 1,
+      "x0": 225,
+      "x1": 540,
+      "rows": [
+        794.62
+      ]
+    },
+    {
+      "id": "soleOwnerGoods",
+      "section": "baggage",
+      "label": "Are you the sole owner of the goods Lost/Stolen/Damaged?",
+      "type": "choice",
+      "page": 2,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 270.4,
+          "y": 183.03
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 530.7,
+          "y": 183.33
+        }
+      ]
+    },
+    {
+      "id": "lodgedClaimWithCarrier",
+      "section": "baggage",
+      "label": "In respect of Baggage that is Lost/Stolen/Damaged by an Air Carrier, have you lodged a claim with the respective Air Carrier?",
+      "type": "choice",
+      "page": 2,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 270.4,
+          "y": 214.53
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 530.7,
+          "y": 214.83
+        }
+      ]
+    },
+    {
+      "id": "whereOfficeClaimLodged",
+      "section": "baggage",
+      "label": "If YES, please state where and at which office",
+      "type": "text",
+      "page": 2,
+      "x0": 240,
+      "x1": 492,
+      "rows": [
+        298.37
+      ]
+    },
+    {
+      "id": "receivedCompensationFromCarrier",
+      "section": "baggage",
+      "label": "Have you received compensation from the Air Carrier?",
+      "type": "choice",
+      "page": 2,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 270.4,
+          "y": 308.73
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 530.7,
+          "y": 309.03
+        }
+      ]
+    },
+    {
+      "id": "compensationAmount",
+      "section": "baggage",
+      "label": "If YES, please state the amount compensated: R",
+      "type": "text",
+      "page": 2,
+      "x0": 140,
+      "x1": 492,
+      "rows": [
+        361.49
+      ]
+    },
+    {
+      "id": "shortTermInsurerName",
+      "section": "baggage",
+      "label": "Name of Short Term All Risks Insurers",
+      "type": "text",
+      "page": 2,
+      "x0": 240,
+      "x1": 492,
+      "rows": [
+        377.45
+      ]
+    },
+    {
+      "id": "shortTermPolicyNumber",
+      "section": "baggage",
+      "label": "Policy Number",
+      "type": "text",
+      "page": 2,
+      "x0": 240,
+      "x1": 492,
+      "rows": [
+        393.53
+      ]
+    },
+    {
+      "id": "claimingFromAboveNamed",
+      "section": "baggage",
+      "label": "Are you claiming from the above named?",
+      "type": "choice",
+      "page": 2,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 270.4,
+          "y": 403.83
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 530.7,
+          "y": 404.13
+        }
+      ]
+    },
+    {
+      "id": "homeInsuranceNote",
+      "section": "baggage",
+      "type": "note",
+      "label": "Details of any home insurance"
+    },
+    {
+      "id": "homeInsurerName",
+      "section": "baggage",
+      "label": "Name of Insurer",
+      "type": "text",
+      "page": 2,
+      "x0": 240,
+      "x1": 492,
+      "rows": [
+        457.13
+      ]
+    },
+    {
+      "id": "homeInsurerPolicyNumber",
+      "section": "baggage",
+      "label": "Policy Number",
+      "type": "text",
+      "page": 2,
+      "x0": 240,
+      "x1": 492,
+      "rows": [
+        473.09
+      ]
+    },
+    {
+      "id": "natureOfClaimCancellation",
+      "section": "cancellation",
+      "label": "Nature of claim, please give full details",
+      "type": "text",
+      "multiline": true,
+      "page": 3,
+      "x0": 232,
+      "x1": 540,
+      "rows": [
+        299.09,
+        315.17,
+        331.13
+      ]
+    },
+    {
+      "id": "irrecoverableDepositsAmount",
+      "section": "cancellation",
+      "label": "Amount being claimed: Irrecoverable Deposits and Payments",
+      "type": "text",
+      "page": 3,
+      "x0": 322,
+      "x1": 540,
+      "rows": [
+        347.21
+      ]
+    },
+    {
+      "id": "additionalExpensesDetails",
+      "section": "cancellation",
+      "label": "Additional Expenses (Full details and supporting Documents required)",
+      "type": "text",
+      "multiline": true,
+      "page": 3,
+      "x0": 357,
+      "x1": 540,
+      "rows": [
+        363.29,
+        379.25,
+        395.33
+      ]
+    },
+    {
+      "id": "cancellationDocsNote",
+      "section": "cancellation",
+      "type": "note",
+      "label": "The following relevant documents are required in order to substantiate a claim: 3.1 Medical Certificate stating that the Patient was not fit to travel, giving full details. 3.2 Death Certificate indicating CAUSE OF DEATH. 3.3 Proof of deposits not recoverable."
+    },
+    {
+      "id": "travelCancellationAirline",
+      "section": "cancellation",
+      "label": "4.1 Airline",
+      "type": "text",
+      "multiline": true,
+      "page": 3,
+      "x0": 123,
+      "x1": 540,
+      "rows": [
+        507.15,
+        522.83,
+        538.51
+      ]
+    },
+    {
+      "id": "travelCancellationTicketHotel",
+      "section": "cancellation",
+      "label": "4.2 Copy of air ticket/ Hotel accommodation etc.",
+      "type": "text",
+      "multiline": true,
+      "page": 3,
+      "x0": 266,
+      "x1": 540,
+      "rows": [
+        554.19,
+        569.87,
+        585.55
+      ]
+    },
+    {
+      "id": "natureOfDelay",
+      "section": "travelDelay",
+      "label": "Nature of delay",
+      "type": "text",
+      "page": 3,
+      "x0": 140,
+      "x1": 540,
+      "rows": [
+        642.31
+      ]
+    },
+    {
+      "id": "dateTimeOfDelay",
+      "section": "travelDelay",
+      "label": "Date and time of delay",
+      "type": "text",
+      "page": 3,
+      "x0": 169,
+      "x1": 540,
+      "rows": [
+        658.27
+      ]
+    },
+    {
+      "id": "durationOfDelay",
+      "section": "travelDelay",
+      "label": "Duration of delay",
+      "type": "text",
+      "page": 3,
+      "x0": 147,
+      "x1": 540,
+      "rows": [
+        674.38
+      ]
+    },
+    {
+      "id": "strikeWherePlace",
+      "section": "travelDelay",
+      "label": "In the event of Strike/Derangement of the aircraft or sea vessel - Where did it take place?",
+      "type": "text",
+      "page": 3,
+      "x0": 60,
+      "x1": 540,
+      "rows": [
+        722.38
+      ]
+    },
+    {
+      "id": "strikeDuration",
+      "section": "travelDelay",
+      "label": "Duration of Strike/Derangement (Letter from Carrier confirming Strike/Derangement is required)",
+      "type": "text",
+      "page": 3,
+      "x0": 60,
+      "x1": 540,
+      "rows": [
+        754.42
+      ]
+    },
+    {
+      "id": "compensationOrAltArrangements",
+      "section": "travelDelay",
+      "label": "Did you receive any form of Compensation or Alternative Travel Arrangements from the Carrier? Please give details",
+      "type": "text",
+      "multiline": true,
+      "page": 4,
+      "x0": 152,
+      "x1": 540,
+      "rows": [
+        156.62,
+        172.7
+      ]
+    },
+    {
+      "id": "personalLiabilityNature",
+      "section": "personalLiability",
+      "label": "Nature of claim, please give full details",
+      "type": "text",
+      "multiline": true,
+      "page": 4,
+      "x0": 232,
+      "x1": 540,
+      "rows": [
+        222.38,
+        238.46,
+        254.42,
+        270.5
+      ]
+    },
+    {
+      "id": "personalLiabilityDocsNote",
+      "section": "personalLiability",
+      "type": "note",
+      "label": "Please supply copies of all correspondence, summons, notice of intent to take legal action, etc."
+    },
+    {
+      "id": "eftAccountNumber",
+      "section": "eft",
+      "label": "Account Number",
+      "type": "text",
+      "page": 4,
+      "x0": 130,
+      "x1": 540,
+      "rows": [
+        336.29
+      ]
+    },
+    {
+      "id": "eftAccountHolderName",
+      "section": "eft",
+      "label": "Account Holder's Name",
+      "type": "text",
+      "page": 4,
+      "x0": 158,
+      "x1": 540,
+      "rows": [
+        352.37
+      ]
+    },
+    {
+      "id": "eftBankName",
+      "section": "eft",
+      "label": "Name of Bank",
+      "type": "text",
+      "page": 4,
+      "x0": 120,
+      "x1": 540,
+      "rows": [
+        368.33
+      ]
+    },
+    {
+      "id": "eftAccountType",
+      "section": "eft",
+      "label": "Type of Account",
+      "type": "text",
+      "page": 4,
+      "x0": 128,
+      "x1": 540,
+      "rows": [
+        384.41
+      ]
+    },
+    {
+      "id": "eftBranchName",
+      "section": "eft",
+      "label": "Branch Name",
+      "type": "text",
+      "page": 4,
+      "x0": 118,
+      "x1": 540,
+      "rows": [
+        400.49
+      ]
+    },
+    {
+      "id": "eftBranchCode",
+      "section": "eft",
+      "label": "Branch Code",
+      "type": "text",
+      "page": 4,
+      "x0": 116,
+      "x1": 540,
+      "rows": [
+        416.45
+      ]
+    },
+    {
+      "id": "eftDetailsNote",
+      "section": "eft",
+      "type": "note",
+      "label": "Electronic Funds Transfer details. You should ensure that your payment details are correct on this form. We shall not be responsible for any incorrect payments or delays arising as a result of the provision of incorrect information. We cannot accept responsibility for the security of the information on this form until it is received by us. We recommend you provide a cancelled cheque."
+    },
+    {
+      "id": "eftDetailsAccountHolderName",
+      "section": "eft",
+      "label": "Name of the account holder",
+      "type": "text",
+      "page": 4,
+      "x0": 204,
+      "x1": 538,
+      "rows": [
+        533.47
+      ]
+    },
+    {
+      "id": "eftDetailsBankName",
+      "section": "eft",
+      "label": "Name of the bank",
+      "type": "text",
+      "page": 4,
+      "x0": 204,
+      "x1": 538,
+      "rows": [
+        559.27
+      ]
+    },
+    {
+      "id": "eftDetailsBankAddress",
+      "section": "eft",
+      "label": "Address of the bank",
+      "type": "text",
+      "multiline": true,
+      "page": 4,
+      "x0": 204,
+      "x1": 538,
+      "rows": [
+        577.78,
+        596.29,
+        614.8,
+        633.31
+      ]
+    },
+    {
+      "id": "eftDetailsBranchCode",
+      "section": "eft",
+      "label": "Branch Code",
+      "type": "text",
+      "page": 4,
+      "x0": 204,
+      "x1": 538,
+      "rows": [
+        659.11
+      ]
+    },
+    {
+      "id": "eftDetailsAccountNumber",
+      "section": "eft",
+      "label": "Account Number",
+      "type": "text",
+      "page": 4,
+      "x0": 204,
+      "x1": 538,
+      "rows": [
+        684.94
+      ]
+    },
+    {
+      "id": "eftDetailsSwiftBic",
+      "section": "eft",
+      "label": "SWIFT / BIC Code",
+      "type": "text",
+      "page": 4,
+      "x0": 204,
+      "x1": 538,
+      "rows": [
+        710.86
+      ]
+    },
+    {
+      "id": "attachBankingConfirmationNote",
+      "section": "eft",
+      "type": "note",
+      "label": "Attach confirmation of banking details (Copy of cancelled cheque or bank statement)"
+    },
+    {
+      "id": "declarationNote",
+      "section": "eft",
+      "type": "note",
+      "label": "DECLARATION AND AUTHORITY. I/We declare that the above information is true and correct in every respect and that the signing of this claim form also constitutes written authority for the Company to inspect or investigate any Medical Records or Details relevant to this claim. I/We further declare that I am/we are aware that any misrepresentation and/or non-disclosure in respect of information provided herein shall render my/our claim null and void."
+    },
+    {
+      "id": "authorityNote",
+      "section": "eft",
+      "type": "note",
+      "label": "I/we give my/our authority to you to contact my/our household insurers, medical insurers, other insurers or any liable third parties (airlines, cruise companies etc) regarding a contribution."
+    },
+    {
+      "id": "finalSignature",
+      "section": "eft",
+      "label": "Signed",
+      "type": "signature",
+      "required": true,
+      "page": 5,
+      "x0": 90,
+      "x1": 328,
+      "bottom": 184,
+      "height": 18
+    },
+    {
+      "id": "finalSignDate",
+      "section": "eft",
+      "label": "Date",
+      "type": "text",
+      "required": true,
+      "page": 5,
+      "x0": 365,
+      "x1": 470,
+      "rows": [
+        185.1
+      ]
+    },
+    {
+      "id": "finalSignYear",
+      "section": "eft",
+      "label": "Year (20__)",
+      "type": "text",
+      "page": 5,
+      "x0": 494,
+      "x1": 528,
+      "rows": [
+        185.1
+      ],
+      "maxLength": 2,
+      "inputMode": "numeric",
+      "pattern": "[0-9]{1,2}"
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "missingArticles__missingArticle",
+      "section": "missingArticles",
+      "itemLabel": "Missing Article",
+      "subFields": [
+        {
+          "key": "Description",
+          "label": "Full description of missing articles",
+          "type": "text"
+        },
+        {
+          "key": "PartyNameAddress",
+          "label": "Name & address of party from whom purchased or by whom presented",
+          "type": "text"
+        },
+        {
+          "key": "ReplacementPrice",
+          "label": "Replacement price",
+          "type": "text"
+        },
+        {
+          "key": "Deduction",
+          "label": "Deduction for age, use and/or wear and tear",
+          "type": "text"
+        },
+        {
+          "key": "SumClaimed",
+          "label": "Sum claimed for present value",
+          "type": "text"
+        },
+        {
+          "key": "Remarks",
+          "label": "Remarks",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 16,
+      "fixedSlots": [
+        [
+          {
+            "id": "missingArticle1Description",
+            "section": "missingArticles",
+            "label": "Row 1 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              551.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle1PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 1 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              551.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle1ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 1 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              551.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle1Deduction",
+            "section": "missingArticles",
+            "label": "Row 1 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              551.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle1SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 1 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              551.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle1Remarks",
+            "section": "missingArticles",
+            "label": "Row 1 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              551.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle2Description",
+            "section": "missingArticles",
+            "label": "Row 2 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              567.07
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle2PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 2 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              567.07
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle2ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 2 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              567.07
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle2Deduction",
+            "section": "missingArticles",
+            "label": "Row 2 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              567.07
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle2SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 2 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              567.07
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle2Remarks",
+            "section": "missingArticles",
+            "label": "Row 2 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              567.07
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle3Description",
+            "section": "missingArticles",
+            "label": "Row 3 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              583.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle3PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 3 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              583.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle3ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 3 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              583.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle3Deduction",
+            "section": "missingArticles",
+            "label": "Row 3 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              583.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle3SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 3 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              583.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle3Remarks",
+            "section": "missingArticles",
+            "label": "Row 3 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              583.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle4Description",
+            "section": "missingArticles",
+            "label": "Row 4 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              599.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle4PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 4 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              599.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle4ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 4 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              599.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle4Deduction",
+            "section": "missingArticles",
+            "label": "Row 4 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              599.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle4SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 4 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              599.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle4Remarks",
+            "section": "missingArticles",
+            "label": "Row 4 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              599.11
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle5Description",
+            "section": "missingArticles",
+            "label": "Row 5 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              615.19
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle5PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 5 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              615.19
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle5ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 5 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              615.19
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle5Deduction",
+            "section": "missingArticles",
+            "label": "Row 5 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              615.19
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle5SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 5 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              615.19
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle5Remarks",
+            "section": "missingArticles",
+            "label": "Row 5 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              615.19
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle6Description",
+            "section": "missingArticles",
+            "label": "Row 6 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              631.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle6PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 6 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              631.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle6ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 6 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              631.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle6Deduction",
+            "section": "missingArticles",
+            "label": "Row 6 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              631.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle6SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 6 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              631.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle6Remarks",
+            "section": "missingArticles",
+            "label": "Row 6 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              631.15
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle7Description",
+            "section": "missingArticles",
+            "label": "Row 7 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              647.23
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle7PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 7 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              647.23
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle7ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 7 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              647.23
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle7Deduction",
+            "section": "missingArticles",
+            "label": "Row 7 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              647.23
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle7SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 7 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              647.23
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle7Remarks",
+            "section": "missingArticles",
+            "label": "Row 7 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              647.23
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle8Description",
+            "section": "missingArticles",
+            "label": "Row 8 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              663.31
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle8PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 8 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              663.31
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle8ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 8 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              663.31
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle8Deduction",
+            "section": "missingArticles",
+            "label": "Row 8 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              663.31
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle8SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 8 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              663.31
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle8Remarks",
+            "section": "missingArticles",
+            "label": "Row 8 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              663.31
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle9Description",
+            "section": "missingArticles",
+            "label": "Row 9 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              679.3
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle9PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 9 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              679.3
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle9ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 9 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              679.3
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle9Deduction",
+            "section": "missingArticles",
+            "label": "Row 9 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              679.3
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle9SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 9 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              679.3
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle9Remarks",
+            "section": "missingArticles",
+            "label": "Row 9 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              679.3
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle10Description",
+            "section": "missingArticles",
+            "label": "Row 10 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              695.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle10PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 10 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              695.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle10ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 10 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              695.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle10Deduction",
+            "section": "missingArticles",
+            "label": "Row 10 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              695.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle10SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 10 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              695.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle10Remarks",
+            "section": "missingArticles",
+            "label": "Row 10 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              695.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle11Description",
+            "section": "missingArticles",
+            "label": "Row 11 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              711.34
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle11PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 11 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              711.34
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle11ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 11 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              711.34
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle11Deduction",
+            "section": "missingArticles",
+            "label": "Row 11 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              711.34
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle11SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 11 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              711.34
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle11Remarks",
+            "section": "missingArticles",
+            "label": "Row 11 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              711.34
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle12Description",
+            "section": "missingArticles",
+            "label": "Row 12 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              727.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle12PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 12 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              727.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle12ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 12 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              727.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle12Deduction",
+            "section": "missingArticles",
+            "label": "Row 12 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              727.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle12SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 12 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              727.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle12Remarks",
+            "section": "missingArticles",
+            "label": "Row 12 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              727.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle13Description",
+            "section": "missingArticles",
+            "label": "Row 13 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              743.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle13PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 13 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              743.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle13ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 13 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              743.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle13Deduction",
+            "section": "missingArticles",
+            "label": "Row 13 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              743.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle13SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 13 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              743.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle13Remarks",
+            "section": "missingArticles",
+            "label": "Row 13 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              743.38
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle14Description",
+            "section": "missingArticles",
+            "label": "Row 14 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              759.46
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle14PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 14 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              759.46
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle14ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 14 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              759.46
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle14Deduction",
+            "section": "missingArticles",
+            "label": "Row 14 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              759.46
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle14SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 14 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              759.46
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle14Remarks",
+            "section": "missingArticles",
+            "label": "Row 14 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              759.46
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle15Description",
+            "section": "missingArticles",
+            "label": "Row 15 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              775.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle15PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 15 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              775.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle15ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 15 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              775.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle15Deduction",
+            "section": "missingArticles",
+            "label": "Row 15 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              775.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle15SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 15 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              775.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle15Remarks",
+            "section": "missingArticles",
+            "label": "Row 15 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              775.42
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ],
+        [
+          {
+            "id": "missingArticle16Description",
+            "section": "missingArticles",
+            "label": "Row 16 – Full description of missing articles",
+            "type": "text",
+            "page": 2,
+            "x0": 55,
+            "x1": 139,
+            "rows": [
+              791.5
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle16PartyNameAddress",
+            "section": "missingArticles",
+            "label": "Row 16 – Name & address of party from whom purchased or by whom presented",
+            "type": "text",
+            "page": 2,
+            "x0": 145,
+            "x1": 252,
+            "rows": [
+              791.5
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle16ReplacementPrice",
+            "section": "missingArticles",
+            "label": "Row 16 – Replacement price",
+            "type": "text",
+            "page": 2,
+            "x0": 259,
+            "x1": 316,
+            "rows": [
+              791.5
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle16Deduction",
+            "section": "missingArticles",
+            "label": "Row 16 – Deduction for age, use and/or wear and tear",
+            "type": "text",
+            "page": 2,
+            "x0": 322,
+            "x1": 408,
+            "rows": [
+              791.5
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle16SumClaimed",
+            "section": "missingArticles",
+            "label": "Row 16 – Sum claimed for present value",
+            "type": "text",
+            "page": 2,
+            "x0": 415,
+            "x1": 486,
+            "rows": [
+              791.5
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          },
+          {
+            "id": "missingArticle16Remarks",
+            "section": "missingArticles",
+            "label": "Row 16 – Remarks",
+            "type": "text",
+            "page": 2,
+            "x0": 493,
+            "x1": 541,
+            "rows": [
+              791.5
+            ],
+            "startSize": 7,
+            "floorSize": 4
+          }
+        ]
+      ]
+    }
+  ]
+}

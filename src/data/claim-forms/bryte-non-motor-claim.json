@@ -1,0 +1,545 @@
+{
+  "id": "bryte-non-motor-claim",
+  "insurer": "Bryte",
+  "title": "Non-Motor Claim Form",
+  "description": "Non-motor Claims Under R20,000 · March 2021",
+  "filenameField": "insuredName",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Policy & Insured Details"
+    },
+    {
+      "id": "property",
+      "title": "Details of Property Lost, Stolen or Damaged"
+    },
+    {
+      "id": "paymentMethod",
+      "title": "Payment Method"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration"
+    },
+    {
+      "id": "popiConsent",
+      "title": "Damage to Property POPI Act — Consent"
+    }
+  ],
+  "fields": [
+    {
+      "id": "brokerAgent",
+      "section": "header",
+      "label": "Broker/Agent",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        221.5
+      ]
+    },
+    {
+      "id": "policyNumber",
+      "section": "header",
+      "label": "Policy number",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        239.4
+      ]
+    },
+    {
+      "id": "idNumber",
+      "section": "header",
+      "label": "ID number",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        257.2
+      ]
+    },
+    {
+      "id": "insuredName",
+      "section": "header",
+      "label": "Insured",
+      "type": "text",
+      "required": true,
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        275.1
+      ]
+    },
+    {
+      "id": "homeAddress",
+      "section": "header",
+      "label": "Home address",
+      "type": "text",
+      "multiline": true,
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        293,
+        310.9,
+        328.8
+      ]
+    },
+    {
+      "id": "telephoneDay",
+      "section": "header",
+      "label": "Telephone number (day)",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        346.7
+      ]
+    },
+    {
+      "id": "dateTimeOfLoss",
+      "section": "header",
+      "label": "Date and time of loss/damage",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        364.5
+      ]
+    },
+    {
+      "id": "placeOfLoss",
+      "section": "header",
+      "label": "Place where loss/damage occurred if different from above",
+      "type": "text",
+      "page": 0,
+      "x0": 237.4,
+      "x1": 565.9,
+      "rows": [
+        392.1
+      ]
+    },
+    {
+      "id": "detailsOfLoss",
+      "section": "header",
+      "label": "Details of how loss/damage occurred",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        410
+      ]
+    },
+    {
+      "id": "previousLossDamage",
+      "section": "header",
+      "label": "Have you previously suffered loss/damage?",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        427.9
+      ]
+    },
+    {
+      "id": "policeStationRef",
+      "section": "header",
+      "label": "Police station and reference number",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        445.8
+      ]
+    },
+    {
+      "id": "otherInsurance",
+      "section": "header",
+      "label": "Is there any other insurance covering this loss/damage?",
+      "type": "text",
+      "page": 0,
+      "x0": 237,
+      "x1": 566.3,
+      "rows": [
+        463.7
+      ]
+    },
+    {
+      "id": "infoSharingNote",
+      "section": "property",
+      "type": "note",
+      "label": "Insurers share information with each other regarding domestic policies and claims with a view to prevent fraudulent claims and obtain material information regarding the assessment of risks proposed for insurance. Please refer to the Consent Clause on the policy schedule for more details in this regard."
+    },
+    {
+      "id": "quotationNote",
+      "section": "property",
+      "type": "note",
+      "label": "Please supply a quotation in respect of items claimed."
+    },
+    {
+      "id": "paymentMethodNote",
+      "section": "paymentMethod",
+      "type": "note",
+      "label": "You may select, for added security, for payment of any amount due to you to be made directly into a bank account. Please complete details below."
+    },
+    {
+      "id": "bankName",
+      "section": "paymentMethod",
+      "label": "Name of bank",
+      "type": "text",
+      "page": 0,
+      "x0": 84.5,
+      "x1": 288.5,
+      "rows": [
+        689.4
+      ]
+    },
+    {
+      "id": "branch",
+      "section": "paymentMethod",
+      "label": "Branch",
+      "type": "text",
+      "page": 0,
+      "x0": 332.4,
+      "x1": 556.4,
+      "rows": [
+        688.6
+      ]
+    },
+    {
+      "id": "accountName",
+      "section": "paymentMethod",
+      "label": "Name of account",
+      "type": "text",
+      "page": 0,
+      "x0": 96.5,
+      "x1": 288.5,
+      "rows": [
+        719.6
+      ]
+    },
+    {
+      "id": "branchNumber",
+      "section": "paymentMethod",
+      "label": "Branch number",
+      "type": "text",
+      "page": 0,
+      "x0": 364.4,
+      "x1": 556.4,
+      "rows": [
+        720
+      ]
+    },
+    {
+      "id": "accountType",
+      "section": "paymentMethod",
+      "label": "Type of account",
+      "type": "text",
+      "page": 0,
+      "x0": 92.4,
+      "x1": 288.5,
+      "rows": [
+        749.8
+      ]
+    },
+    {
+      "id": "accountNumber",
+      "section": "paymentMethod",
+      "label": "Account number",
+      "type": "text",
+      "page": 0,
+      "x0": 368.4,
+      "x1": 556.4,
+      "rows": [
+        750.2
+      ]
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "I/We solemnly declare that I/we have suffered loss of or damage to the property enumerated and that the said property was in my/our possession immediately prior to the said loss/damage which occurred in the circumstances described above."
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Insured's signature",
+      "type": "signature",
+      "required": true,
+      "page": 0,
+      "x0": 104.4,
+      "x1": 288.5,
+      "bottom": 808.3,
+      "height": 20
+    },
+    {
+      "id": "signDate",
+      "section": "declaration",
+      "label": "Date",
+      "type": "text",
+      "required": true,
+      "page": 0,
+      "x0": 324.5,
+      "x1": 556.4,
+      "rows": [
+        808.3
+      ]
+    },
+    {
+      "id": "popiConsentNote",
+      "section": "popiConsent",
+      "type": "note",
+      "label": "You hereby give consent to Bryte to process, use, share and retain your personal information for its designated purpose. You fully understand the purpose for which your personal information has been collected and you duly consent thereto. You further consent to the lawful sharing and disclosure of your information."
+    },
+    {
+      "id": "signedAtPlace",
+      "section": "popiConsent",
+      "label": "Signed at",
+      "type": "text",
+      "page": 1,
+      "x0": 68.1,
+      "x1": 271.3,
+      "rows": [
+        452
+      ]
+    },
+    {
+      "id": "signDay",
+      "section": "popiConsent",
+      "label": "On the (day)",
+      "type": "text",
+      "page": 1,
+      "x0": 295.3,
+      "x1": 331.7,
+      "rows": [
+        452.4
+      ]
+    },
+    {
+      "id": "signMonth",
+      "section": "popiConsent",
+      "label": "Day of (month)",
+      "type": "text",
+      "page": 1,
+      "x0": 355.3,
+      "x1": 503.3,
+      "rows": [
+        451.7
+      ]
+    },
+    {
+      "id": "signYear",
+      "section": "popiConsent",
+      "label": "20__ (year)",
+      "type": "text",
+      "placeholder": "e.g. 26",
+      "page": 1,
+      "x0": 515.3,
+      "x1": 551.3,
+      "rows": [
+        451.3
+      ]
+    },
+    {
+      "id": "policyholderSignature",
+      "section": "popiConsent",
+      "label": "Signature of policyholder",
+      "type": "signature",
+      "page": 1,
+      "x0": 123.4,
+      "x1": 327.4,
+      "bottom": 475.2,
+      "height": 20
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "property__property",
+      "section": "property",
+      "itemLabel": "Property",
+      "subFields": [
+        {
+          "key": "Description",
+          "label": "Description of property",
+          "type": "text"
+        },
+        {
+          "key": "Value",
+          "label": "Value",
+          "type": "text"
+        },
+        {
+          "key": "AmountClaimed",
+          "label": "Amount claimed",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 4,
+      "fixedSlots": [
+        [
+          {
+            "id": "property1Description",
+            "section": "property",
+            "label": "Item 1 — Description of property",
+            "type": "text",
+            "page": 0,
+            "x0": 29.2,
+            "x1": 349.6,
+            "rows": [
+              527.1
+            ]
+          },
+          {
+            "id": "property1Value",
+            "section": "property",
+            "label": "Item 1 — Value",
+            "type": "text",
+            "page": 0,
+            "x0": 350.9,
+            "x1": 457.3,
+            "rows": [
+              527.1
+            ]
+          },
+          {
+            "id": "property1AmountClaimed",
+            "section": "property",
+            "label": "Item 1 — Amount claimed",
+            "type": "text",
+            "page": 0,
+            "x0": 458.6,
+            "x1": 565.4,
+            "rows": [
+              527.1
+            ]
+          }
+        ],
+        [
+          {
+            "id": "property2Description",
+            "section": "property",
+            "label": "Item 2 — Description of property",
+            "type": "text",
+            "page": 0,
+            "x0": 29.2,
+            "x1": 349.6,
+            "rows": [
+              545
+            ]
+          },
+          {
+            "id": "property2Value",
+            "section": "property",
+            "label": "Item 2 — Value",
+            "type": "text",
+            "page": 0,
+            "x0": 350.9,
+            "x1": 457.3,
+            "rows": [
+              545
+            ]
+          },
+          {
+            "id": "property2AmountClaimed",
+            "section": "property",
+            "label": "Item 2 — Amount claimed",
+            "type": "text",
+            "page": 0,
+            "x0": 458.6,
+            "x1": 565.4,
+            "rows": [
+              545
+            ]
+          }
+        ],
+        [
+          {
+            "id": "property3Description",
+            "section": "property",
+            "label": "Item 3 — Description of property",
+            "type": "text",
+            "page": 0,
+            "x0": 29.2,
+            "x1": 349.6,
+            "rows": [
+              562.9
+            ]
+          },
+          {
+            "id": "property3Value",
+            "section": "property",
+            "label": "Item 3 — Value",
+            "type": "text",
+            "page": 0,
+            "x0": 350.9,
+            "x1": 457.3,
+            "rows": [
+              562.9
+            ]
+          },
+          {
+            "id": "property3AmountClaimed",
+            "section": "property",
+            "label": "Item 3 — Amount claimed",
+            "type": "text",
+            "page": 0,
+            "x0": 458.6,
+            "x1": 565.4,
+            "rows": [
+              562.9
+            ]
+          }
+        ],
+        [
+          {
+            "id": "property4Description",
+            "section": "property",
+            "label": "Item 4 — Description of property",
+            "type": "text",
+            "page": 0,
+            "x0": 29.2,
+            "x1": 349.6,
+            "rows": [
+              580.8
+            ]
+          },
+          {
+            "id": "property4Value",
+            "section": "property",
+            "label": "Item 4 — Value",
+            "type": "text",
+            "page": 0,
+            "x0": 350.9,
+            "x1": 457.3,
+            "rows": [
+              580.8
+            ]
+          },
+          {
+            "id": "property4AmountClaimed",
+            "section": "property",
+            "label": "Item 4 — Amount claimed",
+            "type": "text",
+            "page": 0,
+            "x0": 458.6,
+            "x1": 565.4,
+            "rows": [
+              580.8
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

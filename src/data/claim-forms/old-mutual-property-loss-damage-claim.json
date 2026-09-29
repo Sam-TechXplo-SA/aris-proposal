@@ -1,0 +1,1239 @@
+{
+  "id": "old-mutual-property-loss-damage-claim",
+  "insurer": "Old Mutual",
+  "title": "Property Loss / Damage Claim Form",
+  "afTitle": "Eiendomsverlies / -Skade Eisvorm",
+  "description": "MUFED 1599 11/04",
+  "filenameField": "insuredNameOccupation",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Policy & Broker Details"
+    },
+    {
+      "id": "insured",
+      "title": "Insured",
+      "afTitle": "Versekerde"
+    },
+    {
+      "id": "occurrence",
+      "title": "Loss / Damage Occurrence",
+      "afTitle": "Verlies / Skade Voorval"
+    },
+    {
+      "id": "address",
+      "title": "Loss / Damage Address",
+      "afTitle": "Verlies / Skade Adres"
+    },
+    {
+      "id": "cause",
+      "title": "Cause of Loss / Damage",
+      "afTitle": "Oorsaak van Verlies / Skade"
+    },
+    {
+      "id": "previousLoss",
+      "title": "Previous Loss / Damage",
+      "afTitle": "Vorige Verlies / Skade"
+    },
+    {
+      "id": "police",
+      "title": "Police",
+      "afTitle": "Polisie"
+    },
+    {
+      "id": "otherInterest",
+      "title": "Other Interest",
+      "afTitle": "Ander Belang"
+    },
+    {
+      "id": "otherInsurance",
+      "title": "Other Insurances",
+      "afTitle": "Ander Versekering"
+    },
+    {
+      "id": "value",
+      "title": "Value",
+      "afTitle": "Waarde"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration",
+      "afTitle": "Verklaring"
+    },
+    {
+      "id": "propertySchedule",
+      "title": "Statement of Property Lost, Stolen or Damaged",
+      "afTitle": "Opgawe van Eiendom wat Verloor, Gesteel of Beskadig is"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy No.",
+      "afLabel": "Polisnr.",
+      "type": "text",
+      "x0": 236,
+      "x1": 380,
+      "rows": [
+        91.48
+      ]
+    },
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim No.",
+      "afLabel": "Eisnr.",
+      "type": "text",
+      "x0": 233,
+      "x1": 390,
+      "rows": [
+        113.08
+      ]
+    },
+    {
+      "id": "brokerAgent",
+      "section": "header",
+      "label": "Broker/Agent",
+      "afLabel": "Makelaar/Agent",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        130.36
+      ]
+    },
+    {
+      "id": "insuredNameOccupation",
+      "section": "insured",
+      "label": "Name and Occupation",
+      "afLabel": "Naam en Beroep",
+      "type": "text",
+      "required": true,
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        145.72
+      ]
+    },
+    {
+      "id": "vatRegistrationNo",
+      "section": "insured",
+      "label": "VAT Registration No.",
+      "afLabel": "BTW Registrasienr",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        162.28
+      ]
+    },
+    {
+      "id": "addressAndDayTelephone",
+      "section": "insured",
+      "label": "Address and Day Telephone No.",
+      "afLabel": "Adres en Dag Telefoonnr.",
+      "type": "text",
+      "multiline": true,
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        178.84,
+        195.16
+      ]
+    },
+    {
+      "id": "dateTimeOfLossDamage",
+      "section": "occurrence",
+      "label": "Date and Time of Loss/Damage",
+      "afLabel": "Tyd en Datum van Verlies/Skade",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        215.56
+      ]
+    },
+    {
+      "id": "whenLossDamageDiscovered",
+      "section": "occurrence",
+      "label": "When was Loss/Damage discovered?",
+      "afLabel": "Wanneer is Verlies/Skade ontdek?",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        253.72
+      ]
+    },
+    {
+      "id": "addressWhereOccurred",
+      "section": "address",
+      "label": "Address where Loss / Damage occurred",
+      "afLabel": "Adres waar Verlies / Skade plaasgevind het",
+      "type": "text",
+      "multiline": true,
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        271,
+        288.52
+      ]
+    },
+    {
+      "id": "premisesOccupiedByWhom",
+      "section": "address",
+      "label": "Were premises occupied? By whom?",
+      "afLabel": "Was perseel bewoon? Deur wie?",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        307.96
+      ]
+    },
+    {
+      "id": "ifNotOccupiedWhenLast",
+      "section": "address",
+      "label": "If not occupied, when last occupied?",
+      "afLabel": "Indien onbewoon, wanneer laas was dit bewoon?",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        327.4
+      ]
+    },
+    {
+      "id": "purposeOfOccupation",
+      "section": "address",
+      "label": "Purpose of occupation",
+      "afLabel": "Met watter doel was die perseel gebruik?",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        348.04
+      ]
+    },
+    {
+      "id": "describeCauseOfLossDamage",
+      "section": "cause",
+      "label": "Describe fully how the Loss or Damage occurred. (If applicable state how entry was gained to premises).",
+      "afLabel": "Beskryf volledig hoe die Verlies of Skade plaasgevind het. (Indien van toepassing meld wyse waarop toegang tot die perseel verky is).",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        391.24
+      ]
+    },
+    {
+      "id": "burglarAlarmActivated",
+      "section": "cause",
+      "label": "Was burglar alarm activated?",
+      "afLabel": "Was die diefalarm geaktiveer?",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        408.76
+      ]
+    },
+    {
+      "id": "ifCausedByOtherParty",
+      "section": "cause",
+      "label": "If loss / Damage caused by another party, give name and address",
+      "afLabel": "Indien Verlies / Skade deur 'n ander persoon veroorsaak is, meld naam en adres",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        435.16
+      ]
+    },
+    {
+      "id": "previouslySufferedLoss",
+      "section": "previousLoss",
+      "label": "Have you previously suffered a Loss / Damage?",
+      "afLabel": "Het u vantevore verlies of skade gely?",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        455.56
+      ]
+    },
+    {
+      "id": "ifSoGiveDetails",
+      "section": "previousLoss",
+      "label": "If so, give details",
+      "afLabel": "Indien wel, verskaf besonderhede",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        475.96
+      ]
+    },
+    {
+      "id": "ifInsuredNameOfInsurer",
+      "section": "previousLoss",
+      "label": "If insured, provide name of insurer",
+      "afLabel": "Indien verseker, verstrek naam van versekeraar",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        497.56
+      ]
+    },
+    {
+      "id": "policeReferenceNumber",
+      "section": "police",
+      "label": "Police Reference Number",
+      "afLabel": "Polisie Versysingsnommer",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        506.8
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "policeStation",
+      "section": "police",
+      "label": "Police Station",
+      "afLabel": "Polisiestasie",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        515.4
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "policeDateReported",
+      "section": "police",
+      "label": "Date reported",
+      "afLabel": "Datum gerapporteer",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        523.8
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "otherPartyInterest",
+      "section": "otherInterest",
+      "label": "Has any other party an interest in the insured property, e.g. Hire Purchase or other Credit Agreement?",
+      "afLabel": "Het enige ander persoon 'n belang in die versekerde eiendom, bv. Huurkoop of ander Krediet-ooreenkoms",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        569.8
+      ]
+    },
+    {
+      "id": "ifSoNameAndInterest",
+      "section": "otherInterest",
+      "label": "If so, give name and interest",
+      "afLabel": "Indien wel, meld naam en belang",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        588.28
+      ]
+    },
+    {
+      "id": "otherInsuranceCovering",
+      "section": "otherInsurance",
+      "label": "Is there any other insurance covering this Loss/Damage?",
+      "afLabel": "Is daar enige ander versekering wat hierdie Verlies / Skade dek?",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        607.72
+      ]
+    },
+    {
+      "id": "ifSoNameOfInsurer",
+      "section": "otherInsurance",
+      "label": "If so, give name of Insurer",
+      "afLabel": "Indien wel, meld naam van Versekeraar",
+      "type": "text",
+      "multiline": true,
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        627.76,
+        647.08
+      ]
+    },
+    {
+      "id": "estimatedTotalValue",
+      "section": "value",
+      "label": "Estimated total value of all property insured under the policy",
+      "afLabel": "Beraamde totale waarde van al die eiendom verseker onder die polis",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        675.16
+      ]
+    },
+    {
+      "id": "whenLastValued",
+      "section": "value",
+      "label": "When last valued?",
+      "afLabel": "Wanneer laas is dit gewaardeer?",
+      "type": "text",
+      "x0": 190,
+      "x1": 416,
+      "rows": [
+        694.6
+      ]
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "I/We solemnly declare that I/We have suffered loss of or damage to the property enumerated on the reverse hereof and that the said property was in my/our possession immediately prior to the said loss/damage which occurred in the circumstances described above.",
+      "afLabel": "Ek/Ons verklaar plegtig dat ek/ons die verlies van of skade aan eiendom, wat agterop beskryf is, gely het en dat genoemde eiendom onmiddellik voor die verlies/skade in my/ons besit was en dat die verlies/skade plaasgevind het as gevolg van die omstandighede hierbo uiteengesit."
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Insured's Signature",
+      "afLabel": "Versekerde se Handtekening",
+      "type": "signature",
+      "required": true,
+      "x0": 63.9,
+      "x1": 175.9,
+      "bottom": 786.76,
+      "height": 8
+    },
+    {
+      "id": "capacity",
+      "section": "declaration",
+      "label": "Capacity",
+      "afLabel": "Hoedanigheid",
+      "type": "text",
+      "required": true,
+      "x0": 284,
+      "x1": 376,
+      "rows": [
+        786.76
+      ],
+      "startSize": 7,
+      "floorSize": 5
+    },
+    {
+      "id": "signDate",
+      "section": "declaration",
+      "label": "Date",
+      "afLabel": "Datum",
+      "type": "text",
+      "required": true,
+      "x0": 432,
+      "x1": 520,
+      "rows": [
+        786.76
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "propertyScheduleNote",
+      "section": "propertySchedule",
+      "type": "note",
+      "page": 1,
+      "label": "STATEMENT OF PROPERTY LOST, STOLEN OR DAMAGED. N.B. Claims in respect of damage to buildings must be accompanied by a builder’s estimate.",
+      "afLabel": "OPGAWE VAN EIENDOM WAT VERLOOR, GESTEEL OF BESKADIG IS. L.W. Eise ten opsigte van skade aan geboue moet van 'n raming van 'n bouer vergesel wees."
+    },
+    {
+      "id": "number1",
+      "section": "propertySchedule",
+      "label": "Number (Item 1)",
+      "afLabel": "Getal (Item 1)",
+      "type": "text",
+      "page": 1,
+      "x0": 23,
+      "x1": 80,
+      "rows": [
+        190.75
+      ]
+    },
+    {
+      "id": "description1",
+      "section": "propertySchedule",
+      "label": "Description (Item 1)",
+      "afLabel": "Omskrywing van eiendom (Item 1)",
+      "type": "text",
+      "page": 1,
+      "x0": 87,
+      "x1": 286,
+      "rows": [
+        190.75
+      ]
+    },
+    {
+      "id": "dateAcquired1",
+      "section": "propertySchedule",
+      "label": "Date Acquired (Item 1)",
+      "afLabel": "Datum Verkry (Item 1)",
+      "type": "text",
+      "page": 1,
+      "x0": 293,
+      "x1": 370,
+      "rows": [
+        190.75
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "fromWhomAcquired1",
+      "section": "propertySchedule",
+      "label": "From whom purchased or acquired (Item 1)",
+      "afLabel": "Van wie gekoop of verkry (Item 1)",
+      "type": "text",
+      "page": 1,
+      "x0": 377,
+      "x1": 484,
+      "rows": [
+        190.75
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "replacementValue1",
+      "section": "propertySchedule",
+      "label": "Current Replacement Value (Item 1)",
+      "afLabel": "Huidige Vervangingswaarde (Item 1)",
+      "type": "text",
+      "page": 1,
+      "x0": 491,
+      "x1": 598,
+      "rows": [
+        190.75
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "wearTearDeduction1",
+      "section": "propertySchedule",
+      "label": "Deduction for wear and tear or depreciation (if applicable) or value of salvage (Item 1)",
+      "afLabel": "Aftrekking vir slytasie of waardevermindering (indien van toepassing) of waarde van wrakgoed (Item 1)",
+      "type": "text",
+      "page": 1,
+      "x0": 605,
+      "x1": 747,
+      "rows": [
+        190.75
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "amountClaimed1",
+      "section": "propertySchedule",
+      "label": "Amount Claimed (Item 1)",
+      "afLabel": "Bedrag geëis (Item 1)",
+      "type": "text",
+      "page": 1,
+      "x0": 754,
+      "x1": 805,
+      "rows": [
+        190.75
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "number2",
+      "section": "propertySchedule",
+      "label": "Number (Item 2)",
+      "afLabel": "Getal (Item 2)",
+      "type": "text",
+      "page": 1,
+      "x0": 23,
+      "x1": 80,
+      "rows": [
+        246.57999999999998
+      ]
+    },
+    {
+      "id": "description2",
+      "section": "propertySchedule",
+      "label": "Description (Item 2)",
+      "afLabel": "Omskrywing van eiendom (Item 2)",
+      "type": "text",
+      "page": 1,
+      "x0": 87,
+      "x1": 286,
+      "rows": [
+        246.57999999999998
+      ]
+    },
+    {
+      "id": "dateAcquired2",
+      "section": "propertySchedule",
+      "label": "Date Acquired (Item 2)",
+      "afLabel": "Datum Verkry (Item 2)",
+      "type": "text",
+      "page": 1,
+      "x0": 293,
+      "x1": 370,
+      "rows": [
+        246.57999999999998
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "fromWhomAcquired2",
+      "section": "propertySchedule",
+      "label": "From whom purchased or acquired (Item 2)",
+      "afLabel": "Van wie gekoop of verkry (Item 2)",
+      "type": "text",
+      "page": 1,
+      "x0": 377,
+      "x1": 484,
+      "rows": [
+        246.57999999999998
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "replacementValue2",
+      "section": "propertySchedule",
+      "label": "Current Replacement Value (Item 2)",
+      "afLabel": "Huidige Vervangingswaarde (Item 2)",
+      "type": "text",
+      "page": 1,
+      "x0": 491,
+      "x1": 598,
+      "rows": [
+        246.57999999999998
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "wearTearDeduction2",
+      "section": "propertySchedule",
+      "label": "Deduction for wear and tear or depreciation (if applicable) or value of salvage (Item 2)",
+      "afLabel": "Aftrekking vir slytasie of waardevermindering (indien van toepassing) of waarde van wrakgoed (Item 2)",
+      "type": "text",
+      "page": 1,
+      "x0": 605,
+      "x1": 747,
+      "rows": [
+        246.57999999999998
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "amountClaimed2",
+      "section": "propertySchedule",
+      "label": "Amount Claimed (Item 2)",
+      "afLabel": "Bedrag geëis (Item 2)",
+      "type": "text",
+      "page": 1,
+      "x0": 754,
+      "x1": 805,
+      "rows": [
+        246.57999999999998
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "number3",
+      "section": "propertySchedule",
+      "label": "Number (Item 3)",
+      "afLabel": "Getal (Item 3)",
+      "type": "text",
+      "page": 1,
+      "x0": 23,
+      "x1": 80,
+      "rows": [
+        302.40999999999997
+      ]
+    },
+    {
+      "id": "description3",
+      "section": "propertySchedule",
+      "label": "Description (Item 3)",
+      "afLabel": "Omskrywing van eiendom (Item 3)",
+      "type": "text",
+      "page": 1,
+      "x0": 87,
+      "x1": 286,
+      "rows": [
+        302.40999999999997
+      ]
+    },
+    {
+      "id": "dateAcquired3",
+      "section": "propertySchedule",
+      "label": "Date Acquired (Item 3)",
+      "afLabel": "Datum Verkry (Item 3)",
+      "type": "text",
+      "page": 1,
+      "x0": 293,
+      "x1": 370,
+      "rows": [
+        302.40999999999997
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "fromWhomAcquired3",
+      "section": "propertySchedule",
+      "label": "From whom purchased or acquired (Item 3)",
+      "afLabel": "Van wie gekoop of verkry (Item 3)",
+      "type": "text",
+      "page": 1,
+      "x0": 377,
+      "x1": 484,
+      "rows": [
+        302.40999999999997
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "replacementValue3",
+      "section": "propertySchedule",
+      "label": "Current Replacement Value (Item 3)",
+      "afLabel": "Huidige Vervangingswaarde (Item 3)",
+      "type": "text",
+      "page": 1,
+      "x0": 491,
+      "x1": 598,
+      "rows": [
+        302.40999999999997
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "wearTearDeduction3",
+      "section": "propertySchedule",
+      "label": "Deduction for wear and tear or depreciation (if applicable) or value of salvage (Item 3)",
+      "afLabel": "Aftrekking vir slytasie of waardevermindering (indien van toepassing) of waarde van wrakgoed (Item 3)",
+      "type": "text",
+      "page": 1,
+      "x0": 605,
+      "x1": 747,
+      "rows": [
+        302.40999999999997
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "amountClaimed3",
+      "section": "propertySchedule",
+      "label": "Amount Claimed (Item 3)",
+      "afLabel": "Bedrag geëis (Item 3)",
+      "type": "text",
+      "page": 1,
+      "x0": 754,
+      "x1": 805,
+      "rows": [
+        302.40999999999997
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "number4",
+      "section": "propertySchedule",
+      "label": "Number (Item 4)",
+      "afLabel": "Getal (Item 4)",
+      "type": "text",
+      "page": 1,
+      "x0": 23,
+      "x1": 80,
+      "rows": [
+        358.24
+      ]
+    },
+    {
+      "id": "description4",
+      "section": "propertySchedule",
+      "label": "Description (Item 4)",
+      "afLabel": "Omskrywing van eiendom (Item 4)",
+      "type": "text",
+      "page": 1,
+      "x0": 87,
+      "x1": 286,
+      "rows": [
+        358.24
+      ]
+    },
+    {
+      "id": "dateAcquired4",
+      "section": "propertySchedule",
+      "label": "Date Acquired (Item 4)",
+      "afLabel": "Datum Verkry (Item 4)",
+      "type": "text",
+      "page": 1,
+      "x0": 293,
+      "x1": 370,
+      "rows": [
+        358.24
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "fromWhomAcquired4",
+      "section": "propertySchedule",
+      "label": "From whom purchased or acquired (Item 4)",
+      "afLabel": "Van wie gekoop of verkry (Item 4)",
+      "type": "text",
+      "page": 1,
+      "x0": 377,
+      "x1": 484,
+      "rows": [
+        358.24
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "replacementValue4",
+      "section": "propertySchedule",
+      "label": "Current Replacement Value (Item 4)",
+      "afLabel": "Huidige Vervangingswaarde (Item 4)",
+      "type": "text",
+      "page": 1,
+      "x0": 491,
+      "x1": 598,
+      "rows": [
+        358.24
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "wearTearDeduction4",
+      "section": "propertySchedule",
+      "label": "Deduction for wear and tear or depreciation (if applicable) or value of salvage (Item 4)",
+      "afLabel": "Aftrekking vir slytasie of waardevermindering (indien van toepassing) of waarde van wrakgoed (Item 4)",
+      "type": "text",
+      "page": 1,
+      "x0": 605,
+      "x1": 747,
+      "rows": [
+        358.24
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "amountClaimed4",
+      "section": "propertySchedule",
+      "label": "Amount Claimed (Item 4)",
+      "afLabel": "Bedrag geëis (Item 4)",
+      "type": "text",
+      "page": 1,
+      "x0": 754,
+      "x1": 805,
+      "rows": [
+        358.24
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "number5",
+      "section": "propertySchedule",
+      "label": "Number (Item 5)",
+      "afLabel": "Getal (Item 5)",
+      "type": "text",
+      "page": 1,
+      "x0": 23,
+      "x1": 80,
+      "rows": [
+        414.06999999999994
+      ]
+    },
+    {
+      "id": "description5",
+      "section": "propertySchedule",
+      "label": "Description (Item 5)",
+      "afLabel": "Omskrywing van eiendom (Item 5)",
+      "type": "text",
+      "page": 1,
+      "x0": 87,
+      "x1": 286,
+      "rows": [
+        414.06999999999994
+      ]
+    },
+    {
+      "id": "dateAcquired5",
+      "section": "propertySchedule",
+      "label": "Date Acquired (Item 5)",
+      "afLabel": "Datum Verkry (Item 5)",
+      "type": "text",
+      "page": 1,
+      "x0": 293,
+      "x1": 370,
+      "rows": [
+        414.06999999999994
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "fromWhomAcquired5",
+      "section": "propertySchedule",
+      "label": "From whom purchased or acquired (Item 5)",
+      "afLabel": "Van wie gekoop of verkry (Item 5)",
+      "type": "text",
+      "page": 1,
+      "x0": 377,
+      "x1": 484,
+      "rows": [
+        414.06999999999994
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "replacementValue5",
+      "section": "propertySchedule",
+      "label": "Current Replacement Value (Item 5)",
+      "afLabel": "Huidige Vervangingswaarde (Item 5)",
+      "type": "text",
+      "page": 1,
+      "x0": 491,
+      "x1": 598,
+      "rows": [
+        414.06999999999994
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "wearTearDeduction5",
+      "section": "propertySchedule",
+      "label": "Deduction for wear and tear or depreciation (if applicable) or value of salvage (Item 5)",
+      "afLabel": "Aftrekking vir slytasie of waardevermindering (indien van toepassing) of waarde van wrakgoed (Item 5)",
+      "type": "text",
+      "page": 1,
+      "x0": 605,
+      "x1": 747,
+      "rows": [
+        414.06999999999994
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "amountClaimed5",
+      "section": "propertySchedule",
+      "label": "Amount Claimed (Item 5)",
+      "afLabel": "Bedrag geëis (Item 5)",
+      "type": "text",
+      "page": 1,
+      "x0": 754,
+      "x1": 805,
+      "rows": [
+        414.06999999999994
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "number6",
+      "section": "propertySchedule",
+      "label": "Number (Item 6)",
+      "afLabel": "Getal (Item 6)",
+      "type": "text",
+      "page": 1,
+      "x0": 23,
+      "x1": 80,
+      "rows": [
+        469.9
+      ]
+    },
+    {
+      "id": "description6",
+      "section": "propertySchedule",
+      "label": "Description (Item 6)",
+      "afLabel": "Omskrywing van eiendom (Item 6)",
+      "type": "text",
+      "page": 1,
+      "x0": 87,
+      "x1": 286,
+      "rows": [
+        469.9
+      ]
+    },
+    {
+      "id": "dateAcquired6",
+      "section": "propertySchedule",
+      "label": "Date Acquired (Item 6)",
+      "afLabel": "Datum Verkry (Item 6)",
+      "type": "text",
+      "page": 1,
+      "x0": 293,
+      "x1": 370,
+      "rows": [
+        469.9
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "fromWhomAcquired6",
+      "section": "propertySchedule",
+      "label": "From whom purchased or acquired (Item 6)",
+      "afLabel": "Van wie gekoop of verkry (Item 6)",
+      "type": "text",
+      "page": 1,
+      "x0": 377,
+      "x1": 484,
+      "rows": [
+        469.9
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "replacementValue6",
+      "section": "propertySchedule",
+      "label": "Current Replacement Value (Item 6)",
+      "afLabel": "Huidige Vervangingswaarde (Item 6)",
+      "type": "text",
+      "page": 1,
+      "x0": 491,
+      "x1": 598,
+      "rows": [
+        469.9
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "wearTearDeduction6",
+      "section": "propertySchedule",
+      "label": "Deduction for wear and tear or depreciation (if applicable) or value of salvage (Item 6)",
+      "afLabel": "Aftrekking vir slytasie of waardevermindering (indien van toepassing) of waarde van wrakgoed (Item 6)",
+      "type": "text",
+      "page": 1,
+      "x0": 605,
+      "x1": 747,
+      "rows": [
+        469.9
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "amountClaimed6",
+      "section": "propertySchedule",
+      "label": "Amount Claimed (Item 6)",
+      "afLabel": "Bedrag geëis (Item 6)",
+      "type": "text",
+      "page": 1,
+      "x0": 754,
+      "x1": 805,
+      "rows": [
+        469.9
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "number7",
+      "section": "propertySchedule",
+      "label": "Number (Item 7)",
+      "afLabel": "Getal (Item 7)",
+      "type": "text",
+      "page": 1,
+      "x0": 23,
+      "x1": 80,
+      "rows": [
+        525.73
+      ]
+    },
+    {
+      "id": "description7",
+      "section": "propertySchedule",
+      "label": "Description (Item 7)",
+      "afLabel": "Omskrywing van eiendom (Item 7)",
+      "type": "text",
+      "page": 1,
+      "x0": 87,
+      "x1": 286,
+      "rows": [
+        525.73
+      ]
+    },
+    {
+      "id": "dateAcquired7",
+      "section": "propertySchedule",
+      "label": "Date Acquired (Item 7)",
+      "afLabel": "Datum Verkry (Item 7)",
+      "type": "text",
+      "page": 1,
+      "x0": 293,
+      "x1": 370,
+      "rows": [
+        525.73
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "fromWhomAcquired7",
+      "section": "propertySchedule",
+      "label": "From whom purchased or acquired (Item 7)",
+      "afLabel": "Van wie gekoop of verkry (Item 7)",
+      "type": "text",
+      "page": 1,
+      "x0": 377,
+      "x1": 484,
+      "rows": [
+        525.73
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "replacementValue7",
+      "section": "propertySchedule",
+      "label": "Current Replacement Value (Item 7)",
+      "afLabel": "Huidige Vervangingswaarde (Item 7)",
+      "type": "text",
+      "page": 1,
+      "x0": 491,
+      "x1": 598,
+      "rows": [
+        525.73
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "wearTearDeduction7",
+      "section": "propertySchedule",
+      "label": "Deduction for wear and tear or depreciation (if applicable) or value of salvage (Item 7)",
+      "afLabel": "Aftrekking vir slytasie of waardevermindering (indien van toepassing) of waarde van wrakgoed (Item 7)",
+      "type": "text",
+      "page": 1,
+      "x0": 605,
+      "x1": 747,
+      "rows": [
+        525.73
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "amountClaimed7",
+      "section": "propertySchedule",
+      "label": "Amount Claimed (Item 7)",
+      "afLabel": "Bedrag geëis (Item 7)",
+      "type": "text",
+      "page": 1,
+      "x0": 754,
+      "x1": 805,
+      "rows": [
+        525.73
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "number8",
+      "section": "propertySchedule",
+      "label": "Number (Item 8)",
+      "afLabel": "Getal (Item 8)",
+      "type": "text",
+      "page": 1,
+      "x0": 23,
+      "x1": 80,
+      "rows": [
+        581.56
+      ]
+    },
+    {
+      "id": "description8",
+      "section": "propertySchedule",
+      "label": "Description (Item 8)",
+      "afLabel": "Omskrywing van eiendom (Item 8)",
+      "type": "text",
+      "page": 1,
+      "x0": 87,
+      "x1": 286,
+      "rows": [
+        581.56
+      ]
+    },
+    {
+      "id": "dateAcquired8",
+      "section": "propertySchedule",
+      "label": "Date Acquired (Item 8)",
+      "afLabel": "Datum Verkry (Item 8)",
+      "type": "text",
+      "page": 1,
+      "x0": 293,
+      "x1": 370,
+      "rows": [
+        581.56
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "fromWhomAcquired8",
+      "section": "propertySchedule",
+      "label": "From whom purchased or acquired (Item 8)",
+      "afLabel": "Van wie gekoop of verkry (Item 8)",
+      "type": "text",
+      "page": 1,
+      "x0": 377,
+      "x1": 484,
+      "rows": [
+        581.56
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "replacementValue8",
+      "section": "propertySchedule",
+      "label": "Current Replacement Value (Item 8)",
+      "afLabel": "Huidige Vervangingswaarde (Item 8)",
+      "type": "text",
+      "page": 1,
+      "x0": 491,
+      "x1": 598,
+      "rows": [
+        581.56
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "wearTearDeduction8",
+      "section": "propertySchedule",
+      "label": "Deduction for wear and tear or depreciation (if applicable) or value of salvage (Item 8)",
+      "afLabel": "Aftrekking vir slytasie of waardevermindering (indien van toepassing) of waarde van wrakgoed (Item 8)",
+      "type": "text",
+      "page": 1,
+      "x0": 605,
+      "x1": 747,
+      "rows": [
+        581.56
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "amountClaimed8",
+      "section": "propertySchedule",
+      "label": "Amount Claimed (Item 8)",
+      "afLabel": "Bedrag geëis (Item 8)",
+      "type": "text",
+      "page": 1,
+      "x0": 754,
+      "x1": 805,
+      "rows": [
+        581.56
+      ],
+      "startSize": 7
+    }
+  ],
+  "repeatingGroups": []
+}

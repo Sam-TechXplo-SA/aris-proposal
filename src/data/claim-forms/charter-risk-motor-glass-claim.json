@@ -1,0 +1,412 @@
+{
+  "id": "charter-risk-motor-glass-claim",
+  "insurer": "Charter Risk",
+  "title": "Glass Claim Form",
+  "filenameField": "insuredNameId",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Claim & Policy"
+    },
+    {
+      "id": "insured",
+      "title": "Insured"
+    },
+    {
+      "id": "driver",
+      "title": "Driver"
+    },
+    {
+      "id": "vehicle",
+      "title": "Vehicle"
+    },
+    {
+      "id": "accident",
+      "title": "Accident"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration"
+    }
+  ],
+  "fields": [
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim Number",
+      "type": "text",
+      "x0": 134,
+      "x1": 270,
+      "rows": [
+        120.5
+      ],
+      "startSize": 7.5
+    },
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy Number",
+      "type": "text",
+      "x0": 350,
+      "x1": 528,
+      "rows": [
+        120.5
+      ],
+      "startSize": 7.5
+    },
+    {
+      "id": "insuredNameId",
+      "section": "insured",
+      "label": "Name & ID No.",
+      "type": "text",
+      "required": true,
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        158.5
+      ]
+    },
+    {
+      "id": "insuredAddress",
+      "section": "insured",
+      "label": "Address",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        178.5
+      ]
+    },
+    {
+      "id": "insuredPOBox",
+      "section": "insured",
+      "label": "PO Box",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        198.5
+      ]
+    },
+    {
+      "id": "insuredOccupation",
+      "section": "insured",
+      "label": "Occupation",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        218.7
+      ]
+    },
+    {
+      "id": "insuredPhoneHome",
+      "section": "insured",
+      "label": "Telephone (h)",
+      "type": "text",
+      "x0": 186,
+      "x1": 285,
+      "rows": [
+        238.3
+      ]
+    },
+    {
+      "id": "insuredPhoneWork",
+      "section": "insured",
+      "label": "Telephone (w)",
+      "type": "text",
+      "x0": 304,
+      "x1": 397,
+      "rows": [
+        238.3
+      ]
+    },
+    {
+      "id": "insuredPhoneCell",
+      "section": "insured",
+      "label": "Telephone (cell)",
+      "type": "text",
+      "x0": 423,
+      "x1": 528,
+      "rows": [
+        238.3
+      ]
+    },
+    {
+      "id": "driverNameId",
+      "section": "driver",
+      "label": "Name & ID No.",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        280.3
+      ]
+    },
+    {
+      "id": "driverAddress",
+      "section": "driver",
+      "label": "Address",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        300.2
+      ]
+    },
+    {
+      "id": "driverPOBox",
+      "section": "driver",
+      "label": "PO Box",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        320.4
+      ]
+    },
+    {
+      "id": "driverOccupation",
+      "section": "driver",
+      "label": "Occupation",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        340.4
+      ]
+    },
+    {
+      "id": "driverPhoneHome",
+      "section": "driver",
+      "label": "Telephone (h)",
+      "type": "text",
+      "x0": 186,
+      "x1": 285,
+      "rows": [
+        360.1
+      ]
+    },
+    {
+      "id": "driverPhoneWork",
+      "section": "driver",
+      "label": "Telephone (w)",
+      "type": "text",
+      "x0": 304,
+      "x1": 397,
+      "rows": [
+        360.1
+      ]
+    },
+    {
+      "id": "driverPhoneCell",
+      "section": "driver",
+      "label": "Telephone (cell)",
+      "type": "text",
+      "x0": 423,
+      "x1": 528,
+      "rows": [
+        360.1
+      ]
+    },
+    {
+      "id": "vehicleMake",
+      "section": "vehicle",
+      "label": "Make",
+      "type": "text",
+      "x0": 185,
+      "x1": 294,
+      "rows": [
+        401.9
+      ]
+    },
+    {
+      "id": "vehicleModel",
+      "section": "vehicle",
+      "label": "Model",
+      "type": "text",
+      "x0": 419,
+      "x1": 528,
+      "rows": [
+        401.9
+      ]
+    },
+    {
+      "id": "vehicleYear",
+      "section": "vehicle",
+      "label": "Year",
+      "type": "text",
+      "x0": 185,
+      "x1": 294,
+      "rows": [
+        422
+      ]
+    },
+    {
+      "id": "vehicleRegistration",
+      "section": "vehicle",
+      "label": "Registration",
+      "type": "text",
+      "x0": 419,
+      "x1": 528,
+      "rows": [
+        422
+      ]
+    },
+    {
+      "id": "vehiclePurpose",
+      "section": "vehicle",
+      "label": "Purpose for which vehicle was being used at time of accident",
+      "type": "text",
+      "x0": 283,
+      "x1": 528,
+      "rows": [
+        441.35
+      ],
+      "startSize": 7.5
+    },
+    {
+      "id": "dateOfLoss",
+      "section": "accident",
+      "label": "Date of Loss",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        483.6
+      ]
+    },
+    {
+      "id": "placeOfLoss",
+      "section": "accident",
+      "label": "Place of Loss",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        503.5
+      ]
+    },
+    {
+      "id": "description",
+      "section": "accident",
+      "label": "Description",
+      "type": "text",
+      "multiline": true,
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        523.7,
+        543.7,
+        563.9
+      ]
+    },
+    {
+      "id": "damage",
+      "section": "accident",
+      "label": "Damage",
+      "type": "text",
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        583.9
+      ]
+    },
+    {
+      "id": "repairersName",
+      "section": "accident",
+      "label": "Repairers Name",
+      "type": "text",
+      "x0": 176,
+      "x1": 347,
+      "rows": [
+        604.1
+      ]
+    },
+    {
+      "id": "repairersTelNo",
+      "section": "accident",
+      "label": "Tel No",
+      "type": "text",
+      "x0": 419,
+      "x1": 528,
+      "rows": [
+        604.1
+      ]
+    },
+    {
+      "id": "estimateAmount",
+      "section": "accident",
+      "label": "Estimate R",
+      "type": "text",
+      "multiline": true,
+      "x0": 176,
+      "x1": 528,
+      "rows": [
+        624.1,
+        644.3
+      ]
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "I/We acknowledge the sharing of claims information by insurers is essential to enable the insurance industry to underwrite policies and assess risks fairly and to reduce the incidence of fraudulent claims. In the public interest and with a view to limiting premiums, I/we hereby waive any right to privacy in any insurance or claims information supplied by me or on my behalf in respect of any insurance application or claim made or lodged by me/us and I/we consent to such information being disclosed to any other insurance company or its agent. I/We also waive any rights to privacy and consent to the disclosure of any information relevant to any insurance claim concerning me or any insured person I/We represent. I/We further declare that all the particulars to be true in every respect and correct and I/we understand that if any claim lodged under this policy be in any respect fraudulent or if any fraudulent means or devices be used by me/us or anyone acting on my/our behalf or with my/our knowledge or consent to obtain any benefit under this policy or if any event be occasioned by the wilful act or with the connivance of me/us, the benefit afforded under this policy in respect of such claim shall be forfeited."
+    },
+    {
+      "id": "driverSignature",
+      "section": "declaration",
+      "label": "Signature of driver",
+      "type": "signature",
+      "page": 1,
+      "x0": 270,
+      "x1": 490,
+      "bottom": 196.9,
+      "height": 18
+    },
+    {
+      "id": "driverSignDate",
+      "section": "declaration",
+      "label": "Date",
+      "type": "text",
+      "page": 1,
+      "x0": 270,
+      "x1": 490,
+      "rows": [
+        214.3
+      ]
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Signature of insured",
+      "type": "signature",
+      "required": true,
+      "page": 1,
+      "x0": 240,
+      "x1": 490,
+      "bottom": 254.3,
+      "height": 18
+    },
+    {
+      "id": "insuredSignDate",
+      "section": "declaration",
+      "label": "Date",
+      "type": "text",
+      "required": true,
+      "page": 1,
+      "x0": 270,
+      "x1": 492,
+      "rows": [
+        271.6
+      ]
+    },
+    {
+      "id": "nbNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "NB. It is important that you notify the Insurers immediately you become aware of any impending prosecution, inquest or demand."
+    }
+  ],
+  "repeatingGroups": []
+}

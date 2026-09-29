@@ -1,0 +1,386 @@
+{
+  "id": "old-mutual-public-liability-accident-report",
+  "insurer": "Old Mutual",
+  "title": "Public Liability Accident Report Form",
+  "afTitle": "Openbare Aanspreeklikheid Ongeluk Verslagvorm",
+  "description": "MUFED 1106 1/92",
+  "filenameField": "insuredName",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Policy & Broker Details"
+    },
+    {
+      "id": "insured",
+      "title": "Insured",
+      "afTitle": "Versekerde"
+    },
+    {
+      "id": "occurrence",
+      "title": "Description of Accident",
+      "afTitle": "Beskrywing van ongeluk"
+    },
+    {
+      "id": "witnesses",
+      "title": "Witnesses",
+      "afTitle": "Getuies"
+    },
+    {
+      "id": "police",
+      "title": "Police",
+      "afTitle": "Polisie"
+    },
+    {
+      "id": "property",
+      "title": "Property Damage",
+      "afTitle": "Eiendomskade"
+    },
+    {
+      "id": "injuries",
+      "title": "Personal Injuries",
+      "afTitle": "Persoonlike beserings"
+    },
+    {
+      "id": "relationship",
+      "title": "Relationship",
+      "afTitle": "Verwantskap"
+    },
+    {
+      "id": "claim",
+      "title": "Claim",
+      "afTitle": "Eis"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration",
+      "afTitle": "Verklaring"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy No.",
+      "afLabel": "Polisnr.",
+      "type": "text",
+      "x0": 319.4,
+      "x1": 443.3,
+      "rows": [
+        89.5
+      ]
+    },
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim No.",
+      "afLabel": "Eisnr.",
+      "type": "text",
+      "x0": 319.4,
+      "x1": 443.3,
+      "rows": [
+        110.2
+      ]
+    },
+    {
+      "id": "brokerAgent",
+      "section": "header",
+      "label": "Broker/Agent",
+      "afLabel": "Makelaar/Agent",
+      "type": "text",
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        126.5
+      ]
+    },
+    {
+      "id": "insuredName",
+      "section": "insured",
+      "label": "Name",
+      "afLabel": "Naam",
+      "type": "text",
+      "required": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        139.9
+      ]
+    },
+    {
+      "id": "insuredAddressPhone",
+      "section": "insured",
+      "label": "Address and Telephone No.",
+      "afLabel": "Adres en Telefoonnr.",
+      "type": "text",
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        155.5
+      ]
+    },
+    {
+      "id": "occupation",
+      "section": "insured",
+      "label": "Business or Occupation",
+      "afLabel": "Besigheid of Beroep",
+      "type": "text",
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        170.2
+      ]
+    },
+    {
+      "id": "vatNo",
+      "section": "insured",
+      "label": "VAT Registration No.",
+      "afLabel": "BTW Registrasienr",
+      "type": "text",
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        185.5
+      ]
+    },
+    {
+      "id": "accidentDateTime",
+      "section": "occurrence",
+      "label": "Date and Time",
+      "afLabel": "Datum en Tyd",
+      "type": "text",
+      "placeholder": "e.g. 12 March 2026, 14:30",
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        199.9
+      ]
+    },
+    {
+      "id": "accidentPlace",
+      "section": "occurrence",
+      "label": "Place where accident occurred",
+      "afLabel": "Plek waar ongeluk gebeur het",
+      "type": "text",
+      "multiline": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        211.2,
+        222
+      ]
+    },
+    {
+      "id": "accidentDescription",
+      "section": "occurrence",
+      "label": "State exactly how the accident occurred",
+      "afLabel": "Meld presies hoe die ongeluk gebeur het",
+      "type": "text",
+      "multiline": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        237.6,
+        252,
+        267.6,
+        283.2,
+        298.8,
+        313.2,
+        328.8
+      ]
+    },
+    {
+      "id": "witness1",
+      "section": "witnesses",
+      "label": "Name, address and telephone no. (1)",
+      "afLabel": "Naam, adres en telefoonnr. (1)",
+      "type": "text",
+      "multiline": true,
+      "x0": 215,
+      "x1": 319,
+      "rows": [
+        358.8,
+        374.2,
+        389.8
+      ]
+    },
+    {
+      "id": "witness2",
+      "section": "witnesses",
+      "label": "Name, address and telephone no. (2)",
+      "afLabel": "Naam, adres en telefoonnr. (2)",
+      "type": "text",
+      "multiline": true,
+      "x0": 332,
+      "x1": 443.3,
+      "rows": [
+        358.8,
+        374.2,
+        389.8
+      ]
+    },
+    {
+      "id": "policeDetails",
+      "section": "police",
+      "label": "If reported to police, state which station and reference number",
+      "afLabel": "Indien aan polisie gerapporteer, meld betrokke kantoor en verwysingsnommer",
+      "type": "text",
+      "multiline": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        408.1,
+        426
+      ]
+    },
+    {
+      "id": "propertyOwner",
+      "section": "property",
+      "label": "Name and address of owner",
+      "afLabel": "Naam en adres van eienaar",
+      "type": "text",
+      "multiline": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        440.2,
+        455.8
+      ]
+    },
+    {
+      "id": "propertyDamageDescription",
+      "section": "property",
+      "label": "Description of damage",
+      "afLabel": "Beskrywing van skade",
+      "type": "text",
+      "multiline": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        470.4,
+        487
+      ]
+    },
+    {
+      "id": "injured1",
+      "section": "injuries",
+      "label": "Name, address and age of injured person (1)",
+      "afLabel": "Naam, adres en ouderdom van beseerde (1)",
+      "type": "text",
+      "multiline": true,
+      "x0": 215,
+      "x1": 319,
+      "rows": [
+        500.2,
+        515.8
+      ]
+    },
+    {
+      "id": "injured2",
+      "section": "injuries",
+      "label": "Name, address and age of injured person (2)",
+      "afLabel": "Naam, adres en ouderdom van beseerde (2)",
+      "type": "text",
+      "multiline": true,
+      "x0": 332,
+      "x1": 443.3,
+      "rows": [
+        500.2,
+        515.8
+      ]
+    },
+    {
+      "id": "injuryDetails",
+      "section": "injuries",
+      "label": "Details of injuries",
+      "afLabel": "Besonderhede van beserings",
+      "type": "text",
+      "multiline": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        531.4,
+        546.7
+      ]
+    },
+    {
+      "id": "relationshipDetails",
+      "section": "relationship",
+      "label": "If person named above is in your service, or your tenant, or related to you, give full details",
+      "afLabel": "Indien bogenoemde persoon in u diens of u huurder of aan u verwant is, meld besonderhede",
+      "type": "text",
+      "multiline": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        561.7,
+        576.3,
+        590.8,
+        605.3
+      ]
+    },
+    {
+      "id": "claimDetails",
+      "section": "claim",
+      "label": "If claim made against you give details and attach any correspondence",
+      "afLabel": "Indien u kennis ontvang het van enige eis meld besonderhede en voorsien enige korrespondensie",
+      "type": "text",
+      "multiline": true,
+      "x0": 202.6,
+      "x1": 443.3,
+      "rows": [
+        622.2,
+        638.6
+      ]
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "I/We declare that to the best of my/our knowledge the above statements are truly made.",
+      "afLabel": "Ek/Ons verklaar dat na my/ons beste wete die bostaande verklarings juis afgelê is."
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Insured's Signature",
+      "afLabel": "Versekerde se Handtekening",
+      "type": "signature",
+      "required": true,
+      "x0": 80.6,
+      "x1": 197.8,
+      "bottom": 734,
+      "height": 10
+    },
+    {
+      "id": "capacity",
+      "section": "declaration",
+      "label": "Capacity",
+      "afLabel": "Hoedanigheid",
+      "type": "text",
+      "required": true,
+      "x0": 294,
+      "x1": 390.5,
+      "rows": [
+        734
+      ],
+      "startSize": 7,
+      "floorSize": 5
+    },
+    {
+      "id": "signDate",
+      "section": "declaration",
+      "label": "Date",
+      "afLabel": "Datum",
+      "type": "text",
+      "required": true,
+      "x0": 435.6,
+      "x1": 535.2,
+      "rows": [
+        734
+      ],
+      "startSize": 7,
+      "floorSize": 5
+    }
+  ],
+  "repeatingGroups": []
+}

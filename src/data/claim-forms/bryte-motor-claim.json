@@ -1,0 +1,1980 @@
+{
+  "id": "bryte-motor-claim",
+  "insurer": "Bryte",
+  "title": "Motor Claim Form",
+  "description": "Motor Accident / Motor Theft / Motor Personal Accident · September 2022",
+  "filenameField": "companyNameSurname",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Type of Loss & Reference"
+    },
+    {
+      "id": "insured",
+      "title": "Insured"
+    },
+    {
+      "id": "vehicle",
+      "title": "Vehicle"
+    },
+    {
+      "id": "damage",
+      "title": "Damage"
+    },
+    {
+      "id": "driver",
+      "title": "Driver"
+    },
+    {
+      "id": "passengers",
+      "title": "Passengers (Insured Vehicle)"
+    },
+    {
+      "id": "otherParty",
+      "title": "Other Party"
+    },
+    {
+      "id": "witnesses",
+      "title": "Independent Witnesses"
+    },
+    {
+      "id": "accident",
+      "title": "Accident Details"
+    },
+    {
+      "id": "paymentMethod",
+      "title": "Payment Method"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration"
+    },
+    {
+      "id": "popiConsent",
+      "title": "Damage to Property POPI Act — Consent"
+    }
+  ],
+  "fields": [
+    {
+      "id": "typeOfLoss",
+      "section": "header",
+      "label": "Type of loss",
+      "type": "choice",
+      "acroField": "Type of loss",
+      "page": 0,
+      "options": [
+        {
+          "value": "motorAccident",
+          "label": "Motor Accident",
+          "acroValue": "Choice1",
+          "x": 203,
+          "y": 234
+        },
+        {
+          "value": "motorTheft",
+          "label": "Motor Theft",
+          "acroValue": "Choice2",
+          "x": 302,
+          "y": 234
+        },
+        {
+          "value": "motorPersonalAccident",
+          "label": "Motor Personal Accident",
+          "acroValue": "Choice3",
+          "x": 387,
+          "y": 234
+        }
+      ]
+    },
+    {
+      "id": "brokerAgent",
+      "section": "header",
+      "label": "Broker/Agent",
+      "type": "text",
+      "page": 0,
+      "x0": 87,
+      "x1": 296.64,
+      "rows": [
+        255.21
+      ]
+    },
+    {
+      "id": "claimNoTop",
+      "section": "header",
+      "label": "Claim number",
+      "type": "text",
+      "page": 0,
+      "x0": 359,
+      "x1": 566.49,
+      "rows": [
+        255.21
+      ]
+    },
+    {
+      "id": "policyNoTop",
+      "section": "header",
+      "label": "Policy number",
+      "type": "text",
+      "page": 0,
+      "x0": 297.96,
+      "x1": 566.28,
+      "rows": [
+        272.49
+      ]
+    },
+    {
+      "id": "claimNo",
+      "section": "insured",
+      "label": "Claim number",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        292.05
+      ]
+    },
+    {
+      "id": "policyNo",
+      "section": "insured",
+      "label": "Policy number",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        311.61
+      ]
+    },
+    {
+      "id": "companyNameSurname",
+      "section": "insured",
+      "label": "Company name/Surname and initials",
+      "type": "text",
+      "required": true,
+      "page": 0,
+      "x0": 199.92,
+      "x1": 566.04,
+      "rows": [
+        337.89
+      ]
+    },
+    {
+      "id": "companyRegNo",
+      "section": "insured",
+      "label": "Company registration number",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        357.45
+      ]
+    },
+    {
+      "id": "insuredIdNumber",
+      "section": "insured",
+      "label": "Identity number",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        377.01
+      ]
+    },
+    {
+      "id": "vatNumber",
+      "section": "insured",
+      "label": "VAT number",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        396.57
+      ]
+    },
+    {
+      "id": "businessOccupation",
+      "section": "insured",
+      "label": "Business or occupation",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        416.13
+      ]
+    },
+    {
+      "id": "physicalAddress",
+      "section": "insured",
+      "label": "Physical address",
+      "type": "text",
+      "multiline": true,
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        435.69,
+        455.37
+      ]
+    },
+    {
+      "id": "postalAddress",
+      "section": "insured",
+      "label": "Postal address",
+      "type": "text",
+      "multiline": true,
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        474.93,
+        494.49
+      ]
+    },
+    {
+      "id": "businessPhone",
+      "section": "insured",
+      "label": "Telephone — Business",
+      "type": "text",
+      "page": 0,
+      "x0": 240,
+      "x1": 381.84,
+      "rows": [
+        511.05
+      ]
+    },
+    {
+      "id": "homePhone",
+      "section": "insured",
+      "label": "Telephone — Home",
+      "type": "text",
+      "page": 0,
+      "x0": 413,
+      "x1": 566.28,
+      "rows": [
+        511.05
+      ]
+    },
+    {
+      "id": "cellPhone",
+      "section": "insured",
+      "label": "Telephone — Cell",
+      "type": "text",
+      "page": 0,
+      "x0": 222,
+      "x1": 566,
+      "rows": [
+        527.61
+      ]
+    },
+    {
+      "id": "vehicleMake",
+      "section": "vehicle",
+      "label": "Make",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        547.17
+      ]
+    },
+    {
+      "id": "vehiclePeculiarMarks",
+      "section": "vehicle",
+      "label": "Peculiar identification marks e.g. dents and stickers",
+      "type": "text",
+      "page": 0,
+      "x0": 199.92,
+      "x1": 566.04,
+      "rows": [
+        573.45
+      ]
+    },
+    {
+      "id": "vehicleModel",
+      "section": "vehicle",
+      "label": "Model",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        593.01
+      ]
+    },
+    {
+      "id": "vehicleYear",
+      "section": "vehicle",
+      "label": "Year",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        612.57
+      ]
+    },
+    {
+      "id": "preExistingDamage",
+      "section": "vehicle",
+      "label": "Pre-existing damage",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        632.13
+      ]
+    },
+    {
+      "id": "registrationNumber",
+      "section": "vehicle",
+      "label": "Registration number",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        651.69
+      ]
+    },
+    {
+      "id": "kilometresCompleted",
+      "section": "vehicle",
+      "label": "Kilometres completed",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        671.25
+      ]
+    },
+    {
+      "id": "vin",
+      "section": "vehicle",
+      "label": "Vehicle identification number (VIN)",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        690.81
+      ]
+    },
+    {
+      "id": "chassisNumber",
+      "section": "vehicle",
+      "label": "Chassis number",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        710.49
+      ]
+    },
+    {
+      "id": "engineNumber",
+      "section": "vehicle",
+      "label": "Engine number",
+      "type": "text",
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        730.05
+      ]
+    },
+    {
+      "id": "hirePurchase",
+      "section": "vehicle",
+      "label": "State if subject to hire purchase, credit or leasing agreement",
+      "type": "text",
+      "page": 0,
+      "x0": 199.92,
+      "x1": 566.04,
+      "rows": [
+        756.21
+      ]
+    },
+    {
+      "id": "financeCompany",
+      "section": "vehicle",
+      "label": "If yes, name, address and account number of finance company",
+      "type": "text",
+      "multiline": true,
+      "page": 0,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        775.77,
+        795.33,
+        814.89
+      ]
+    },
+    {
+      "id": "damageToOwnVehicle",
+      "section": "damage",
+      "label": "Damage to own vehicle",
+      "type": "text",
+      "page": 1,
+      "x0": 199.92,
+      "x1": 381.6,
+      "rows": [
+        49.29
+      ]
+    },
+    {
+      "id": "oldDamageIndicate",
+      "section": "damage",
+      "label": "Indicate old damage on vehicle",
+      "type": "text",
+      "page": 1,
+      "x0": 468.84,
+      "x1": 566.04,
+      "rows": [
+        49.29
+      ]
+    },
+    {
+      "id": "vehicleLocation",
+      "section": "damage",
+      "label": "Where is the vehicle at present? (state full address)",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        69.21,
+        89.25
+      ]
+    },
+    {
+      "id": "vehicleDriveable",
+      "section": "damage",
+      "label": "Is the vehicle driveable?",
+      "type": "choice",
+      "acroField": "undefined",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "acroValue": "Yes",
+          "x": 492,
+          "y": 104
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "acroValue": "No",
+          "x": 527,
+          "y": 104
+        }
+      ]
+    },
+    {
+      "id": "driverFullName",
+      "section": "driver",
+      "label": "Full name",
+      "type": "text",
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        127.41
+      ]
+    },
+    {
+      "id": "driverResidentialAddress",
+      "section": "driver",
+      "label": "Residential address",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        147.33,
+        167.37,
+        187.41
+      ]
+    },
+    {
+      "id": "driverOccupation",
+      "section": "driver",
+      "label": "Occupation",
+      "type": "text",
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        207.33
+      ]
+    },
+    {
+      "id": "driverIdNumber",
+      "section": "driver",
+      "label": "Identity number",
+      "type": "text",
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        227.37
+      ]
+    },
+    {
+      "id": "licenceExpiry",
+      "section": "driver",
+      "label": "Driver's licence — Month and year of expiry",
+      "type": "text",
+      "page": 1,
+      "x0": 266.64,
+      "x1": 381.6,
+      "rows": [
+        254.01
+      ]
+    },
+    {
+      "id": "licenceIssueCode",
+      "section": "driver",
+      "label": "Date of issue and code issued",
+      "type": "text",
+      "page": 1,
+      "x0": 446.76,
+      "x1": 566.04,
+      "rows": [
+        254.01
+      ]
+    },
+    {
+      "id": "purposeVehicleUsed",
+      "section": "driver",
+      "label": "State fully the purpose for which vehicle was being used",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        273.93,
+        293.97,
+        314.01
+      ]
+    },
+    {
+      "id": "drivingWithPermission",
+      "section": "driver",
+      "label": "Was he/she driving with your permission?",
+      "type": "text",
+      "page": 1,
+      "x0": 199.92,
+      "x1": 566.04,
+      "rows": [
+        340.65
+      ]
+    },
+    {
+      "id": "inYourEmploy",
+      "section": "driver",
+      "label": "Was he/she in your employ?",
+      "type": "text",
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        360.57
+      ]
+    },
+    {
+      "id": "motorInsuranceOwnCar",
+      "section": "driver",
+      "label": "Has he/she any motor insurance on own car? If yes, state policy number and company",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        380.61,
+        400.65,
+        420.57
+      ]
+    },
+    {
+      "id": "convictionsMotoringOffences",
+      "section": "driver",
+      "label": "Details of any convictions for motoring offences",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        440.61,
+        460.65,
+        480.57,
+        500.61
+      ]
+    },
+    {
+      "id": "licenceEndorsed",
+      "section": "driver",
+      "label": "Has licence ever been endorsed?",
+      "type": "text",
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        520.65
+      ]
+    },
+    {
+      "id": "physicalDefects",
+      "section": "driver",
+      "label": "Has he/she any physical defects?",
+      "type": "text",
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        540.57
+      ]
+    },
+    {
+      "id": "previousAccidents",
+      "section": "driver",
+      "label": "Details of previous accidents",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 199.8,
+      "x1": 566.16,
+      "rows": [
+        560.61,
+        580.65,
+        600.69,
+        620.61,
+        640.65,
+        660.69
+      ]
+    },
+    {
+      "id": "purposeCarried",
+      "section": "passengers",
+      "label": "For what purposes were they carried?",
+      "type": "text",
+      "page": 1,
+      "x0": 209,
+      "x1": 566.28,
+      "rows": [
+        794.73
+      ]
+    },
+    {
+      "id": "passengersEmployees",
+      "section": "passengers",
+      "label": "Are they employees?",
+      "type": "choice",
+      "acroField": "undefined_2",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "acroValue": "Yes_2",
+          "x": 492,
+          "y": 809
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "acroValue": "No_2",
+          "x": 527,
+          "y": 809
+        }
+      ]
+    },
+    {
+      "id": "otherVehicleARegistration",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — Registration",
+      "type": "text",
+      "page": 2,
+      "x0": 211.27,
+      "x1": 274.31,
+      "rows": [
+        189.57
+      ]
+    },
+    {
+      "id": "otherVehicleAMake",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — Make",
+      "type": "text",
+      "page": 2,
+      "x0": 274.44,
+      "x1": 339.48,
+      "rows": [
+        189.57
+      ]
+    },
+    {
+      "id": "otherVehicleAOwnerDriver",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — Name of owner and driver",
+      "type": "text",
+      "page": 2,
+      "x0": 340.8,
+      "x1": 428.4,
+      "rows": [
+        189.57
+      ]
+    },
+    {
+      "id": "otherVehicleAIdNumber",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — ID number",
+      "type": "text",
+      "page": 2,
+      "x0": 429.72,
+      "x1": 497.64,
+      "rows": [
+        189.57
+      ]
+    },
+    {
+      "id": "otherVehicleAContact",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — Contact details",
+      "type": "text",
+      "page": 2,
+      "x0": 498.96,
+      "x1": 566.28,
+      "rows": [
+        189.57
+      ]
+    },
+    {
+      "id": "otherVehicleBRegistration",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — Registration",
+      "type": "text",
+      "page": 2,
+      "x0": 211.27,
+      "x1": 274.31,
+      "rows": [
+        206.85
+      ]
+    },
+    {
+      "id": "otherVehicleBMake",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — Make",
+      "type": "text",
+      "page": 2,
+      "x0": 274.44,
+      "x1": 339.48,
+      "rows": [
+        206.85
+      ]
+    },
+    {
+      "id": "otherVehicleBOwnerDriver",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — Name of owner and driver",
+      "type": "text",
+      "page": 2,
+      "x0": 340.8,
+      "x1": 428.4,
+      "rows": [
+        206.85
+      ]
+    },
+    {
+      "id": "otherVehicleBIdNumber",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — ID number",
+      "type": "text",
+      "page": 2,
+      "x0": 429.72,
+      "x1": 497.64,
+      "rows": [
+        206.85
+      ]
+    },
+    {
+      "id": "otherVehicleBContact",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — Contact details",
+      "type": "text",
+      "page": 2,
+      "x0": 498.96,
+      "x1": 566.28,
+      "rows": [
+        206.85
+      ]
+    },
+    {
+      "id": "otherVehicleCRegistration",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — Registration",
+      "type": "text",
+      "page": 2,
+      "x0": 211.27,
+      "x1": 274.31,
+      "rows": [
+        224.13
+      ]
+    },
+    {
+      "id": "otherVehicleCMake",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — Make",
+      "type": "text",
+      "page": 2,
+      "x0": 274.44,
+      "x1": 339.48,
+      "rows": [
+        224.13
+      ]
+    },
+    {
+      "id": "otherVehicleCOwnerDriver",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — Name of owner and driver",
+      "type": "text",
+      "page": 2,
+      "x0": 340.8,
+      "x1": 428.4,
+      "rows": [
+        224.13
+      ]
+    },
+    {
+      "id": "otherVehicleCIdNumber",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — ID number",
+      "type": "text",
+      "page": 2,
+      "x0": 429.72,
+      "x1": 497.64,
+      "rows": [
+        224.13
+      ]
+    },
+    {
+      "id": "otherVehicleCContact",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — Contact details",
+      "type": "text",
+      "page": 2,
+      "x0": 498.96,
+      "x1": 566.28,
+      "rows": [
+        224.13
+      ]
+    },
+    {
+      "id": "otherVehicleADamageDetails",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — Details of damage",
+      "type": "text",
+      "page": 2,
+      "x0": 211.88,
+      "x1": 290.6,
+      "rows": [
+        268.17
+      ]
+    },
+    {
+      "id": "otherVehicleAOldDamage",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — Old damage",
+      "type": "text",
+      "page": 2,
+      "x0": 291.72,
+      "x1": 382.44,
+      "rows": [
+        268.17
+      ]
+    },
+    {
+      "id": "otherVehicleAAddress",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — Address of owner and driver",
+      "type": "text",
+      "page": 2,
+      "x0": 383.76,
+      "x1": 474.36,
+      "rows": [
+        268.17
+      ]
+    },
+    {
+      "id": "otherVehicleAColour",
+      "section": "otherParty",
+      "label": "Other vehicle (a) — Colour of vehicle",
+      "type": "text",
+      "page": 2,
+      "x0": 475.68,
+      "x1": 566.28,
+      "rows": [
+        268.17
+      ]
+    },
+    {
+      "id": "otherVehicleBDamageDetails",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — Details of damage",
+      "type": "text",
+      "page": 2,
+      "x0": 211.88,
+      "x1": 290.6,
+      "rows": [
+        285.45
+      ]
+    },
+    {
+      "id": "otherVehicleBOldDamage",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — Old damage",
+      "type": "text",
+      "page": 2,
+      "x0": 291.72,
+      "x1": 382.44,
+      "rows": [
+        285.45
+      ]
+    },
+    {
+      "id": "otherVehicleBAddress",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — Address of owner and driver",
+      "type": "text",
+      "page": 2,
+      "x0": 383.76,
+      "x1": 474.36,
+      "rows": [
+        285.45
+      ]
+    },
+    {
+      "id": "otherVehicleBColour",
+      "section": "otherParty",
+      "label": "Other vehicle (b) — Colour of vehicle",
+      "type": "text",
+      "page": 2,
+      "x0": 475.68,
+      "x1": 566.28,
+      "rows": [
+        285.45
+      ]
+    },
+    {
+      "id": "otherVehicleCDamageDetails",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — Details of damage",
+      "type": "text",
+      "page": 2,
+      "x0": 211.88,
+      "x1": 290.6,
+      "rows": [
+        302.73
+      ]
+    },
+    {
+      "id": "otherVehicleCOldDamage",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — Old damage",
+      "type": "text",
+      "page": 2,
+      "x0": 291.72,
+      "x1": 382.44,
+      "rows": [
+        302.73
+      ]
+    },
+    {
+      "id": "otherVehicleCAddress",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — Address of owner and driver",
+      "type": "text",
+      "page": 2,
+      "x0": 383.76,
+      "x1": 474.36,
+      "rows": [
+        302.73
+      ]
+    },
+    {
+      "id": "otherVehicleCColour",
+      "section": "otherParty",
+      "label": "Other vehicle (c) — Colour of vehicle",
+      "type": "text",
+      "page": 2,
+      "x0": 475.68,
+      "x1": 566.28,
+      "rows": [
+        302.73
+      ]
+    },
+    {
+      "id": "witness1",
+      "section": "witnesses",
+      "label": "Name, address and telephone number",
+      "type": "text",
+      "multiline": true,
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        389.13,
+        406.29,
+        423.57,
+        440.85
+      ]
+    },
+    {
+      "id": "witness2",
+      "section": "witnesses",
+      "label": "Name, address and telephone number",
+      "type": "text",
+      "multiline": true,
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        458.13,
+        475.41,
+        492.69,
+        509.97
+      ]
+    },
+    {
+      "id": "accidentDate",
+      "section": "accident",
+      "label": "Date",
+      "type": "text",
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        527.25
+      ]
+    },
+    {
+      "id": "accidentTime",
+      "section": "accident",
+      "label": "Time",
+      "type": "text",
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        544.41
+      ]
+    },
+    {
+      "id": "accidentPlace",
+      "section": "accident",
+      "label": "Place",
+      "type": "text",
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        561.69
+      ]
+    },
+    {
+      "id": "policeStation",
+      "section": "accident",
+      "label": "Police station",
+      "type": "text",
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        578.97
+      ]
+    },
+    {
+      "id": "caseNumber",
+      "section": "accident",
+      "label": "Case number",
+      "type": "text",
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        596.25
+      ]
+    },
+    {
+      "id": "dateReported",
+      "section": "accident",
+      "label": "Date reported",
+      "type": "text",
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        613.53
+      ]
+    },
+    {
+      "id": "reportedBy",
+      "section": "accident",
+      "label": "Reported by",
+      "type": "text",
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        630.81
+      ]
+    },
+    {
+      "id": "driverTestedAlcohol",
+      "section": "accident",
+      "label": "Was the driver tested for alcohol or drugs?",
+      "type": "choice",
+      "acroField": "undefined_3",
+      "page": 2,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "acroValue": "Yes_3",
+          "x": 505,
+          "y": 648
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "acroValue": "No_3",
+          "x": 540,
+          "y": 648
+        }
+      ]
+    },
+    {
+      "id": "circumstances",
+      "section": "accident",
+      "label": "Circumstances",
+      "type": "text",
+      "multiline": true,
+      "page": 2,
+      "x0": 199.68,
+      "x1": 566.28,
+      "rows": [
+        674.97,
+        692.25,
+        709.41,
+        726.69,
+        743.97,
+        761.25,
+        778.53,
+        795.81,
+        813.09
+      ]
+    },
+    {
+      "id": "bankName",
+      "section": "paymentMethod",
+      "label": "Name of bank",
+      "type": "text",
+      "page": 3,
+      "x0": 119.8,
+      "x1": 275.8,
+      "rows": [
+        113.74
+      ]
+    },
+    {
+      "id": "branch",
+      "section": "paymentMethod",
+      "label": "Branch",
+      "type": "text",
+      "page": 3,
+      "x0": 324.24,
+      "x1": 556.2,
+      "rows": [
+        113.37
+      ]
+    },
+    {
+      "id": "accountName",
+      "section": "paymentMethod",
+      "label": "Name of account",
+      "type": "text",
+      "page": 3,
+      "x0": 132.24,
+      "x1": 276.24,
+      "rows": [
+        142.77
+      ]
+    },
+    {
+      "id": "accountNumber",
+      "section": "paymentMethod",
+      "label": "Account number",
+      "type": "text",
+      "page": 3,
+      "x0": 356.28,
+      "x1": 556.2,
+      "rows": [
+        142.77
+      ]
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "We hereby declare the aforegoing particulars to be true in every respect."
+    },
+    {
+      "id": "driverSignature",
+      "section": "declaration",
+      "label": "Signature of driver",
+      "type": "signature",
+      "page": 3,
+      "x0": 136.2,
+      "x1": 236.28,
+      "bottom": 209,
+      "height": 20
+    },
+    {
+      "id": "driverCapacity",
+      "section": "declaration",
+      "label": "Capacity",
+      "type": "text",
+      "page": 3,
+      "x0": 288.24,
+      "x1": 392.28,
+      "rows": [
+        209.49
+      ]
+    },
+    {
+      "id": "driverDate",
+      "section": "declaration",
+      "label": "Date",
+      "type": "text",
+      "page": 3,
+      "x0": 428.28,
+      "x1": 556.2,
+      "rows": [
+        209.49
+      ]
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Signature of insured",
+      "type": "signature",
+      "required": true,
+      "page": 3,
+      "x0": 144.24,
+      "x1": 236.28,
+      "bottom": 239,
+      "height": 20
+    },
+    {
+      "id": "insuredCapacity",
+      "section": "declaration",
+      "label": "Capacity",
+      "type": "text",
+      "required": true,
+      "page": 3,
+      "x0": 288.24,
+      "x1": 392.28,
+      "rows": [
+        238.89
+      ]
+    },
+    {
+      "id": "insuredDate",
+      "section": "declaration",
+      "label": "Date",
+      "type": "text",
+      "required": true,
+      "page": 3,
+      "x0": 428.28,
+      "x1": 556.2,
+      "rows": [
+        238.89
+      ]
+    },
+    {
+      "id": "popiConsentNote",
+      "section": "popiConsent",
+      "type": "note",
+      "label": "You hereby give consent to Bryte to process, use, share and retain your personal information for its designated purpose."
+    },
+    {
+      "id": "signedAtPlace",
+      "section": "popiConsent",
+      "label": "Signed at",
+      "type": "text",
+      "page": 3,
+      "x0": 67.32,
+      "x1": 271.32,
+      "rows": [
+        682.05
+      ]
+    },
+    {
+      "id": "signDay",
+      "section": "popiConsent",
+      "label": "On the (day)",
+      "type": "text",
+      "page": 3,
+      "x0": 295.32,
+      "x1": 331.32,
+      "rows": [
+        682.05
+      ]
+    },
+    {
+      "id": "signMonth",
+      "section": "popiConsent",
+      "label": "Day of (month)",
+      "type": "text",
+      "page": 3,
+      "x0": 355.32,
+      "x1": 503.28,
+      "rows": [
+        682.05
+      ]
+    },
+    {
+      "id": "signYear",
+      "section": "popiConsent",
+      "label": "20__ (year)",
+      "type": "text",
+      "placeholder": "e.g. 26",
+      "page": 3,
+      "x0": 515.28,
+      "x1": 551.28,
+      "rows": [
+        682.05
+      ]
+    },
+    {
+      "id": "policyholderSignature",
+      "section": "popiConsent",
+      "label": "Signature of policyholder",
+      "type": "signature",
+      "page": 3,
+      "x0": 123.36,
+      "x1": 327.36,
+      "bottom": 706,
+      "height": 20
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "passengers__passenger",
+      "section": "passengers",
+      "itemLabel": "Passenger",
+      "subFields": [
+        {
+          "key": "Name",
+          "label": "Name",
+          "type": "text"
+        },
+        {
+          "key": "Address",
+          "label": "Residential address",
+          "type": "text"
+        },
+        {
+          "key": "Injury",
+          "label": "Injury",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 5,
+      "fixedSlots": [
+        [
+          {
+            "id": "passenger1Name",
+            "section": "passengers",
+            "label": "Passenger 1 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 199.8,
+            "x1": 339.12,
+            "rows": [
+              697.65
+            ]
+          },
+          {
+            "id": "passenger1Address",
+            "section": "passengers",
+            "label": "Passenger 1 — Residential address",
+            "type": "text",
+            "page": 1,
+            "x0": 340.68,
+            "x1": 473.52,
+            "rows": [
+              697.65
+            ]
+          },
+          {
+            "id": "passenger1Injury",
+            "section": "passengers",
+            "label": "Passenger 1 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 475.08,
+            "x1": 566.16,
+            "rows": [
+              697.65
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger2Name",
+            "section": "passengers",
+            "label": "Passenger 2 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 199.8,
+            "x1": 339.12,
+            "rows": [
+              717.69
+            ]
+          },
+          {
+            "id": "passenger2Address",
+            "section": "passengers",
+            "label": "Passenger 2 — Residential address",
+            "type": "text",
+            "page": 1,
+            "x0": 340.68,
+            "x1": 473.52,
+            "rows": [
+              717.69
+            ]
+          },
+          {
+            "id": "passenger2Injury",
+            "section": "passengers",
+            "label": "Passenger 2 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 475.08,
+            "x1": 566.16,
+            "rows": [
+              717.69
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger3Name",
+            "section": "passengers",
+            "label": "Passenger 3 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 199.8,
+            "x1": 339.12,
+            "rows": [
+              737.61
+            ]
+          },
+          {
+            "id": "passenger3Address",
+            "section": "passengers",
+            "label": "Passenger 3 — Residential address",
+            "type": "text",
+            "page": 1,
+            "x0": 340.68,
+            "x1": 473.52,
+            "rows": [
+              737.61
+            ]
+          },
+          {
+            "id": "passenger3Injury",
+            "section": "passengers",
+            "label": "Passenger 3 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 475.08,
+            "x1": 566.16,
+            "rows": [
+              737.61
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger4Name",
+            "section": "passengers",
+            "label": "Passenger 4 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 199.8,
+            "x1": 339.12,
+            "rows": [
+              757.65
+            ]
+          },
+          {
+            "id": "passenger4Address",
+            "section": "passengers",
+            "label": "Passenger 4 — Residential address",
+            "type": "text",
+            "page": 1,
+            "x0": 340.68,
+            "x1": 473.52,
+            "rows": [
+              757.65
+            ]
+          },
+          {
+            "id": "passenger4Injury",
+            "section": "passengers",
+            "label": "Passenger 4 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 475.08,
+            "x1": 566.16,
+            "rows": [
+              757.65
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger5Name",
+            "section": "passengers",
+            "label": "Passenger 5 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 199.8,
+            "x1": 339.12,
+            "rows": [
+              777.69
+            ]
+          },
+          {
+            "id": "passenger5Address",
+            "section": "passengers",
+            "label": "Passenger 5 — Residential address",
+            "type": "text",
+            "page": 1,
+            "x0": 340.68,
+            "x1": 473.52,
+            "rows": [
+              777.69
+            ]
+          },
+          {
+            "id": "passenger5Injury",
+            "section": "passengers",
+            "label": "Passenger 5 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 475.08,
+            "x1": 566.16,
+            "rows": [
+              777.69
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "otherParty__injury",
+      "section": "otherParty",
+      "itemLabel": "Injury",
+      "subFields": [
+        {
+          "key": "Name",
+          "label": "Name of injured",
+          "type": "text"
+        },
+        {
+          "key": "Relationship",
+          "label": "Relationship to accident",
+          "type": "text"
+        },
+        {
+          "key": "Details",
+          "label": "Details of injuries",
+          "type": "text"
+        },
+        {
+          "key": "Hospital",
+          "label": "Name of hospital if applicable",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 5,
+      "fixedSlots": [
+        [
+          {
+            "id": "injury1Name",
+            "section": "otherParty",
+            "label": "Injury 1 — Name of injured",
+            "type": "text",
+            "page": 2,
+            "x0": 199.68,
+            "x1": 290.4,
+            "rows": [
+              76.41
+            ]
+          },
+          {
+            "id": "injury1Relationship",
+            "section": "otherParty",
+            "label": "Injury 1 — Relationship to accident",
+            "type": "text",
+            "page": 2,
+            "x0": 291.72,
+            "x1": 382.44,
+            "rows": [
+              76.41
+            ]
+          },
+          {
+            "id": "injury1Details",
+            "section": "otherParty",
+            "label": "Injury 1 — Details of injuries",
+            "type": "text",
+            "page": 2,
+            "x0": 383.76,
+            "x1": 474.36,
+            "rows": [
+              76.41
+            ]
+          },
+          {
+            "id": "injury1Hospital",
+            "section": "otherParty",
+            "label": "Injury 1 — Name of hospital if applicable",
+            "type": "text",
+            "page": 2,
+            "x0": 475.68,
+            "x1": 566.28,
+            "rows": [
+              76.41
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injury2Name",
+            "section": "otherParty",
+            "label": "Injury 2 — Name of injured",
+            "type": "text",
+            "page": 2,
+            "x0": 199.68,
+            "x1": 290.4,
+            "rows": [
+              93.57
+            ]
+          },
+          {
+            "id": "injury2Relationship",
+            "section": "otherParty",
+            "label": "Injury 2 — Relationship to accident",
+            "type": "text",
+            "page": 2,
+            "x0": 291.72,
+            "x1": 382.44,
+            "rows": [
+              93.57
+            ]
+          },
+          {
+            "id": "injury2Details",
+            "section": "otherParty",
+            "label": "Injury 2 — Details of injuries",
+            "type": "text",
+            "page": 2,
+            "x0": 383.76,
+            "x1": 474.36,
+            "rows": [
+              93.57
+            ]
+          },
+          {
+            "id": "injury2Hospital",
+            "section": "otherParty",
+            "label": "Injury 2 — Name of hospital if applicable",
+            "type": "text",
+            "page": 2,
+            "x0": 475.68,
+            "x1": 566.28,
+            "rows": [
+              93.57
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injury3Name",
+            "section": "otherParty",
+            "label": "Injury 3 — Name of injured",
+            "type": "text",
+            "page": 2,
+            "x0": 199.68,
+            "x1": 290.4,
+            "rows": [
+              110.85
+            ]
+          },
+          {
+            "id": "injury3Relationship",
+            "section": "otherParty",
+            "label": "Injury 3 — Relationship to accident",
+            "type": "text",
+            "page": 2,
+            "x0": 291.72,
+            "x1": 382.44,
+            "rows": [
+              110.85
+            ]
+          },
+          {
+            "id": "injury3Details",
+            "section": "otherParty",
+            "label": "Injury 3 — Details of injuries",
+            "type": "text",
+            "page": 2,
+            "x0": 383.76,
+            "x1": 474.36,
+            "rows": [
+              110.85
+            ]
+          },
+          {
+            "id": "injury3Hospital",
+            "section": "otherParty",
+            "label": "Injury 3 — Name of hospital if applicable",
+            "type": "text",
+            "page": 2,
+            "x0": 475.68,
+            "x1": 566.28,
+            "rows": [
+              110.85
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injury4Name",
+            "section": "otherParty",
+            "label": "Injury 4 — Name of injured",
+            "type": "text",
+            "page": 2,
+            "x0": 199.68,
+            "x1": 290.4,
+            "rows": [
+              128.13
+            ]
+          },
+          {
+            "id": "injury4Relationship",
+            "section": "otherParty",
+            "label": "Injury 4 — Relationship to accident",
+            "type": "text",
+            "page": 2,
+            "x0": 291.72,
+            "x1": 382.44,
+            "rows": [
+              128.13
+            ]
+          },
+          {
+            "id": "injury4Details",
+            "section": "otherParty",
+            "label": "Injury 4 — Details of injuries",
+            "type": "text",
+            "page": 2,
+            "x0": 383.76,
+            "x1": 474.36,
+            "rows": [
+              128.13
+            ]
+          },
+          {
+            "id": "injury4Hospital",
+            "section": "otherParty",
+            "label": "Injury 4 — Name of hospital if applicable",
+            "type": "text",
+            "page": 2,
+            "x0": 475.68,
+            "x1": 566.28,
+            "rows": [
+              128.13
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injury5Name",
+            "section": "otherParty",
+            "label": "Injury 5 — Name of injured",
+            "type": "text",
+            "page": 2,
+            "x0": 199.68,
+            "x1": 290.4,
+            "rows": [
+              145.41
+            ]
+          },
+          {
+            "id": "injury5Relationship",
+            "section": "otherParty",
+            "label": "Injury 5 — Relationship to accident",
+            "type": "text",
+            "page": 2,
+            "x0": 291.72,
+            "x1": 382.44,
+            "rows": [
+              145.41
+            ]
+          },
+          {
+            "id": "injury5Details",
+            "section": "otherParty",
+            "label": "Injury 5 — Details of injuries",
+            "type": "text",
+            "page": 2,
+            "x0": 383.76,
+            "x1": 474.36,
+            "rows": [
+              145.41
+            ]
+          },
+          {
+            "id": "injury5Hospital",
+            "section": "otherParty",
+            "label": "Injury 5 — Name of hospital if applicable",
+            "type": "text",
+            "page": 2,
+            "x0": 475.68,
+            "x1": 566.28,
+            "rows": [
+              145.41
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "otherParty__property",
+      "section": "otherParty",
+      "itemLabel": "Property",
+      "subFields": [
+        {
+          "key": "OwnerAddress",
+          "label": "Name and address of owner",
+          "type": "text"
+        },
+        {
+          "key": "Damage",
+          "label": "Details of damage",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 3,
+      "fixedSlots": [
+        [
+          {
+            "id": "property1OwnerAddress",
+            "section": "otherParty",
+            "label": "Property 1 — Name and address of owner",
+            "type": "text",
+            "page": 2,
+            "x0": 199.68,
+            "x1": 382.44,
+            "rows": [
+              337.29
+            ]
+          },
+          {
+            "id": "property1Damage",
+            "section": "otherParty",
+            "label": "Property 1 — Details of damage",
+            "type": "text",
+            "page": 2,
+            "x0": 383.76,
+            "x1": 566.28,
+            "rows": [
+              337.29
+            ]
+          }
+        ],
+        [
+          {
+            "id": "property2OwnerAddress",
+            "section": "otherParty",
+            "label": "Property 2 — Name and address of owner",
+            "type": "text",
+            "page": 2,
+            "x0": 199.68,
+            "x1": 382.44,
+            "rows": [
+              354.57
+            ]
+          },
+          {
+            "id": "property2Damage",
+            "section": "otherParty",
+            "label": "Property 2 — Details of damage",
+            "type": "text",
+            "page": 2,
+            "x0": 383.76,
+            "x1": 566.28,
+            "rows": [
+              354.57
+            ]
+          }
+        ],
+        [
+          {
+            "id": "property3OwnerAddress",
+            "section": "otherParty",
+            "label": "Property 3 — Name and address of owner",
+            "type": "text",
+            "page": 2,
+            "x0": 199.68,
+            "x1": 382.44,
+            "rows": [
+              371.85
+            ]
+          },
+          {
+            "id": "property3Damage",
+            "section": "otherParty",
+            "label": "Property 3 — Details of damage",
+            "type": "text",
+            "page": 2,
+            "x0": 383.76,
+            "x1": 566.28,
+            "rows": [
+              371.85
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

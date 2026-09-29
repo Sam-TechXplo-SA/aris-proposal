@@ -1,0 +1,657 @@
+{
+  "id": "sintelum-property-claim",
+  "insurer": "Sintelum",
+  "title": "Property Loss / Damage Claim Form",
+  "filenameField": "insuredNameOccupation",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Policy & Broker Details"
+    },
+    {
+      "id": "insured",
+      "title": "Insured"
+    },
+    {
+      "id": "occurrence",
+      "title": "Loss / Damage Occurrence"
+    },
+    {
+      "id": "address",
+      "title": "Loss / Damage Address"
+    },
+    {
+      "id": "cause",
+      "title": "Cause of Loss / Damage"
+    },
+    {
+      "id": "previous",
+      "title": "Previous Loss / Damage"
+    },
+    {
+      "id": "police",
+      "title": "Police"
+    },
+    {
+      "id": "otherInterest",
+      "title": "Other Interest"
+    },
+    {
+      "id": "otherInsurance",
+      "title": "Other Insurance"
+    },
+    {
+      "id": "value",
+      "title": "Value"
+    },
+    {
+      "id": "statement",
+      "title": "Statement of Property Lost, Stolen or Damaged"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy Number",
+      "type": "text",
+      "x0": 328.85,
+      "x1": 589.06,
+      "rows": [
+        149.66
+      ]
+    },
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim Number",
+      "type": "text",
+      "x0": 328.85,
+      "x1": 589.06,
+      "rows": [
+        172.22
+      ]
+    },
+    {
+      "id": "brokerAgent",
+      "section": "header",
+      "label": "Broker / Agent Name",
+      "type": "text",
+      "x0": 208.85,
+      "x1": 589.06,
+      "rows": [
+        194.66
+      ]
+    },
+    {
+      "id": "insuredNameOccupation",
+      "section": "insured",
+      "label": "Name and Occupation",
+      "type": "text",
+      "required": true,
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        217.25
+      ]
+    },
+    {
+      "id": "vatRegNo",
+      "section": "insured",
+      "label": "Vat Registration No",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        239.69
+      ]
+    },
+    {
+      "id": "addressPhone",
+      "section": "insured",
+      "label": "Address and Day Telephone No",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        262.25
+      ]
+    },
+    {
+      "id": "breakageDateTime",
+      "section": "occurrence",
+      "label": "Date and Time of Loss/Damage",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        291.53
+      ]
+    },
+    {
+      "id": "damageDiscovered",
+      "section": "occurrence",
+      "label": "When was Loss / Damage discovered?",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        320.69
+      ]
+    },
+    {
+      "id": "lossAddress",
+      "section": "address",
+      "label": "Address where Loss / Damage occurred",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        343.25
+      ]
+    },
+    {
+      "id": "premisesOccupied",
+      "section": "address",
+      "label": "Were premises occupied? By whom?",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        365.71
+      ]
+    },
+    {
+      "id": "lastOccupied",
+      "section": "address",
+      "label": "If not occupied, when last occupied?",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        388.27
+      ]
+    },
+    {
+      "id": "purposeOccupation",
+      "section": "address",
+      "label": "Purpose of occupation",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        410.71
+      ]
+    },
+    {
+      "id": "causeDescription",
+      "section": "cause",
+      "label": "Describe fully how the Loss or Damage occurred. (If applicable state how entry was gained to premises).",
+      "type": "text",
+      "multiline": true,
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        426.49,
+        442.27
+      ]
+    },
+    {
+      "id": "burglarAlarm",
+      "section": "cause",
+      "label": "Was burglar alarm activated?",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        464.83
+      ]
+    },
+    {
+      "id": "damageByOtherParty",
+      "section": "cause",
+      "label": "If loss / Damage caused by another party, give name and address",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        487.27
+      ]
+    },
+    {
+      "id": "previousLossDamage",
+      "section": "previous",
+      "label": "Have you previously suffered a Loss / Damage?",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        509.86
+      ]
+    },
+    {
+      "id": "previousLossDetails",
+      "section": "previous",
+      "label": "If so, give details",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        532.3
+      ]
+    },
+    {
+      "id": "previousInsurerName",
+      "section": "previous",
+      "label": "If insured, provide name of insurer",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        554.86
+      ]
+    },
+    {
+      "id": "policeDetails",
+      "section": "police",
+      "label": "Police Reference Number, Police Station and Date reported",
+      "type": "text",
+      "multiline": true,
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        575.08,
+        595.3
+      ]
+    },
+    {
+      "id": "otherPartyInterest",
+      "section": "otherInterest",
+      "label": "Has any other party an interest in the insured property, e.g. Hire Purchase or other Credit Agreement?",
+      "type": "text",
+      "multiline": true,
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        611.08,
+        626.86
+      ]
+    },
+    {
+      "id": "otherInterestNameDetails",
+      "section": "otherInterest",
+      "label": "If so, give name and interest",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        649.44
+      ]
+    },
+    {
+      "id": "otherInsuranceExists",
+      "section": "otherInsurance",
+      "label": "Is there any other insurance covering this Loss/Damage?",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        671.88
+      ]
+    },
+    {
+      "id": "otherInsurerName",
+      "section": "otherInsurance",
+      "label": "If so, give name of Insurer",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        694.44
+      ]
+    },
+    {
+      "id": "estimatedTotalValue",
+      "section": "value",
+      "label": "Estimated total value of all property insured under the policy",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        716.88
+      ]
+    },
+    {
+      "id": "whenLastValued",
+      "section": "value",
+      "label": "When last valued?",
+      "type": "text",
+      "x0": 270.29,
+      "x1": 589.06,
+      "rows": [
+        739.44
+      ]
+    },
+    {
+      "id": "statementNote",
+      "section": "statement",
+      "type": "note",
+      "label": "STATEMENT OF PROPERTY LOST, STOLEN OR DAMAGED — N.B. Claims in respect of damage to buildings must be accompanied by a builder’s estimate / photos should be provided of damaged property or damaged items"
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "statement__item",
+      "section": "statement",
+      "itemLabel": "Item",
+      "subFields": [
+        {
+          "key": "Number",
+          "label": "Number",
+          "type": "text"
+        },
+        {
+          "key": "Description",
+          "label": "Description",
+          "type": "text",
+          "multiline": true
+        },
+        {
+          "key": "DateAcquired",
+          "label": "Date Acquired",
+          "type": "text"
+        },
+        {
+          "key": "FromWhom",
+          "label": "From whom purchased or acquired",
+          "type": "text",
+          "multiline": true
+        },
+        {
+          "key": "Value",
+          "label": "Current Replacement Value",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 4,
+      "fixedSlots": [
+        [
+          {
+            "id": "item1Number",
+            "section": "statement",
+            "label": "Number",
+            "type": "text",
+            "page": 1,
+            "x0": 18.48,
+            "x1": 94.34,
+            "rows": [
+              245.85
+            ]
+          },
+          {
+            "id": "item1Description",
+            "section": "statement",
+            "label": "Description",
+            "type": "text",
+            "page": 1,
+            "multiline": true,
+            "x0": 94.82,
+            "x1": 319.37,
+            "rows": [
+              242.85,
+              262.85,
+              282.85,
+              302.85,
+              322.85
+            ]
+          },
+          {
+            "id": "item1DateAcquired",
+            "section": "statement",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 1,
+            "x0": 319.85,
+            "x1": 395.83,
+            "rows": [
+              245.85
+            ]
+          },
+          {
+            "id": "item1FromWhom",
+            "section": "statement",
+            "label": "From whom purchased or acquired",
+            "type": "text",
+            "page": 1,
+            "multiline": true,
+            "x0": 396.31,
+            "x1": 503.86,
+            "rows": [
+              245.85,
+              270.85
+            ]
+          },
+          {
+            "id": "item1Value",
+            "section": "statement",
+            "label": "Current Replacement Value",
+            "type": "text",
+            "page": 1,
+            "x0": 504.34,
+            "x1": 589.06,
+            "rows": [
+              245.85
+            ]
+          }
+        ],
+        [
+          {
+            "id": "item2Number",
+            "section": "statement",
+            "label": "Number",
+            "type": "text",
+            "page": 1,
+            "x0": 18.48,
+            "x1": 94.34,
+            "rows": [
+              371.97
+            ]
+          },
+          {
+            "id": "item2Description",
+            "section": "statement",
+            "label": "Description",
+            "type": "text",
+            "page": 1,
+            "multiline": true,
+            "x0": 94.82,
+            "x1": 319.37,
+            "rows": [
+              368.97,
+              388.97,
+              408.97,
+              428.97,
+              448.97
+            ]
+          },
+          {
+            "id": "item2DateAcquired",
+            "section": "statement",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 1,
+            "x0": 319.85,
+            "x1": 395.83,
+            "rows": [
+              371.97
+            ]
+          },
+          {
+            "id": "item2FromWhom",
+            "section": "statement",
+            "label": "From whom purchased or acquired",
+            "type": "text",
+            "page": 1,
+            "multiline": true,
+            "x0": 396.31,
+            "x1": 503.86,
+            "rows": [
+              371.97,
+              396.97
+            ]
+          },
+          {
+            "id": "item2Value",
+            "section": "statement",
+            "label": "Current Replacement Value",
+            "type": "text",
+            "page": 1,
+            "x0": 504.34,
+            "x1": 589.06,
+            "rows": [
+              371.97
+            ]
+          }
+        ],
+        [
+          {
+            "id": "item3Number",
+            "section": "statement",
+            "label": "Number",
+            "type": "text",
+            "page": 1,
+            "x0": 18.48,
+            "x1": 94.34,
+            "rows": [
+              497.51
+            ]
+          },
+          {
+            "id": "item3Description",
+            "section": "statement",
+            "label": "Description",
+            "type": "text",
+            "page": 1,
+            "multiline": true,
+            "x0": 94.82,
+            "x1": 319.37,
+            "rows": [
+              494.51,
+              514.51,
+              534.51,
+              554.51,
+              574.51
+            ]
+          },
+          {
+            "id": "item3DateAcquired",
+            "section": "statement",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 1,
+            "x0": 319.85,
+            "x1": 395.83,
+            "rows": [
+              497.51
+            ]
+          },
+          {
+            "id": "item3FromWhom",
+            "section": "statement",
+            "label": "From whom purchased or acquired",
+            "type": "text",
+            "page": 1,
+            "multiline": true,
+            "x0": 396.31,
+            "x1": 503.86,
+            "rows": [
+              497.51,
+              522.51
+            ]
+          },
+          {
+            "id": "item3Value",
+            "section": "statement",
+            "label": "Current Replacement Value",
+            "type": "text",
+            "page": 1,
+            "x0": 504.34,
+            "x1": 589.06,
+            "rows": [
+              497.51
+            ]
+          }
+        ],
+        [
+          {
+            "id": "item4Number",
+            "section": "statement",
+            "label": "Number",
+            "type": "text",
+            "page": 1,
+            "x0": 18.48,
+            "x1": 94.34,
+            "rows": [
+              623.06
+            ]
+          },
+          {
+            "id": "item4Description",
+            "section": "statement",
+            "label": "Description",
+            "type": "text",
+            "page": 1,
+            "multiline": true,
+            "x0": 94.82,
+            "x1": 319.37,
+            "rows": [
+              620.06,
+              640.06,
+              660.06,
+              680.06,
+              700.06
+            ]
+          },
+          {
+            "id": "item4DateAcquired",
+            "section": "statement",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 1,
+            "x0": 319.85,
+            "x1": 395.83,
+            "rows": [
+              623.06
+            ]
+          },
+          {
+            "id": "item4FromWhom",
+            "section": "statement",
+            "label": "From whom purchased or acquired",
+            "type": "text",
+            "page": 1,
+            "multiline": true,
+            "x0": 396.31,
+            "x1": 503.86,
+            "rows": [
+              623.06,
+              648.06
+            ]
+          },
+          {
+            "id": "item4Value",
+            "section": "statement",
+            "label": "Current Replacement Value",
+            "type": "text",
+            "page": 1,
+            "x0": 504.34,
+            "x1": 589.06,
+            "rows": [
+              623.06
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

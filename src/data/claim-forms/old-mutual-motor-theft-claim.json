@@ -1,0 +1,751 @@
+{
+  "id": "old-mutual-motor-theft-claim",
+  "insurer": "Old Mutual",
+  "title": "Motor Theft Claim Form",
+  "afTitle": "Motordiefstal Eisvorm",
+  "description": "MUFED 1630 08/11",
+  "filenameField": "insuredNameSurname",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Policy & Broker Details"
+    },
+    {
+      "id": "insured",
+      "title": "Insured",
+      "afTitle": "Versekerde"
+    },
+    {
+      "id": "vehicle",
+      "title": "Vehicle",
+      "afTitle": "Voertuig"
+    },
+    {
+      "id": "financeCompany",
+      "title": "Finance Company",
+      "afTitle": "Finansierings Maatskappy"
+    },
+    {
+      "id": "owner",
+      "title": "Owner",
+      "afTitle": "Eienaar"
+    },
+    {
+      "id": "theft",
+      "title": "Theft",
+      "afTitle": "Diefstal"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration",
+      "afTitle": "Verklaring"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy No.",
+      "afLabel": "Polisnr.",
+      "type": "text",
+      "x0": 235,
+      "x1": 396.5,
+      "rows": [
+        95.8
+      ]
+    },
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim No.",
+      "afLabel": "Eisnr.",
+      "type": "text",
+      "x0": 235,
+      "x1": 396.5,
+      "rows": [
+        115.5
+      ]
+    },
+    {
+      "id": "brokerAgent",
+      "section": "header",
+      "label": "Broker/Agent",
+      "afLabel": "Makelaar/Agent",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        135.9
+      ]
+    },
+    {
+      "id": "insuredNameSurname",
+      "section": "insured",
+      "label": "Company Name / Surname and Initials",
+      "afLabel": "Maatskappy Naam / Van en Voorletters",
+      "type": "text",
+      "required": true,
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        156.3
+      ]
+    },
+    {
+      "id": "companyRegistrationNumber",
+      "section": "insured",
+      "label": "Company Registration Number",
+      "afLabel": "Maatskappy se Registrasienommer",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        175.7
+      ]
+    },
+    {
+      "id": "identityNumber",
+      "section": "insured",
+      "label": "Identity Number",
+      "afLabel": "Identiteitsnommer",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        195.2
+      ]
+    },
+    {
+      "id": "vatRegistrationNo",
+      "section": "insured",
+      "label": "VAT Registration No.",
+      "afLabel": "BTW Registrasienr",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        214.6
+      ]
+    },
+    {
+      "id": "businessOrOccupation",
+      "section": "insured",
+      "label": "Business or Occupation",
+      "afLabel": "Besigheid of Beroep",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        234.3
+      ]
+    },
+    {
+      "id": "physicalAddress",
+      "section": "insured",
+      "label": "Physical Address",
+      "afLabel": "Straatadres",
+      "type": "text",
+      "multiline": true,
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        253.7,
+        273.2
+      ]
+    },
+    {
+      "id": "postalAddress",
+      "section": "insured",
+      "label": "Postal Address",
+      "afLabel": "Posadres",
+      "type": "text",
+      "multiline": true,
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        292.6,
+        312.3
+      ]
+    },
+    {
+      "id": "telephoneBusiness",
+      "section": "insured",
+      "label": "Telephone Numbers — Business",
+      "afLabel": "Telefoonnommers — Besigheid",
+      "type": "text",
+      "x0": 220.8,
+      "x1": 396.5,
+      "rows": [
+        331.7
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "telephoneHome",
+      "section": "insured",
+      "label": "Telephone Numbers — Home",
+      "afLabel": "Telefoonnommers — Huis",
+      "type": "text",
+      "x0": 220.8,
+      "x1": 396.5,
+      "rows": [
+        351.2
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "telephoneCellular",
+      "section": "insured",
+      "label": "Telephone Numbers — Cellular",
+      "afLabel": "Telefoonnommers — Sellulêr",
+      "type": "text",
+      "x0": 220.8,
+      "x1": 396.5,
+      "rows": [
+        371.6
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "vehicleMake",
+      "section": "vehicle",
+      "label": "Make",
+      "afLabel": "Fabrikaat",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        392
+      ]
+    },
+    {
+      "id": "vehicleModel",
+      "section": "vehicle",
+      "label": "Model",
+      "afLabel": "Model",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        412.4
+      ]
+    },
+    {
+      "id": "vehicleYear",
+      "section": "vehicle",
+      "label": "Year",
+      "afLabel": "Jaar",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        433
+      ]
+    },
+    {
+      "id": "vehicleRegistrationNumber",
+      "section": "vehicle",
+      "label": "Registration Number",
+      "afLabel": "Registrasienommer",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        453.4
+      ]
+    },
+    {
+      "id": "vehicleMileage",
+      "section": "vehicle",
+      "label": "Mileage",
+      "afLabel": "Afstand afgelê",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        474
+      ]
+    },
+    {
+      "id": "vehicleIdentificationNumber",
+      "section": "vehicle",
+      "label": "Vehicle Identification Number",
+      "afLabel": "Voertuig Identifikasienommer",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        494.4
+      ]
+    },
+    {
+      "id": "chassisNumber",
+      "section": "vehicle",
+      "label": "Chassis Number",
+      "afLabel": "Onderstelnommer",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        515.1
+      ]
+    },
+    {
+      "id": "engineNumber",
+      "section": "vehicle",
+      "label": "Engine Number",
+      "afLabel": "Enjinnommer",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        535.5
+      ]
+    },
+    {
+      "id": "exteriorColour",
+      "section": "vehicle",
+      "label": "Exterior Colour",
+      "afLabel": "Kleur (Buite)",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        555.9
+      ]
+    },
+    {
+      "id": "interiorColour",
+      "section": "vehicle",
+      "label": "Interior Colour",
+      "afLabel": "Kleur (Binne)",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        577.5
+      ]
+    },
+    {
+      "id": "financeCompanyName",
+      "section": "financeCompany",
+      "label": "Name",
+      "afLabel": "Naam",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        597.9
+      ]
+    },
+    {
+      "id": "financeCompanyBranch",
+      "section": "financeCompany",
+      "label": "Branch",
+      "afLabel": "Tak",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        618.3
+      ]
+    },
+    {
+      "id": "financeAccountNumber",
+      "section": "financeCompany",
+      "label": "Account Number",
+      "afLabel": "Rekeningnommer",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        638.7
+      ]
+    },
+    {
+      "id": "financeTypeOfAgreement",
+      "section": "financeCompany",
+      "label": "Type of Agreement",
+      "afLabel": "Tipe ooreenkoms",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        659.3
+      ]
+    },
+    {
+      "id": "financeOutstandingAmount",
+      "section": "financeCompany",
+      "label": "Outstanding Amount",
+      "afLabel": "Uitstaande Bedrag",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        680.7
+      ]
+    },
+    {
+      "id": "ownerName",
+      "section": "owner",
+      "label": "Name",
+      "afLabel": "Naam",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        701.1
+      ]
+    },
+    {
+      "id": "ownerIdentityNumber",
+      "section": "owner",
+      "label": "Identity Number",
+      "afLabel": "Identiteitsnommer",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        722.7
+      ]
+    },
+    {
+      "id": "dateOfTheft",
+      "section": "theft",
+      "label": "Date of Theft",
+      "afLabel": "Datum van Diefstal",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        742.8
+      ]
+    },
+    {
+      "id": "timeOfTheft",
+      "section": "theft",
+      "label": "Time of Theft",
+      "afLabel": "Tyd Diefstal Plaasgevind",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        762.3
+      ]
+    },
+    {
+      "id": "placeWhereTheftOccurred",
+      "section": "theft",
+      "label": "Place where Theft occurred",
+      "afLabel": "Plek waar Diefstal plaasgevind het",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        782
+      ]
+    },
+    {
+      "id": "policeStationReportedTo",
+      "section": "theft",
+      "label": "Police Station Reported To",
+      "afLabel": "Polisiestasie waar aangemeld",
+      "type": "text",
+      "x0": 187.7,
+      "x1": 441.4,
+      "rows": [
+        801.4
+      ]
+    },
+    {
+      "id": "sapsCaseNumber",
+      "section": "theft",
+      "label": "SAPS Case Number",
+      "afLabel": "SAPS Saaknommer",
+      "type": "text",
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        53.3
+      ]
+    },
+    {
+      "id": "dateReported",
+      "section": "theft",
+      "label": "Date Reported",
+      "afLabel": "Datum Aangemeld",
+      "type": "text",
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        72.8
+      ]
+    },
+    {
+      "id": "reportedBy",
+      "section": "theft",
+      "label": "Reported By",
+      "afLabel": "Deur wie Aangemeld",
+      "type": "text",
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        92.2
+      ]
+    },
+    {
+      "id": "circumstancesOfTheft",
+      "section": "theft",
+      "label": "Circumstances of Theft",
+      "afLabel": "Omstandighede van Diefstal",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        111.9,
+        131.3,
+        150.8,
+        170.2,
+        189.9,
+        209.3,
+        228.8,
+        248.2,
+        267.9,
+        287.3,
+        306.8
+      ]
+    },
+    {
+      "id": "wasVehicleLocked",
+      "section": "theft",
+      "label": "Was the Vehicle Locked?",
+      "afLabel": "Was die Voertuig gesluit?",
+      "type": "text",
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        326.2
+      ]
+    },
+    {
+      "id": "ifNotGiveReasons",
+      "section": "theft",
+      "label": "If not, give reasons",
+      "afLabel": "Indien nie, verstrek redes",
+      "type": "text",
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        345.9
+      ]
+    },
+    {
+      "id": "detailsOfStolenAccessories",
+      "section": "theft",
+      "label": "Details of Stolen Accessories (Please attach invoices)",
+      "afLabel": "Besonderhede van Gesteelde Toebehore (Heg fakture aan)",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        365.3,
+        384.8,
+        404.2
+      ]
+    },
+    {
+      "id": "accessoriesSeparatelyInsured",
+      "section": "theft",
+      "label": "Are these Accessories separately insured?",
+      "afLabel": "Is hierdie Toebehore afsonderlik verseker?",
+      "type": "text",
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        423.9
+      ]
+    },
+    {
+      "id": "antiTheftMake",
+      "section": "theft",
+      "label": "Anti-theft / Vehicle Recovery Device Details — Make",
+      "afLabel": "Fabrikaat",
+      "type": "text",
+      "page": 1,
+      "x0": 235.5,
+      "x1": 363.2,
+      "rows": [
+        443.3
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "antiTheftFittedBy",
+      "section": "theft",
+      "label": "Anti-theft / Vehicle Recovery Device Details — Fitted by",
+      "afLabel": "Geinstalleer deur",
+      "type": "text",
+      "page": 1,
+      "x0": 235.5,
+      "x1": 363.2,
+      "rows": [
+        462.8
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "antiTheftDateFitted",
+      "section": "theft",
+      "label": "Anti-theft / Vehicle Recovery Device Details — Date fitted",
+      "afLabel": "Datum geinstalleer",
+      "type": "text",
+      "page": 1,
+      "x0": 235.5,
+      "x1": 363.2,
+      "rows": [
+        482.2
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "attachProofOfDeviceNote",
+      "section": "theft",
+      "type": "note",
+      "page": 1,
+      "label": "PLEASE ATTACH PROOF OF DEVICE",
+      "afLabel": "ASSEBLIEF BEWYS VAN TOESTEL AAN"
+    },
+    {
+      "id": "windowMarkingsNumber",
+      "section": "theft",
+      "label": "Details of Window Markings — Number",
+      "afLabel": "Aantal",
+      "type": "text",
+      "page": 1,
+      "x0": 266.4,
+      "x1": 353.8,
+      "rows": [
+        521.3
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "windowMarkingsAppliedByWhom",
+      "section": "theft",
+      "label": "Details of Window Markings — Applied by Whom",
+      "afLabel": "Deur wie aangebring",
+      "type": "text",
+      "page": 1,
+      "x0": 266.4,
+      "x1": 353.8,
+      "rows": [
+        540.8
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "detailsOfScratchesDentsDefects",
+      "section": "theft",
+      "label": "Details of scratches, dents, defects",
+      "afLabel": "Besonderhede van krapmerke, duike, defekte",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        560.2,
+        579.9
+      ]
+    },
+    {
+      "id": "detailsOfOtherFeatures",
+      "section": "theft",
+      "label": "Details of other features which would assist identification",
+      "afLabel": "Besonderhede van ander kenmerke wat kan help met identifikasie",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 178.6,
+      "x1": 441.4,
+      "rows": [
+        599.3,
+        618.8,
+        638.9
+      ]
+    },
+    {
+      "id": "attachKeysNote",
+      "section": "theft",
+      "type": "note",
+      "page": 1,
+      "label": "PLEASE ATTACH THE VEHICLE KEYS, A COPY OF THE REGISTRATION CERTIFICATE, AND THE LATEST SERVICE INVOICE.",
+      "afLabel": "HEG ASSEBLIEF DIE VOERTUIGSLEUTELS AAN SAAM MET 'N AFSKRIF VAN DIE REGISTRASIESERTIFIKAAT EN DIE NUUTSTE DIENSFAKTUUR."
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "page": 1,
+      "label": "I/We hereby declare the foregoing particulars to be true in every respect.",
+      "afLabel": "Ek/Ons verklaar hiermee dat die voorafgaande besonderhede in elke opsig waar is."
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Insured's Signature",
+      "afLabel": "Versekerde se Handtekening",
+      "type": "signature",
+      "required": true,
+      "page": 1,
+      "x0": 56.5,
+      "x1": 182.5,
+      "bottom": 769,
+      "height": 8
+    },
+    {
+      "id": "insuredCapacity",
+      "section": "declaration",
+      "label": "Capacity",
+      "afLabel": "Hoedanigheid",
+      "type": "text",
+      "required": true,
+      "page": 1,
+      "x0": 282.5,
+      "x1": 386.3,
+      "rows": [
+        772.5
+      ],
+      "startSize": 7,
+      "floorSize": 5
+    },
+    {
+      "id": "insuredSignatureDate",
+      "section": "declaration",
+      "label": "Date",
+      "afLabel": "Datum",
+      "type": "text",
+      "required": true,
+      "page": 1,
+      "x0": 432.7,
+      "x1": 539.6,
+      "rows": [
+        772.5
+      ],
+      "startSize": 5.5,
+      "floorSize": 4.5
+    }
+  ],
+  "repeatingGroups": []
+}

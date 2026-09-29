@@ -1,0 +1,1439 @@
+{
+  "id": "guardrisk-property-claim",
+  "insurer": "Guardrisk",
+  "title": "Property Damage Claim Form",
+  "filenameField": "insuredName",
+  "sections": [
+    {
+      "id": "insured",
+      "title": "Insured"
+    },
+    {
+      "id": "occurrence",
+      "title": "Loss / Damage Occurrence"
+    },
+    {
+      "id": "police",
+      "title": "Police Details"
+    },
+    {
+      "id": "other",
+      "title": "Other"
+    },
+    {
+      "id": "payment",
+      "title": "Authority for Payment"
+    },
+    {
+      "id": "property",
+      "title": "Statement of Property Lost, Stolen or Damaged"
+    },
+    {
+      "id": "declaration",
+      "title": "Information Sharing / Declaration"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNumber",
+      "section": "insured",
+      "label": "Policy number",
+      "type": "text",
+      "x0": 113.9,
+      "x1": 287.8,
+      "rows": [
+        216.97
+      ]
+    },
+    {
+      "id": "insuredName",
+      "section": "insured",
+      "label": "Insured name",
+      "type": "text",
+      "required": true,
+      "x0": 113.9,
+      "x1": 288.3,
+      "rows": [
+        281.27
+      ]
+    },
+    {
+      "id": "cellNumber",
+      "section": "insured",
+      "label": "Cell number",
+      "type": "text",
+      "x0": 388.8,
+      "x1": 578.7,
+      "rows": [
+        281.27
+      ]
+    },
+    {
+      "id": "businessDescription",
+      "section": "insured",
+      "label": "Business description",
+      "type": "text",
+      "x0": 113.9,
+      "x1": 288.3,
+      "rows": [
+        302.97
+      ]
+    },
+    {
+      "id": "physicalAddress",
+      "section": "insured",
+      "label": "Physical address",
+      "type": "text",
+      "multiline": true,
+      "x0": 388.8,
+      "x1": 578.7,
+      "rows": [
+        302.97,
+        324.57
+      ]
+    },
+    {
+      "id": "emailAddress",
+      "section": "insured",
+      "label": "Email address",
+      "type": "text",
+      "x0": 113.9,
+      "x1": 288.3,
+      "rows": [
+        324.57
+      ]
+    },
+    {
+      "id": "dateOfLoss",
+      "section": "occurrence",
+      "label": "Date of loss",
+      "type": "text",
+      "x0": 113.9,
+      "x1": 197.5,
+      "rows": [
+        396.07
+      ]
+    },
+    {
+      "id": "timeOfLoss",
+      "section": "occurrence",
+      "label": "Time of loss",
+      "type": "text",
+      "x0": 263.9,
+      "x1": 320.4,
+      "rows": [
+        396.07
+      ]
+    },
+    {
+      "id": "lossDiscoveredWhen",
+      "section": "occurrence",
+      "label": "When was loss discovered?",
+      "type": "text",
+      "x0": 449.2,
+      "x1": 578.3,
+      "rows": [
+        394.97
+      ]
+    },
+    {
+      "id": "lossLocation",
+      "section": "occurrence",
+      "label": "Location of the loss",
+      "type": "text",
+      "x0": 113.9,
+      "x1": 336.2,
+      "rows": [
+        417.77
+      ]
+    },
+    {
+      "id": "premisesOccupied",
+      "section": "occurrence",
+      "label": "Were the premises occupied?",
+      "type": "choice",
+      "acroField": "Group109",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "acroValue": "Choice3",
+          "x": 501.4,
+          "y": 407.82
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "acroValue": "Choice4",
+          "x": 549.9,
+          "y": 407.82
+        }
+      ]
+    },
+    {
+      "id": "premisesOccupiedByWhom",
+      "section": "occurrence",
+      "label": "If yes, by whom?",
+      "type": "text",
+      "x0": 99.8,
+      "x1": 311.7,
+      "rows": [
+        440.17
+      ]
+    },
+    {
+      "id": "lastOccupiedDate",
+      "section": "occurrence",
+      "label": "Last occupied date",
+      "type": "text",
+      "x0": 410.6,
+      "x1": 578.6,
+      "rows": [
+        440.17
+      ]
+    },
+    {
+      "id": "occupationPurpose",
+      "section": "occurrence",
+      "label": "Purpose of the occupation",
+      "type": "text",
+      "x0": 142.2,
+      "x1": 578.2,
+      "rows": [
+        462.57
+      ]
+    },
+    {
+      "id": "lossDescription",
+      "section": "occurrence",
+      "multiline": true,
+      "label": "Describe fully how the loss or accident occurred, stating how (if applicable) entry was gained to the premises.",
+      "type": "text",
+      "x0": 18.5,
+      "x1": 578.2,
+      "rows": [
+        510.67,
+        528.77,
+        546.97
+      ]
+    },
+    {
+      "id": "otherPartyName1",
+      "section": "occurrence",
+      "label": "If loss/damage was caused by another party — full name and surname",
+      "type": "text",
+      "x0": 129.1,
+      "x1": 287.4,
+      "rows": [
+        588.77
+      ]
+    },
+    {
+      "id": "otherPartyName2",
+      "section": "occurrence",
+      "label": "If loss/damage was caused by another party — full name and surname (2)",
+      "type": "text",
+      "x0": 413.7,
+      "x1": 577.8,
+      "rows": [
+        588.77
+      ]
+    },
+    {
+      "id": "previousLossDamage",
+      "section": "occurrence",
+      "label": "Have you previously suffered loss/damage?",
+      "type": "choice",
+      "acroField": "Group108",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "acroValue": "Choice1",
+          "x": 228.05,
+          "y": 600.12
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "acroValue": "Choice2",
+          "x": 276.5,
+          "y": 599.62
+        }
+      ]
+    },
+    {
+      "id": "previousLossDetails",
+      "section": "occurrence",
+      "label": "If yes, provide details",
+      "type": "text",
+      "x0": 428.4,
+      "x1": 577.8,
+      "rows": [
+        610.97
+      ]
+    },
+    {
+      "id": "insurerDetails",
+      "section": "occurrence",
+      "label": "If insured, provide details of Insurer",
+      "type": "text",
+      "x0": 182,
+      "x1": 577.8,
+      "rows": [
+        633.57
+      ]
+    },
+    {
+      "id": "policeReferenceNumber",
+      "section": "police",
+      "label": "Police reference number",
+      "type": "text",
+      "x0": 135.7,
+      "x1": 288.3,
+      "rows": [
+        708.57
+      ]
+    },
+    {
+      "id": "policeStation",
+      "section": "police",
+      "label": "Police station",
+      "type": "text",
+      "x0": 388.8,
+      "x1": 578.7,
+      "rows": [
+        708.57
+      ]
+    },
+    {
+      "id": "dateReported",
+      "section": "police",
+      "label": "Date reported",
+      "type": "text",
+      "x0": 135.7,
+      "x1": 288.3,
+      "rows": [
+        730.27
+      ]
+    },
+    {
+      "id": "officerName",
+      "section": "police",
+      "label": "Officer name",
+      "type": "text",
+      "x0": 135.7,
+      "x1": 288.3,
+      "rows": [
+        751.87
+      ]
+    },
+    {
+      "id": "interestedPartyYesNo",
+      "section": "other",
+      "label": "Are there any other parties with an interest in the property? (e.g. Credit agreement)",
+      "type": "text",
+      "placeholder": "Yes / No",
+      "acroField": "Dropdown52",
+      "page": 1,
+      "x0": 462,
+      "x1": 578,
+      "rows": [
+        78.17
+      ]
+    },
+    {
+      "id": "interestedPartyDetails",
+      "section": "other",
+      "label": "If yes, provide details",
+      "multiline": true,
+      "type": "text",
+      "page": 1,
+      "x0": 20.5,
+      "x1": 578,
+      "rows": [
+        116.17,
+        133.17,
+        150.17
+      ]
+    },
+    {
+      "id": "otherInsuranceYesNo",
+      "section": "other",
+      "label": "Is there any other insurance covering this loss/damage?",
+      "type": "text",
+      "placeholder": "Yes / No",
+      "acroField": "Dropdown53",
+      "page": 1,
+      "x0": 352,
+      "x1": 578,
+      "rows": [
+        174.87
+      ]
+    },
+    {
+      "id": "otherInsuranceDetails",
+      "section": "other",
+      "label": "If yes, provide details",
+      "multiline": true,
+      "type": "text",
+      "page": 1,
+      "x0": 21,
+      "x1": 578.4,
+      "rows": [
+        212.87,
+        229.87,
+        246.87
+      ]
+    },
+    {
+      "id": "estimatedTotalValue",
+      "section": "other",
+      "label": "Estimated total value of all property insured under the policy",
+      "type": "text",
+      "page": 1,
+      "x0": 296.4,
+      "x1": 407.1,
+      "rows": [
+        268.07
+      ]
+    },
+    {
+      "id": "bankName",
+      "section": "payment",
+      "label": "Name of bank",
+      "type": "text",
+      "page": 1,
+      "x0": 97.6,
+      "x1": 254.8,
+      "rows": [
+        462.37
+      ]
+    },
+    {
+      "id": "branchNumber",
+      "section": "payment",
+      "label": "Branch number",
+      "type": "text",
+      "page": 1,
+      "x0": 362.3,
+      "x1": 519.5,
+      "rows": [
+        462.37
+      ]
+    },
+    {
+      "id": "accountNumber",
+      "section": "payment",
+      "label": "Account number",
+      "type": "text",
+      "page": 1,
+      "x0": 97.6,
+      "x1": 254.8,
+      "rows": [
+        486.97
+      ]
+    },
+    {
+      "id": "accountHolderName",
+      "section": "payment",
+      "label": "Name of account holder",
+      "type": "text",
+      "page": 1,
+      "x0": 133.2,
+      "x1": 254.8,
+      "rows": [
+        513.17
+      ]
+    },
+    {
+      "id": "paymentSignature",
+      "section": "payment",
+      "label": "Signature",
+      "type": "signature",
+      "page": 1,
+      "x0": 96.7,
+      "x1": 255.1,
+      "bottom": 560.17,
+      "height": 18
+    },
+    {
+      "id": "propertyNote",
+      "section": "property",
+      "type": "note",
+      "page": 2,
+      "label": "Please attach a copy of Assets listing and proof of purchase."
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "page": 3,
+      "label": "You hereby give consent to Guardrisk to process, use, share and retain your personal information for its designated purpose. I/we hereby declare the aforegoing particulars to be true in every respect."
+    },
+    {
+      "id": "insuredClaimantName",
+      "section": "declaration",
+      "label": "Full name of insured/claimant",
+      "type": "text",
+      "required": true,
+      "page": 3,
+      "x0": 201.3,
+      "x1": 358.6,
+      "rows": [
+        734.67
+      ]
+    },
+    {
+      "id": "insuredClaimantSignature",
+      "section": "declaration",
+      "label": "Signature (insured/claimant)",
+      "type": "signature",
+      "required": true,
+      "page": 3,
+      "x0": 439.9,
+      "x1": 571,
+      "bottom": 734.67,
+      "height": 18
+    },
+    {
+      "id": "driverName",
+      "section": "declaration",
+      "label": "Full name of driver (where applicable)",
+      "type": "text",
+      "page": 3,
+      "x0": 200.8,
+      "x1": 357.6,
+      "rows": [
+        763.07
+      ]
+    },
+    {
+      "id": "driverSignature",
+      "section": "declaration",
+      "label": "Signature (driver)",
+      "type": "signature",
+      "page": 3,
+      "x0": 440.4,
+      "x1": 572,
+      "bottom": 764.17,
+      "height": 18
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "property__property",
+      "section": "property",
+      "itemLabel": "Property",
+      "subFields": [
+        {
+          "key": "Description",
+          "label": "Description of property (Serial and assets no.)",
+          "type": "text"
+        },
+        {
+          "key": "DateAcquired",
+          "label": "Date acquired",
+          "type": "text"
+        },
+        {
+          "key": "PurchasedFrom",
+          "label": "Purchased/acquired from",
+          "type": "text"
+        },
+        {
+          "key": "AmountClaimed",
+          "label": "Amount claimed",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 17,
+      "fixedSlots": [
+        [
+          {
+            "id": "property1Description",
+            "section": "property",
+            "label": "Row 1 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              169.17
+            ]
+          },
+          {
+            "id": "property1DateAcquired",
+            "section": "property",
+            "label": "Row 1 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              169.17
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property1PurchasedFrom",
+            "section": "property",
+            "label": "Row 1 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              169.17
+            ]
+          },
+          {
+            "id": "property1AmountClaimed",
+            "section": "property",
+            "label": "Row 1 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              169.17
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property2Description",
+            "section": "property",
+            "label": "Row 2 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              205.17
+            ]
+          },
+          {
+            "id": "property2DateAcquired",
+            "section": "property",
+            "label": "Row 2 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              205.17
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property2PurchasedFrom",
+            "section": "property",
+            "label": "Row 2 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              205.17
+            ]
+          },
+          {
+            "id": "property2AmountClaimed",
+            "section": "property",
+            "label": "Row 2 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              205.17
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property3Description",
+            "section": "property",
+            "label": "Row 3 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              240.37
+            ]
+          },
+          {
+            "id": "property3DateAcquired",
+            "section": "property",
+            "label": "Row 3 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              240.37
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property3PurchasedFrom",
+            "section": "property",
+            "label": "Row 3 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              240.37
+            ]
+          },
+          {
+            "id": "property3AmountClaimed",
+            "section": "property",
+            "label": "Row 3 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              240.37
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property4Description",
+            "section": "property",
+            "label": "Row 4 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              274.82
+            ]
+          },
+          {
+            "id": "property4DateAcquired",
+            "section": "property",
+            "label": "Row 4 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              274.82
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property4PurchasedFrom",
+            "section": "property",
+            "label": "Row 4 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              274.82
+            ]
+          },
+          {
+            "id": "property4AmountClaimed",
+            "section": "property",
+            "label": "Row 4 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              274.82
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property5Description",
+            "section": "property",
+            "label": "Row 5 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              310.87
+            ]
+          },
+          {
+            "id": "property5DateAcquired",
+            "section": "property",
+            "label": "Row 5 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              310.87
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property5PurchasedFrom",
+            "section": "property",
+            "label": "Row 5 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              310.87
+            ]
+          },
+          {
+            "id": "property5AmountClaimed",
+            "section": "property",
+            "label": "Row 5 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              310.87
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property6Description",
+            "section": "property",
+            "label": "Row 6 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              346.27
+            ]
+          },
+          {
+            "id": "property6DateAcquired",
+            "section": "property",
+            "label": "Row 6 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              346.27
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property6PurchasedFrom",
+            "section": "property",
+            "label": "Row 6 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              346.27
+            ]
+          },
+          {
+            "id": "property6AmountClaimed",
+            "section": "property",
+            "label": "Row 6 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              346.27
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property7Description",
+            "section": "property",
+            "label": "Row 7 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              382.27
+            ]
+          },
+          {
+            "id": "property7DateAcquired",
+            "section": "property",
+            "label": "Row 7 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              382.27
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property7PurchasedFrom",
+            "section": "property",
+            "label": "Row 7 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              382.27
+            ]
+          },
+          {
+            "id": "property7AmountClaimed",
+            "section": "property",
+            "label": "Row 7 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              382.27
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property8Description",
+            "section": "property",
+            "label": "Row 8 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              417.27
+            ]
+          },
+          {
+            "id": "property8DateAcquired",
+            "section": "property",
+            "label": "Row 8 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              417.27
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property8PurchasedFrom",
+            "section": "property",
+            "label": "Row 8 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              417.27
+            ]
+          },
+          {
+            "id": "property8AmountClaimed",
+            "section": "property",
+            "label": "Row 8 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              417.27
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property9Description",
+            "section": "property",
+            "label": "Row 9 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              453.27
+            ]
+          },
+          {
+            "id": "property9DateAcquired",
+            "section": "property",
+            "label": "Row 9 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              453.27
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property9PurchasedFrom",
+            "section": "property",
+            "label": "Row 9 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              453.27
+            ]
+          },
+          {
+            "id": "property9AmountClaimed",
+            "section": "property",
+            "label": "Row 9 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              453.27
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property10Description",
+            "section": "property",
+            "label": "Row 10 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              488.17
+            ]
+          },
+          {
+            "id": "property10DateAcquired",
+            "section": "property",
+            "label": "Row 10 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              488.17
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property10PurchasedFrom",
+            "section": "property",
+            "label": "Row 10 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              488.17
+            ]
+          },
+          {
+            "id": "property10AmountClaimed",
+            "section": "property",
+            "label": "Row 10 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              488.17
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property11Description",
+            "section": "property",
+            "label": "Row 11 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              524.82
+            ]
+          },
+          {
+            "id": "property11DateAcquired",
+            "section": "property",
+            "label": "Row 11 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              524.82
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property11PurchasedFrom",
+            "section": "property",
+            "label": "Row 11 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              524.82
+            ]
+          },
+          {
+            "id": "property11AmountClaimed",
+            "section": "property",
+            "label": "Row 11 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              524.82
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property12Description",
+            "section": "property",
+            "label": "Row 12 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              559.57
+            ]
+          },
+          {
+            "id": "property12DateAcquired",
+            "section": "property",
+            "label": "Row 12 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              559.57
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property12PurchasedFrom",
+            "section": "property",
+            "label": "Row 12 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              559.57
+            ]
+          },
+          {
+            "id": "property12AmountClaimed",
+            "section": "property",
+            "label": "Row 12 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              559.57
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property13Description",
+            "section": "property",
+            "label": "Row 13 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              593.77
+            ]
+          },
+          {
+            "id": "property13DateAcquired",
+            "section": "property",
+            "label": "Row 13 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              593.77
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property13PurchasedFrom",
+            "section": "property",
+            "label": "Row 13 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              593.77
+            ]
+          },
+          {
+            "id": "property13AmountClaimed",
+            "section": "property",
+            "label": "Row 13 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              593.77
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property14Description",
+            "section": "property",
+            "label": "Row 14 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              630.37
+            ]
+          },
+          {
+            "id": "property14DateAcquired",
+            "section": "property",
+            "label": "Row 14 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              630.37
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property14PurchasedFrom",
+            "section": "property",
+            "label": "Row 14 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              630.37
+            ]
+          },
+          {
+            "id": "property14AmountClaimed",
+            "section": "property",
+            "label": "Row 14 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              630.37
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property15Description",
+            "section": "property",
+            "label": "Row 15 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              665.27
+            ]
+          },
+          {
+            "id": "property15DateAcquired",
+            "section": "property",
+            "label": "Row 15 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              665.27
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property15PurchasedFrom",
+            "section": "property",
+            "label": "Row 15 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              665.27
+            ]
+          },
+          {
+            "id": "property15AmountClaimed",
+            "section": "property",
+            "label": "Row 15 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              665.27
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property16Description",
+            "section": "property",
+            "label": "Row 16 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              701.27
+            ]
+          },
+          {
+            "id": "property16DateAcquired",
+            "section": "property",
+            "label": "Row 16 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              701.27
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property16PurchasedFrom",
+            "section": "property",
+            "label": "Row 16 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              701.27
+            ]
+          },
+          {
+            "id": "property16AmountClaimed",
+            "section": "property",
+            "label": "Row 16 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              701.27
+            ],
+            "startSize": 7
+          }
+        ],
+        [
+          {
+            "id": "property17Description",
+            "section": "property",
+            "label": "Row 17 — Description of property (Serial and assets no.)",
+            "type": "text",
+            "page": 2,
+            "x0": 63,
+            "x1": 217,
+            "rows": [
+              736.37
+            ]
+          },
+          {
+            "id": "property17DateAcquired",
+            "section": "property",
+            "label": "Row 17 — Date acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 246,
+            "x1": 314,
+            "rows": [
+              736.37
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "property17PurchasedFrom",
+            "section": "property",
+            "label": "Row 17 — Purchased/acquired from",
+            "type": "text",
+            "page": 2,
+            "x0": 328,
+            "x1": 456,
+            "rows": [
+              736.37
+            ]
+          },
+          {
+            "id": "property17AmountClaimed",
+            "section": "property",
+            "label": "Row 17 — Amount claimed",
+            "type": "text",
+            "page": 2,
+            "x0": 468,
+            "x1": 563,
+            "rows": [
+              736.37
+            ],
+            "startSize": 7
+          }
+        ]
+      ]
+    }
+  ]
+}

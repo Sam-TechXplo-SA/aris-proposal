@@ -1,0 +1,1031 @@
+{
+  "id": "saws-capital-alliance-funeral-claim",
+  "insurer": "Capital Alliance (Liberty)",
+  "title": "Funeral Claim Form",
+  "description": "Compulsory Benefit",
+  "filenameField": "mainMemberSurname",
+  "defaultLineGap": 1.5,
+  "sections": [
+    {
+      "id": "checklist",
+      "title": "Checklist and Supporting Documents"
+    },
+    {
+      "id": "header",
+      "title": "Section A: Policy Details"
+    },
+    {
+      "id": "mainMember",
+      "title": "Section B: Main Member's Details"
+    },
+    {
+      "id": "deceased",
+      "title": "Section C: Deceased's Details"
+    },
+    {
+      "id": "payment",
+      "title": "Section D: Payment Details (Compulsory)"
+    },
+    {
+      "id": "beneficiary",
+      "title": "Section E: Beneficiary's Details"
+    },
+    {
+      "id": "employerDeclaration",
+      "title": "Section F: Employer Declaration"
+    },
+    {
+      "id": "fica",
+      "title": "Section G: FICA Requirements"
+    }
+  ],
+  "fields": [
+    {
+      "id": "checklist1",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 198.95,
+      "label": "Fully completed Funeral Benefit Claim form, signed and stamped by the authorised person."
+    },
+    {
+      "id": "checklist2",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 211.65,
+      "label": "Certified copy of the computerised death certificate."
+    },
+    {
+      "id": "checklist3",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 224.45,
+      "label": "Certified copy of the Deceased's ID document/copy of the back and front of the ID smart card/passport/copy of birth certificate (if minor)."
+    },
+    {
+      "id": "checklist4",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 237.15,
+      "label": "Certified copy of the Main Member's ID document/copy of the back and front of the ID smart card/passport."
+    },
+    {
+      "id": "checklist5",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 249.95,
+      "label": "Certified copy of the South African work permit (if applicable)."
+    },
+    {
+      "id": "checklist6",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 262.65,
+      "label": "Copy of the membership application form (signed and dated)."
+    },
+    {
+      "id": "checklist7",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 275.45,
+      "label": "Copy of the premium schedule indicating the Main Member's premium payment history for the past 6 (six) months."
+    },
+    {
+      "id": "checklist8",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 286.35,
+      "label": "If the cause of death is unnatural and there is a suicide clause, we require a copy of a completed DHA1663 indicating the cause of death or a copy of the police report. This is also required for children that are 14 (fourteen) years of age and above."
+    },
+    {
+      "id": "checklist9",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 304.35,
+      "label": "Certified copy of the marriage certificate. If not available, we require a declaration from a third party i.e. Tribal Chief/Community Leader of Minister of religion, confirming the relationship."
+    },
+    {
+      "id": "checklist10",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 322.35,
+      "label": "If a child dies and the surname differs from that of the Main Member, we require an affidavit from the Main Member and the other parent confirming the relationship."
+    },
+    {
+      "id": "checklist11",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 342.15,
+      "label": "Certified copy of the beneficiary's ID document/copy of the back and front of the ID smart card/passport."
+    },
+    {
+      "id": "checklist12",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 353.05,
+      "label": "If the child is over the age of 21 (twenty-one) years, we require a copy of a letter from the school confirming the child's registration and current grade that the child was attending or letter from a tertiary institution."
+    },
+    {
+      "id": "checklist13",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 371.05,
+      "label": "Proof of account in the form of a copy of a bank statement on a bank letterhead or stamped by the bank. The proof of account should confirm the accountholder's full name(s), account number and branch code."
+    },
+    {
+      "id": "checklist14",
+      "section": "checklist",
+      "type": "checkbox",
+      "markSize": 6,
+      "x": 41.35,
+      "y": 390.95,
+      "label": "Estate Late banking details."
+    },
+    {
+      "id": "schemeName",
+      "section": "header",
+      "label": "Scheme Name",
+      "type": "text",
+      "x0": 122,
+      "x1": 297,
+      "rows": [
+        489.25
+      ]
+    },
+    {
+      "id": "schemeNumber",
+      "section": "header",
+      "label": "Scheme Number",
+      "type": "text",
+      "x0": 379,
+      "x1": 565,
+      "rows": [
+        489.25
+      ]
+    },
+    {
+      "id": "policyNumber",
+      "section": "header",
+      "label": "Policy Number",
+      "type": "text",
+      "x0": 122,
+      "x1": 297,
+      "rows": [
+        502.55
+      ]
+    },
+    {
+      "id": "memberNumber",
+      "section": "header",
+      "label": "Member Number",
+      "type": "text",
+      "x0": 379,
+      "x1": 565,
+      "rows": [
+        502.55
+      ]
+    },
+    {
+      "id": "claimAmount",
+      "section": "header",
+      "label": "Claim Amount (R)",
+      "type": "text",
+      "x0": 129,
+      "x1": 297,
+      "rows": [
+        515.75
+      ]
+    },
+    {
+      "id": "mainMemberTitle",
+      "section": "mainMember",
+      "label": "Title",
+      "type": "text",
+      "x0": 60,
+      "x1": 87,
+      "rows": [
+        553.45
+      ]
+    },
+    {
+      "id": "mainMemberInitials",
+      "section": "mainMember",
+      "label": "Initial(s)",
+      "type": "text",
+      "x0": 131,
+      "x1": 157,
+      "rows": [
+        553.45
+      ]
+    },
+    {
+      "id": "mainMemberFullNames",
+      "section": "mainMember",
+      "label": "Full Name(s)",
+      "type": "text",
+      "required": true,
+      "x0": 220,
+      "x1": 565,
+      "rows": [
+        553.45
+      ]
+    },
+    {
+      "id": "mainMemberSurname",
+      "section": "mainMember",
+      "label": "Surname",
+      "type": "text",
+      "required": true,
+      "x0": 82,
+      "x1": 565,
+      "rows": [
+        566.15
+      ]
+    },
+    {
+      "id": "mainMemberDateOfBirth",
+      "section": "mainMember",
+      "label": "Date of Birth",
+      "type": "text",
+      "x0": 93,
+      "x1": 259,
+      "rows": [
+        578.95
+      ]
+    },
+    {
+      "id": "mainMemberIdPassport",
+      "section": "mainMember",
+      "label": "ID/Passport Number",
+      "type": "text",
+      "x0": 358,
+      "x1": 565,
+      "rows": [
+        578.95
+      ]
+    },
+    {
+      "id": "mainMemberResidentialAddress",
+      "section": "mainMember",
+      "label": "Residential Address",
+      "type": "text",
+      "multiline": true,
+      "x0": 93,
+      "x1": 451,
+      "rows": [
+        591.65,
+        604.45
+      ]
+    },
+    {
+      "id": "mainMemberPostalCode",
+      "section": "mainMember",
+      "label": "Postal Code",
+      "type": "text",
+      "x0": 513,
+      "x1": 564,
+      "rows": [
+        604.45
+      ],
+      "maxLength": 4,
+      "align": "center"
+    },
+    {
+      "id": "mainMemberTelWork",
+      "section": "mainMember",
+      "label": "Contact Number (Work)",
+      "type": "text",
+      "x0": 152,
+      "x1": 246,
+      "rows": [
+        617.15
+      ]
+    },
+    {
+      "id": "mainMemberTelHome",
+      "section": "mainMember",
+      "label": "Contact Number (Home)",
+      "type": "text",
+      "x0": 294,
+      "x1": 405,
+      "rows": [
+        617.15
+      ]
+    },
+    {
+      "id": "mainMemberTelCell",
+      "section": "mainMember",
+      "label": "Contact Number (Cell)",
+      "type": "text",
+      "x0": 443,
+      "x1": 564,
+      "rows": [
+        617.15
+      ]
+    },
+    {
+      "id": "mainMemberEmail",
+      "section": "mainMember",
+      "label": "Email Address",
+      "type": "text",
+      "x0": 103,
+      "x1": 564,
+      "rows": [
+        629.95
+      ]
+    },
+    {
+      "id": "deceasedTitle",
+      "section": "deceased",
+      "label": "Title",
+      "type": "text",
+      "x0": 60,
+      "x1": 87,
+      "rows": [
+        667.55
+      ]
+    },
+    {
+      "id": "deceasedInitials",
+      "section": "deceased",
+      "label": "Initial(s)",
+      "type": "text",
+      "x0": 131,
+      "x1": 157,
+      "rows": [
+        667.55
+      ]
+    },
+    {
+      "id": "deceasedFullNames",
+      "section": "deceased",
+      "label": "Full Name(s)",
+      "type": "text",
+      "x0": 220,
+      "x1": 565,
+      "rows": [
+        667.55
+      ]
+    },
+    {
+      "id": "deceasedSurname",
+      "section": "deceased",
+      "label": "Surname",
+      "type": "text",
+      "x0": 82,
+      "x1": 565,
+      "rows": [
+        680.35
+      ]
+    },
+    {
+      "id": "deceasedDateOfBirth",
+      "section": "deceased",
+      "label": "Date of Birth",
+      "type": "text",
+      "x0": 93,
+      "x1": 259,
+      "rows": [
+        693.05
+      ]
+    },
+    {
+      "id": "deceasedIdPassport",
+      "section": "deceased",
+      "label": "ID/Passport Number",
+      "type": "text",
+      "x0": 358,
+      "x1": 565,
+      "rows": [
+        693.05
+      ]
+    },
+    {
+      "id": "deceasedResidentialAddress",
+      "section": "deceased",
+      "label": "Residential Address",
+      "type": "text",
+      "multiline": true,
+      "x0": 93,
+      "x1": 451,
+      "rows": [
+        705.85,
+        718.55
+      ]
+    },
+    {
+      "id": "deceasedPostalCode",
+      "section": "deceased",
+      "label": "Postal Code",
+      "type": "text",
+      "x0": 513,
+      "x1": 564,
+      "rows": [
+        718.55
+      ],
+      "maxLength": 4,
+      "align": "center"
+    },
+    {
+      "id": "deceasedCauseOfDeath",
+      "section": "deceased",
+      "label": "Cause of Death",
+      "type": "text",
+      "x0": 99,
+      "x1": 259,
+      "rows": [
+        731.35
+      ]
+    },
+    {
+      "id": "deceasedRelationshipToMainMember",
+      "section": "deceased",
+      "label": "Relationship to Main Member",
+      "type": "choice",
+      "multi": false,
+      "markSize": 6,
+      "options": [
+        {
+          "value": "child",
+          "label": "Child",
+          "x": 400.65,
+          "y": 724.85
+        },
+        {
+          "value": "member",
+          "label": "Member",
+          "x": 459.85,
+          "y": 724.85
+        },
+        {
+          "value": "spouse",
+          "label": "Spouse",
+          "x": 518.95,
+          "y": 724.85
+        }
+      ]
+    },
+    {
+      "id": "deceasedChildAge",
+      "section": "deceased",
+      "label": "If \"Child\", please provide the age",
+      "type": "choice",
+      "multi": false,
+      "markSize": 6,
+      "options": [
+        {
+          "value": "0-5",
+          "label": "0 - 5 years",
+          "x": 173.9,
+          "y": 737.55
+        },
+        {
+          "value": "6-13",
+          "label": "6 - 13 years",
+          "x": 280.15,
+          "y": 737.55
+        },
+        {
+          "value": "14-20",
+          "label": "14 - 20 years",
+          "x": 386.5,
+          "y": 737.55
+        },
+        {
+          "value": "21-25-studying",
+          "label": "21 - 25 years studying (proof required)",
+          "x": 173.9,
+          "y": 750.05
+        },
+        {
+          "value": "over-21-handicapped",
+          "label": "Over 21 years handicapped (proof required)",
+          "x": 386.5,
+          "y": 750.05
+        }
+      ]
+    },
+    {
+      "id": "paymentPayee",
+      "section": "payment",
+      "label": "Please clearly indicate who should be paid",
+      "type": "choice",
+      "multi": false,
+      "markSize": 6,
+      "page": 1,
+      "options": [
+        {
+          "value": "main-member",
+          "label": "Main Member",
+          "x": 223.35,
+          "y": 65.95
+        },
+        {
+          "value": "beneficiary",
+          "label": "Beneficiary",
+          "x": 312,
+          "y": 65.95
+        },
+        {
+          "value": "estate-late",
+          "label": "Estate Late",
+          "x": 400.65,
+          "y": 65.95
+        },
+        {
+          "value": "service-provider",
+          "label": "Service Provider",
+          "x": 489.25,
+          "y": 65.95
+        }
+      ]
+    },
+    {
+      "id": "paymentAccountType",
+      "section": "payment",
+      "label": "Type of account",
+      "type": "choice",
+      "multi": false,
+      "markSize": 6,
+      "page": 1,
+      "options": [
+        {
+          "value": "current",
+          "label": "Current",
+          "x": 117.05,
+          "y": 100.15
+        },
+        {
+          "value": "savings",
+          "label": "Savings",
+          "x": 187.9,
+          "y": 100.15
+        },
+        {
+          "value": "transmission",
+          "label": "Transmission",
+          "x": 265.85,
+          "y": 100.15
+        }
+      ]
+    },
+    {
+      "id": "nameOfAccountholder",
+      "section": "payment",
+      "label": "Name of Accountholder",
+      "type": "text",
+      "page": 1,
+      "x0": 131,
+      "x1": 564,
+      "rows": [
+        119.65
+      ]
+    },
+    {
+      "id": "nameOfBank",
+      "section": "payment",
+      "label": "Name of Bank",
+      "type": "text",
+      "page": 1,
+      "x0": 131,
+      "x1": 331,
+      "rows": [
+        132.45
+      ]
+    },
+    {
+      "id": "nameOfBranch",
+      "section": "payment",
+      "label": "Name of Branch",
+      "type": "text",
+      "page": 1,
+      "x0": 408,
+      "x1": 564,
+      "rows": [
+        132.45
+      ]
+    },
+    {
+      "id": "accountNumber",
+      "section": "payment",
+      "label": "Account Number",
+      "type": "text",
+      "page": 1,
+      "x0": 131,
+      "x1": 331,
+      "rows": [
+        145.15
+      ]
+    },
+    {
+      "id": "branchCode",
+      "section": "payment",
+      "label": "Branch Code",
+      "type": "text",
+      "page": 1,
+      "x0": 408,
+      "x1": 564,
+      "rows": [
+        145.15
+      ]
+    },
+    {
+      "id": "employerCompanyRegNo",
+      "section": "payment",
+      "label": "If the Employer is the payee, the company registration number used to open the account",
+      "type": "text",
+      "page": 1,
+      "x0": 408,
+      "x1": 564,
+      "rows": [
+        163.65
+      ]
+    },
+    {
+      "id": "accountholderSignature",
+      "section": "payment",
+      "label": "Accountholder's Signature",
+      "type": "signature",
+      "page": 1,
+      "x0": 34,
+      "x1": 207,
+      "bottom": 241.85,
+      "height": 12
+    },
+    {
+      "id": "accountholderSignDate",
+      "section": "payment",
+      "label": "Date",
+      "type": "text",
+      "page": 1,
+      "x0": 392,
+      "x1": 564,
+      "rows": [
+        241.85
+      ]
+    },
+    {
+      "id": "beneficiaryTitle",
+      "section": "beneficiary",
+      "label": "Title",
+      "type": "text",
+      "page": 1,
+      "x0": 60,
+      "x1": 87,
+      "rows": [
+        291.75
+      ]
+    },
+    {
+      "id": "beneficiaryInitials",
+      "section": "beneficiary",
+      "label": "Initial(s)",
+      "type": "text",
+      "page": 1,
+      "x0": 131,
+      "x1": 157,
+      "rows": [
+        291.75
+      ]
+    },
+    {
+      "id": "beneficiaryFullNames",
+      "section": "beneficiary",
+      "label": "Full Name(s)",
+      "type": "text",
+      "page": 1,
+      "x0": 220,
+      "x1": 565,
+      "rows": [
+        291.75
+      ]
+    },
+    {
+      "id": "beneficiarySurname",
+      "section": "beneficiary",
+      "label": "Surname",
+      "type": "text",
+      "page": 1,
+      "x0": 82,
+      "x1": 565,
+      "rows": [
+        304.55
+      ]
+    },
+    {
+      "id": "beneficiaryDateOfBirth",
+      "section": "beneficiary",
+      "label": "Date of Birth",
+      "type": "text",
+      "page": 1,
+      "x0": 93,
+      "x1": 259,
+      "rows": [
+        317.25
+      ]
+    },
+    {
+      "id": "beneficiaryIdPassport",
+      "section": "beneficiary",
+      "label": "ID/Passport Number",
+      "type": "text",
+      "page": 1,
+      "x0": 358,
+      "x1": 565,
+      "rows": [
+        317.25
+      ]
+    },
+    {
+      "id": "beneficiaryResidentialAddress",
+      "section": "beneficiary",
+      "label": "Residential Address",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 93,
+      "x1": 451,
+      "rows": [
+        330.05,
+        342.75
+      ]
+    },
+    {
+      "id": "beneficiaryPostalCode",
+      "section": "beneficiary",
+      "label": "Postal Code",
+      "type": "text",
+      "page": 1,
+      "x0": 513,
+      "x1": 564,
+      "rows": [
+        342.75
+      ],
+      "maxLength": 4,
+      "align": "center"
+    },
+    {
+      "id": "beneficiaryTelWork",
+      "section": "beneficiary",
+      "label": "Contact Number (Work)",
+      "type": "text",
+      "page": 1,
+      "x0": 152,
+      "x1": 246,
+      "rows": [
+        355.55
+      ]
+    },
+    {
+      "id": "beneficiaryTelHome",
+      "section": "beneficiary",
+      "label": "Contact Number (Home)",
+      "type": "text",
+      "page": 1,
+      "x0": 294,
+      "x1": 405,
+      "rows": [
+        355.55
+      ]
+    },
+    {
+      "id": "beneficiaryTelCell",
+      "section": "beneficiary",
+      "label": "Contact Number (Cell)",
+      "type": "text",
+      "page": 1,
+      "x0": 443,
+      "x1": 564,
+      "rows": [
+        355.55
+      ]
+    },
+    {
+      "id": "beneficiaryEmail",
+      "section": "beneficiary",
+      "label": "Email Address",
+      "type": "text",
+      "page": 1,
+      "x0": 103,
+      "x1": 564,
+      "rows": [
+        368.25
+      ]
+    },
+    {
+      "id": "beneficiaryRelationshipToMainMember",
+      "section": "beneficiary",
+      "label": "Relationship to Main Member (child, spouse, nominated member, etc.)",
+      "type": "text",
+      "page": 1,
+      "x0": 322,
+      "x1": 564,
+      "rows": [
+        381.05
+      ]
+    },
+    {
+      "id": "employerDeclarationNote1",
+      "section": "employerDeclaration",
+      "type": "note",
+      "page": 1,
+      "label": "It is declared that the Main Member commenced employment on ___ and was actively in our service at the date benefits are claimed, and that the Deceased satisfied the conditions to be an eligible Member/Spouse/Child as the case may be."
+    },
+    {
+      "id": "employmentCommencedDate",
+      "section": "employerDeclaration",
+      "label": "Main Member Commenced Employment On",
+      "type": "text",
+      "page": 1,
+      "x0": 299,
+      "x1": 384,
+      "rows": [
+        418.65
+      ]
+    },
+    {
+      "id": "employerDeclarationNote2",
+      "section": "employerDeclaration",
+      "type": "note",
+      "page": 1,
+      "label": "Please note in processing this claim Liberty Group Limited (Liberty) will require and process personal information (PI) which may include special personal information of your employee and their nominated beneficiary. You, therefore, confirm that you have received the necessary consent from your employee and all interested parties for Liberty to receive and process their PI. Please note that Liberty complies with the principles as set out in the Protection of Personal Information Act, 4 of 2013 (\"PoPIA\"). You, therefore, authorise us to collect, record, store and process your employee's and their nominated beneficiary's PI including to assess and process the claim."
+    },
+    {
+      "id": "employerDeclarationNote3",
+      "section": "employerDeclaration",
+      "type": "note",
+      "page": 2,
+      "label": "We hereby declare that the above information and answers are true and correct."
+    },
+    {
+      "id": "signedAtPlace",
+      "section": "employerDeclaration",
+      "label": "Signed At",
+      "type": "text",
+      "page": 2,
+      "x0": 82,
+      "x1": 316,
+      "rows": [
+        88.95
+      ]
+    },
+    {
+      "id": "signedDay",
+      "section": "employerDeclaration",
+      "label": "This Day (of signing)",
+      "type": "text",
+      "page": 2,
+      "x0": 350,
+      "x1": 373,
+      "rows": [
+        88.95
+      ],
+      "maxLength": 2,
+      "align": "center",
+      "placeholder": "DD"
+    },
+    {
+      "id": "signedMonth",
+      "section": "employerDeclaration",
+      "label": "Day Of (month)",
+      "type": "text",
+      "page": 2,
+      "x0": 414,
+      "x1": 515,
+      "rows": [
+        88.95
+      ]
+    },
+    {
+      "id": "signedYear",
+      "section": "employerDeclaration",
+      "label": "20 (year)",
+      "type": "text",
+      "page": 2,
+      "x0": 541,
+      "x1": 565,
+      "rows": [
+        88.95
+      ],
+      "maxLength": 2,
+      "align": "center",
+      "placeholder": "YY"
+    },
+    {
+      "id": "employerFullNames",
+      "section": "employerDeclaration",
+      "label": "Full Name(s)",
+      "type": "text",
+      "page": 2,
+      "x0": 34,
+      "x1": 207,
+      "rows": [
+        127.15
+      ]
+    },
+    {
+      "id": "authorisedPersonSignature",
+      "section": "employerDeclaration",
+      "label": "Authorised Person's Signature",
+      "type": "signature",
+      "required": true,
+      "page": 2,
+      "x0": 224,
+      "x1": 373,
+      "bottom": 127.15,
+      "height": 12
+    },
+    {
+      "id": "designation",
+      "section": "employerDeclaration",
+      "label": "Designation",
+      "type": "text",
+      "page": 2,
+      "x0": 391,
+      "x1": 564,
+      "rows": [
+        127.15
+      ]
+    },
+    {
+      "id": "companyStampNote",
+      "section": "employerDeclaration",
+      "type": "note",
+      "page": 2,
+      "label": "A physical company stamp is applied inside the printed box on the original form — nothing to fill in here digitally."
+    },
+    {
+      "id": "ficaNote",
+      "section": "fica",
+      "type": "note",
+      "page": 2,
+      "label": "The Financial Intelligence Centre Act (\"FICA\") requires Liberty to comply with certain requirements when processing the service request you require. Please ensure that the following compulsory FICA documents are submitted with each claim and place a tick where applicable. If no valid FICA documents are submitted, claim payments will not be processed."
+    },
+    {
+      "id": "ficaIdDocument",
+      "section": "fica",
+      "type": "checkbox",
+      "markSize": 6,
+      "page": 2,
+      "x": 40.85,
+      "y": 392.05,
+      "label": "Certified copy of the ID document/copy of the back and front of the ID smart card (SA Citizens)/passport (Foreign Nationals)."
+    },
+    {
+      "id": "ficaBankStatement",
+      "section": "fica",
+      "type": "checkbox",
+      "markSize": 6,
+      "page": 2,
+      "x": 40.85,
+      "y": 402.95,
+      "label": "Certified copy of bank statement/bank account confirmation letter confirming individual/parent/guardian's banking details (not older than 3 (three) months)."
+    },
+    {
+      "id": "ficaBirthCertificate",
+      "section": "fica",
+      "type": "checkbox",
+      "markSize": 6,
+      "page": 2,
+      "x": 40.85,
+      "y": 422.75,
+      "label": "Certified copy of the birth certificate (abridged or unabridged)."
+    },
+    {
+      "id": "ficaGuardianProof",
+      "section": "fica",
+      "type": "checkbox",
+      "markSize": 6,
+      "page": 2,
+      "x": 40.85,
+      "y": 435.55,
+      "label": "In the case of a guardian/caregiver, provide proof, such as a court order or affidavit."
+    }
+  ],
+  "repeatingGroups": []
+}

@@ -1,0 +1,1608 @@
+{
+  "id": "charter-risk-motor-vehicle-claim",
+  "insurer": "Charter Risk",
+  "title": "Motor Vehicle Claim Form",
+  "description": "(Delete Sections not Applicable)",
+  "filenameField": "insuredNameOccupation",
+  "sections": [
+    {
+      "id": "insurer",
+      "title": "Insurer"
+    },
+    {
+      "id": "insured",
+      "title": "Insured"
+    },
+    {
+      "id": "vehicle",
+      "title": "Vehicle"
+    },
+    {
+      "id": "damage",
+      "title": "Damage"
+    },
+    {
+      "id": "driver",
+      "title": "Driver"
+    },
+    {
+      "id": "passengers",
+      "title": "Passengers"
+    },
+    {
+      "id": "otherParty",
+      "title": "Other Party"
+    },
+    {
+      "id": "otherPartyInjuries",
+      "title": "Other Party — Personal Injuries"
+    },
+    {
+      "id": "witnesses",
+      "title": "Witnesses"
+    },
+    {
+      "id": "theft",
+      "title": "Theft (vehicle theft claims only)"
+    },
+    {
+      "id": "incident",
+      "title": "Incident"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNo",
+      "section": "insurer",
+      "label": "Policy No",
+      "type": "text",
+      "x0": 174,
+      "x1": 335,
+      "rows": [
+        147.4
+      ]
+    },
+    {
+      "id": "hpAccountNo",
+      "section": "insurer",
+      "label": "HP Account No",
+      "type": "text",
+      "x0": 422,
+      "x1": 578,
+      "rows": [
+        147.4
+      ]
+    },
+    {
+      "id": "insuredNameOccupation",
+      "section": "insured",
+      "label": "Name and Occupation",
+      "type": "text",
+      "required": true,
+      "x0": 210,
+      "x1": 578,
+      "rows": [
+        168.3
+      ]
+    },
+    {
+      "id": "insuredPhysicalAddress",
+      "section": "insured",
+      "label": "Physical Address",
+      "type": "text",
+      "x0": 210,
+      "x1": 578,
+      "rows": [
+        189.3
+      ]
+    },
+    {
+      "id": "insuredPostalAddress",
+      "section": "insured",
+      "label": "Postal Address",
+      "type": "text",
+      "x0": 210,
+      "x1": 578,
+      "rows": [
+        210.1
+      ]
+    },
+    {
+      "id": "insuredTelCellNo",
+      "section": "insured",
+      "label": "Tel. No & Cell No",
+      "type": "text",
+      "x0": 210,
+      "x1": 578,
+      "rows": [
+        231
+      ]
+    },
+    {
+      "id": "insuredBankAccountNo",
+      "section": "insured",
+      "label": "Bank Account No",
+      "type": "text",
+      "x0": 210,
+      "x1": 578,
+      "rows": [
+        251.9
+      ]
+    },
+    {
+      "id": "financeCompany",
+      "section": "vehicle",
+      "label": "If Vehicle is subject to Hire Purchase, Credit or Leasing Agreement, state name and address of Finance Company",
+      "type": "text",
+      "x0": 118,
+      "x1": 220,
+      "rows": [
+        319.6
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "vehicleMake",
+      "section": "vehicle",
+      "label": "Make",
+      "type": "text",
+      "x0": 228,
+      "x1": 300,
+      "rows": [
+        298.7
+      ]
+    },
+    {
+      "id": "vehicleVinNo",
+      "section": "vehicle",
+      "label": "VIN No.",
+      "type": "text",
+      "x0": 309,
+      "x1": 377,
+      "rows": [
+        298.7
+      ],
+      "startSize": 6.5,
+      "floorSize": 5,
+      "maxLength": 17
+    },
+    {
+      "id": "vehicleGvm",
+      "section": "vehicle",
+      "label": "G.V.M.",
+      "type": "text",
+      "x0": 386,
+      "x1": 460,
+      "rows": [
+        298.7
+      ]
+    },
+    {
+      "id": "vehicleKmReading",
+      "section": "vehicle",
+      "label": "Km reading",
+      "type": "text",
+      "x0": 469,
+      "x1": 578,
+      "rows": [
+        298.7
+      ]
+    },
+    {
+      "id": "vehicleRegistrationNo",
+      "section": "vehicle",
+      "label": "Registration No",
+      "type": "text",
+      "x0": 228,
+      "x1": 300,
+      "rows": [
+        319.6
+      ]
+    },
+    {
+      "id": "vehicleValue",
+      "section": "vehicle",
+      "label": "Value",
+      "type": "text",
+      "x0": 309,
+      "x1": 377,
+      "rows": [
+        319.6
+      ]
+    },
+    {
+      "id": "vehicleModelYear",
+      "section": "vehicle",
+      "label": "Model & Year",
+      "type": "text",
+      "x0": 386,
+      "x1": 460,
+      "rows": [
+        319.6
+      ]
+    },
+    {
+      "id": "vehiclePurchaseDatePrice",
+      "section": "vehicle",
+      "label": "Date of Purchase & price paid",
+      "type": "text",
+      "x0": 469,
+      "x1": 578,
+      "rows": [
+        319.6
+      ],
+      "startSize": 7.5
+    },
+    {
+      "id": "damageToOwnVehicle",
+      "section": "damage",
+      "label": "Damage to own vehicle",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        350.6
+      ]
+    },
+    {
+      "id": "estimateForRepairs",
+      "section": "damage",
+      "label": "Estimate for repairs/attach quotation",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        371.9
+      ]
+    },
+    {
+      "id": "repairersNameAddressTel",
+      "section": "damage",
+      "label": "Repairers name, address & Tel. No",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        393.4
+      ]
+    },
+    {
+      "id": "whereVehicleInspected",
+      "section": "damage",
+      "label": "Where can vehicle be inspected?",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        414.9
+      ]
+    },
+    {
+      "id": "wasVehicleTowedByWhom",
+      "section": "damage",
+      "label": "* Was vehicle towed - by whom?",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        436.4
+      ]
+    },
+    {
+      "id": "driverFullName",
+      "section": "driver",
+      "label": "Full Name",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        457.2
+      ]
+    },
+    {
+      "id": "driverAddress",
+      "section": "driver",
+      "label": "Address",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        478
+      ]
+    },
+    {
+      "id": "driverTelNo",
+      "section": "driver",
+      "label": "Tel. No:",
+      "type": "text",
+      "x0": 485,
+      "x1": 578,
+      "rows": [
+        498.9
+      ]
+    },
+    {
+      "id": "driverOccupationDob",
+      "section": "driver",
+      "label": "Occupation/ Date of Birth",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        519.8
+      ]
+    },
+    {
+      "id": "licenceNo",
+      "section": "driver",
+      "label": "Licence No.",
+      "type": "text",
+      "x0": 255,
+      "x1": 318,
+      "rows": [
+        541.1
+      ],
+      "maxLength": 20
+    },
+    {
+      "id": "licenceDate",
+      "section": "driver",
+      "label": "Licence Date",
+      "type": "text",
+      "x0": 327,
+      "x1": 368,
+      "rows": [
+        541.1
+      ],
+      "maxLength": 10,
+      "placeholder": "DD/MM/YYYY"
+    },
+    {
+      "id": "licencePlace",
+      "section": "driver",
+      "label": "Licence Place",
+      "type": "text",
+      "x0": 377,
+      "x1": 458,
+      "rows": [
+        541.1
+      ],
+      "maxLength": 24
+    },
+    {
+      "id": "licenceCode",
+      "section": "driver",
+      "label": "Licence Code",
+      "type": "text",
+      "x0": 467,
+      "x1": 499,
+      "rows": [
+        541.1
+      ],
+      "maxLength": 5
+    },
+    {
+      "id": "licenceFullOrLearners",
+      "section": "driver",
+      "label": "Full or learners",
+      "type": "text",
+      "x0": 508,
+      "x1": 580,
+      "rows": [
+        541.1
+      ],
+      "startSize": 7.5
+    },
+    {
+      "id": "purposeVehicleUsed",
+      "section": "driver",
+      "label": "State fully the purpose for which the vehicle is being used",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        562.8
+      ]
+    },
+    {
+      "id": "drivingWithPermission",
+      "section": "driver",
+      "label": "Was he/she driving with your permission?",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        584.2
+      ]
+    },
+    {
+      "id": "inYourEmploy",
+      "section": "driver",
+      "label": "Is he/she in your employ?",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        605
+      ]
+    },
+    {
+      "id": "hasMotorInsuranceOwnCar",
+      "section": "driver",
+      "label": "Has he/she any motor insurance on own car? If yes, state policy No. & Company",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        636.8
+      ]
+    },
+    {
+      "id": "convictionsMotoringOffences",
+      "section": "driver",
+      "label": "Details of any convictions for motoring offences.",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        658.2
+      ]
+    },
+    {
+      "id": "licenceEndorsed",
+      "section": "driver",
+      "label": "Has licence been endorsed?",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        679.2
+      ]
+    },
+    {
+      "id": "physicalDefects",
+      "section": "driver",
+      "label": "Has he/she any physical defects?",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        700.5
+      ]
+    },
+    {
+      "id": "previousAccidents",
+      "section": "driver",
+      "label": "Details of previous accidents",
+      "type": "text",
+      "x0": 255,
+      "x1": 578,
+      "rows": [
+        721.5
+      ]
+    },
+    {
+      "id": "passengersPurpose",
+      "section": "passengers",
+      "label": "For what purpose where they being transported?",
+      "type": "text",
+      "page": 1,
+      "x0": 258,
+      "x1": 568,
+      "rows": [
+        273.4
+      ]
+    },
+    {
+      "id": "passengersEmployed",
+      "section": "passengers",
+      "label": "Are they employed?",
+      "type": "text",
+      "page": 1,
+      "x0": 258,
+      "x1": 568,
+      "rows": [
+        294.1
+      ]
+    },
+    {
+      "id": "otherPartyOwnerId",
+      "section": "otherParty",
+      "label": "Owner ID",
+      "type": "text",
+      "page": 1,
+      "x0": 352,
+      "x1": 426,
+      "rows": [
+        398.8
+      ],
+      "maxLength": 13
+    },
+    {
+      "id": "otherPartyDriverId",
+      "section": "otherParty",
+      "label": "Driver ID",
+      "type": "text",
+      "page": 1,
+      "x0": 450,
+      "x1": 568,
+      "rows": [
+        398.8
+      ],
+      "maxLength": 13
+    },
+    {
+      "id": "otherPartyInsuranceCompany",
+      "section": "otherParty",
+      "label": "Insurance Company",
+      "type": "text",
+      "page": 1,
+      "x0": 267,
+      "x1": 328,
+      "rows": [
+        419.7
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "otherPartyClaimNo",
+      "section": "otherParty",
+      "label": "Claim No.",
+      "type": "text",
+      "page": 1,
+      "x0": 378,
+      "x1": 426,
+      "rows": [
+        419.7
+      ],
+      "startSize": 6,
+      "floorSize": 5,
+      "maxLength": 20
+    },
+    {
+      "id": "otherPartyTel",
+      "section": "otherParty",
+      "label": "TEL:",
+      "type": "text",
+      "page": 1,
+      "x0": 457,
+      "x1": 568,
+      "rows": [
+        419.7
+      ]
+    },
+    {
+      "id": "otherPropertyDamageDetails",
+      "section": "otherParty",
+      "label": "Property other than vehicles — Name & Address of owner / Details of damage",
+      "type": "text",
+      "page": 1,
+      "x0": 229,
+      "x1": 568,
+      "rows": [
+        461.8
+      ]
+    },
+    {
+      "id": "theftDateTimePlace",
+      "section": "theft",
+      "label": "Date, time & place of theft",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 200,
+      "x1": 568,
+      "rows": [
+        671.2,
+        692.6,
+        714
+      ]
+    },
+    {
+      "id": "vehicleLeftLocked",
+      "section": "theft",
+      "label": "Was the vehicle left locked",
+      "type": "text",
+      "page": 1,
+      "x0": 200,
+      "x1": 568,
+      "rows": [
+        735.5
+      ]
+    },
+    {
+      "id": "whoHasVehicleKeys",
+      "section": "theft",
+      "label": "Who now has the vehicle keys",
+      "type": "text",
+      "page": 1,
+      "x0": 200,
+      "x1": 568,
+      "rows": [
+        757.1
+      ]
+    },
+    {
+      "id": "policeStationReferenceNoTheft",
+      "section": "theft",
+      "label": "Police Station & Reference No",
+      "type": "text",
+      "page": 1,
+      "x0": 200,
+      "x1": 568,
+      "rows": [
+        778.3
+      ]
+    },
+    {
+      "id": "vehicleEngineChassisNo",
+      "section": "vehicle",
+      "label": "Vehicle, engine & chassis No",
+      "type": "text",
+      "page": 2,
+      "x0": 201,
+      "x1": 436,
+      "rows": [
+        171.9
+      ]
+    },
+    {
+      "id": "colourOfVehicle",
+      "section": "vehicle",
+      "label": "Colour of Vehicle",
+      "type": "text",
+      "page": 2,
+      "x0": 495,
+      "x1": 572,
+      "rows": [
+        171.9
+      ]
+    },
+    {
+      "id": "accessoriesStolenDetails",
+      "section": "vehicle",
+      "label": "If accessories stolen, provide full details",
+      "type": "text",
+      "page": 2,
+      "x0": 201,
+      "x1": 572,
+      "rows": [
+        208.8
+      ]
+    },
+    {
+      "id": "incidentDateTimePlace",
+      "section": "incident",
+      "label": "Date, time & place",
+      "type": "text",
+      "page": 2,
+      "x0": 201,
+      "x1": 572,
+      "rows": [
+        233.3
+      ]
+    },
+    {
+      "id": "speedBeforeAccident",
+      "section": "incident",
+      "label": "Speed — Before Accident Kmph",
+      "type": "text",
+      "page": 2,
+      "x0": 262,
+      "x1": 400,
+      "rows": [
+        258.4
+      ]
+    },
+    {
+      "id": "speedMomentImpact",
+      "section": "incident",
+      "label": "Speed — Moment of impact Kmph",
+      "type": "text",
+      "page": 2,
+      "x0": 499,
+      "x1": 572,
+      "rows": [
+        258.4
+      ]
+    },
+    {
+      "id": "weatherGeneral",
+      "section": "incident",
+      "label": "Weather conditions — General",
+      "type": "text",
+      "page": 2,
+      "x0": 234,
+      "x1": 400,
+      "rows": [
+        283.4
+      ]
+    },
+    {
+      "id": "weatherVisibility",
+      "section": "incident",
+      "label": "Weather conditions — Visibility",
+      "type": "text",
+      "page": 2,
+      "x0": 443,
+      "x1": 572,
+      "rows": [
+        283.4
+      ]
+    },
+    {
+      "id": "roadSurface",
+      "section": "incident",
+      "label": "Road surface — Surface",
+      "type": "text",
+      "page": 2,
+      "x0": 233,
+      "x1": 400,
+      "rows": [
+        307.9
+      ]
+    },
+    {
+      "id": "roadWidth",
+      "section": "incident",
+      "label": "Road surface — Width of road",
+      "type": "text",
+      "page": 2,
+      "x0": 461,
+      "x1": 572,
+      "rows": [
+        307.9
+      ]
+    },
+    {
+      "id": "lightsWhichOn",
+      "section": "incident",
+      "label": "Lights — Which vehicle lights were on",
+      "type": "text",
+      "page": 2,
+      "x0": 306,
+      "x1": 400,
+      "rows": [
+        332.3
+      ]
+    },
+    {
+      "id": "lightsStreetLighting",
+      "section": "incident",
+      "label": "Lights — Street lighting",
+      "type": "text",
+      "page": 2,
+      "x0": 462,
+      "x1": 572,
+      "rows": [
+        332.3
+      ]
+    },
+    {
+      "id": "warningGiven",
+      "section": "incident",
+      "label": "Was any warning given by you e.g. Hooting, indicators, etc.",
+      "type": "text",
+      "page": 2,
+      "x0": 328,
+      "x1": 572,
+      "rows": [
+        356.7
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "dateReported",
+      "section": "incident",
+      "label": "Police Details: Date Reported:",
+      "type": "text",
+      "page": 2,
+      "x0": 115,
+      "x1": 193,
+      "rows": [
+        394
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "nameOfPoliceOfficer",
+      "section": "incident",
+      "label": "Name of Police/Traffic office who recorded details of accident",
+      "type": "text",
+      "page": 2,
+      "x0": 201,
+      "x1": 400,
+      "rows": [
+        394
+      ]
+    },
+    {
+      "id": "policeStationName",
+      "section": "incident",
+      "label": "Police Station",
+      "type": "text",
+      "page": 2,
+      "x0": 410,
+      "x1": 488,
+      "rows": [
+        394
+      ]
+    },
+    {
+      "id": "policeReferenceNo",
+      "section": "incident",
+      "label": "Reference No.",
+      "type": "text",
+      "page": 2,
+      "x0": 496,
+      "x1": 572,
+      "rows": [
+        394
+      ]
+    },
+    {
+      "id": "alcoholDrugsTested",
+      "section": "incident",
+      "label": "Was driver tested for alcohol or drugs?",
+      "type": "text",
+      "page": 2,
+      "x0": 256,
+      "x1": 400,
+      "rows": [
+        418.4
+      ]
+    },
+    {
+      "id": "alcoholDrugsResults",
+      "section": "incident",
+      "label": "Results",
+      "type": "text",
+      "page": 2,
+      "x0": 440,
+      "x1": 572,
+      "rows": [
+        418.4
+      ]
+    },
+    {
+      "id": "descriptionOfIncident",
+      "section": "incident",
+      "label": "Description of Incident (Use separate page if necessary)",
+      "type": "text",
+      "multiline": true,
+      "page": 2,
+      "x0": 201,
+      "x1": 572,
+      "rows": [
+        467.8,
+        492.2,
+        516.7,
+        541.1
+      ]
+    },
+    {
+      "id": "sketchOfAccidentNote",
+      "section": "incident",
+      "type": "note",
+      "label": "Sketch of Accident — Please show clearly the point of impact and indicate the direction of travel by arrows. Give details of any road safety signs or warning signs in vicinity of scene of accident (use separate page if necessary)."
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "I/We acknowledge the sharing of claims information by insurers is essential to enable the insurance industry to underwrite policies and assess risks fairly and to reduce the incidence of fraudulent claims. In the public interest and with a view to limiting premiums, I/we hereby waive any right to privacy in any insurance or claims information supplied by me or on my behalf in respect of any insurance application or claim made or lodged by me/us and I/we consent to such information being disclosed to any other insurance company or its agent. I/We also waive any rights to privacy and consent to the disclosure of any information relevant to any insurance claim concerning me or any insured person I/We represent. I/We further declare that all the particulars to be true in every respect and correct and I/we understand that if any claim lodged under this policy be in any respect fraudulent or if any fraudulent means or devices be used by me/us or anyone acting on my/our behalf or with my/our knowledge or consent to obtain any benefit under this policy or if any event be occasioned by the wilful act or with the connivance of me/us, the benefit afforded under this policy in respect of such claim shall be forfeited."
+    },
+    {
+      "id": "driverName",
+      "section": "declaration",
+      "label": "Driver Name",
+      "type": "text",
+      "page": 3,
+      "x0": 270,
+      "x1": 369,
+      "rows": [
+        271.5
+      ],
+      "startSize": 7.5
+    },
+    {
+      "id": "driverSignature",
+      "section": "declaration",
+      "label": "Signature of Driver",
+      "type": "signature",
+      "page": 3,
+      "x0": 399,
+      "x1": 568,
+      "bottom": 266.8,
+      "height": 16
+    },
+    {
+      "id": "driverSignDate",
+      "section": "declaration",
+      "label": "Date",
+      "type": "text",
+      "page": 3,
+      "x0": 135,
+      "x1": 248,
+      "rows": [
+        280
+      ]
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Signature of Insured",
+      "type": "signature",
+      "required": true,
+      "page": 3,
+      "x0": 403,
+      "x1": 568,
+      "bottom": 294.8,
+      "height": 16
+    },
+    {
+      "id": "insuredSignDate",
+      "section": "declaration",
+      "label": "Date",
+      "type": "text",
+      "required": true,
+      "page": 3,
+      "x0": 135,
+      "x1": 248,
+      "rows": [
+        308
+      ]
+    },
+    {
+      "id": "nbNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "NB. It is important that you notify the Insurers immediately you become aware of any impending prosecution, inquest or demand."
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "passengers__passenger",
+      "section": "passengers",
+      "itemLabel": "Passenger",
+      "subFields": [
+        {
+          "key": "Name",
+          "label": "Name",
+          "type": "text"
+        },
+        {
+          "key": "Address",
+          "label": "Address",
+          "type": "text"
+        },
+        {
+          "key": "Injury",
+          "label": "Injury",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 4,
+      "fixedSlots": [
+        [
+          {
+            "id": "passenger1Name",
+            "section": "passengers",
+            "label": "Passenger 1 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 110,
+            "x1": 248,
+            "rows": [
+              189
+            ]
+          },
+          {
+            "id": "passenger1Address",
+            "section": "passengers",
+            "label": "Passenger 1 — Address",
+            "type": "text",
+            "page": 1,
+            "x0": 258,
+            "x1": 437,
+            "rows": [
+              189
+            ]
+          },
+          {
+            "id": "passenger1Injury",
+            "section": "passengers",
+            "label": "Passenger 1 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 447,
+            "x1": 568,
+            "rows": [
+              189
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger2Name",
+            "section": "passengers",
+            "label": "Passenger 2 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 110,
+            "x1": 248,
+            "rows": [
+              209.9
+            ]
+          },
+          {
+            "id": "passenger2Address",
+            "section": "passengers",
+            "label": "Passenger 2 — Address",
+            "type": "text",
+            "page": 1,
+            "x0": 258,
+            "x1": 437,
+            "rows": [
+              209.9
+            ]
+          },
+          {
+            "id": "passenger2Injury",
+            "section": "passengers",
+            "label": "Passenger 2 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 447,
+            "x1": 568,
+            "rows": [
+              209.9
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger3Name",
+            "section": "passengers",
+            "label": "Passenger 3 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 110,
+            "x1": 248,
+            "rows": [
+              230.8
+            ]
+          },
+          {
+            "id": "passenger3Address",
+            "section": "passengers",
+            "label": "Passenger 3 — Address",
+            "type": "text",
+            "page": 1,
+            "x0": 258,
+            "x1": 437,
+            "rows": [
+              230.8
+            ]
+          },
+          {
+            "id": "passenger3Injury",
+            "section": "passengers",
+            "label": "Passenger 3 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 447,
+            "x1": 568,
+            "rows": [
+              230.8
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger4Name",
+            "section": "passengers",
+            "label": "Passenger 4 — Name",
+            "type": "text",
+            "page": 1,
+            "x0": 110,
+            "x1": 248,
+            "rows": [
+              251.7
+            ]
+          },
+          {
+            "id": "passenger4Address",
+            "section": "passengers",
+            "label": "Passenger 4 — Address",
+            "type": "text",
+            "page": 1,
+            "x0": 258,
+            "x1": 437,
+            "rows": [
+              251.7
+            ]
+          },
+          {
+            "id": "passenger4Injury",
+            "section": "passengers",
+            "label": "Passenger 4 — Injury",
+            "type": "text",
+            "page": 1,
+            "x0": 447,
+            "x1": 568,
+            "rows": [
+              251.7
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "otherParty__otherVehicle",
+      "section": "otherParty",
+      "itemLabel": "Other Vehicle",
+      "subFields": [
+        {
+          "key": "RegNo",
+          "label": "Reg No.",
+          "type": "text"
+        },
+        {
+          "key": "Make",
+          "label": "Make",
+          "type": "text"
+        },
+        {
+          "key": "Owner",
+          "label": "Name & Address of Owner",
+          "type": "text"
+        },
+        {
+          "key": "Driver",
+          "label": "Name & Address of Driver (if different)",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 3,
+      "fixedSlots": [
+        [
+          {
+            "id": "otherVehicle1RegNo",
+            "section": "otherParty",
+            "label": "Other Vehicle 1 — Reg No.",
+            "type": "text",
+            "page": 1,
+            "x0": 186,
+            "x1": 220,
+            "rows": [
+              336.1
+            ],
+            "startSize": 5,
+            "floorSize": 4.5,
+            "maxLength": 14
+          },
+          {
+            "id": "otherVehicle1Make",
+            "section": "otherParty",
+            "label": "Other Vehicle 1 — Make",
+            "type": "text",
+            "page": 1,
+            "x0": 229,
+            "x1": 328,
+            "rows": [
+              336.1
+            ]
+          },
+          {
+            "id": "otherVehicle1Owner",
+            "section": "otherParty",
+            "label": "Other Vehicle 1 — Name & Address of Owner",
+            "type": "text",
+            "page": 1,
+            "x0": 337,
+            "x1": 426,
+            "rows": [
+              336.1
+            ]
+          },
+          {
+            "id": "otherVehicle1Driver",
+            "section": "otherParty",
+            "label": "Other Vehicle 1 — Name & Address of Driver (if different)",
+            "type": "text",
+            "page": 1,
+            "x0": 435,
+            "x1": 568,
+            "rows": [
+              336.1
+            ]
+          }
+        ],
+        [
+          {
+            "id": "otherVehicle2RegNo",
+            "section": "otherParty",
+            "label": "Other Vehicle 2 — Reg No.",
+            "type": "text",
+            "page": 1,
+            "x0": 186,
+            "x1": 220,
+            "rows": [
+              356.9
+            ],
+            "startSize": 5,
+            "floorSize": 4.5,
+            "maxLength": 14
+          },
+          {
+            "id": "otherVehicle2Make",
+            "section": "otherParty",
+            "label": "Other Vehicle 2 — Make",
+            "type": "text",
+            "page": 1,
+            "x0": 229,
+            "x1": 328,
+            "rows": [
+              356.9
+            ]
+          },
+          {
+            "id": "otherVehicle2Owner",
+            "section": "otherParty",
+            "label": "Other Vehicle 2 — Name & Address of Owner",
+            "type": "text",
+            "page": 1,
+            "x0": 337,
+            "x1": 426,
+            "rows": [
+              356.9
+            ]
+          },
+          {
+            "id": "otherVehicle2Driver",
+            "section": "otherParty",
+            "label": "Other Vehicle 2 — Name & Address of Driver (if different)",
+            "type": "text",
+            "page": 1,
+            "x0": 435,
+            "x1": 568,
+            "rows": [
+              356.9
+            ]
+          }
+        ],
+        [
+          {
+            "id": "otherVehicle3RegNo",
+            "section": "otherParty",
+            "label": "Other Vehicle 3 — Reg No.",
+            "type": "text",
+            "page": 1,
+            "x0": 186,
+            "x1": 220,
+            "rows": [
+              377.9
+            ],
+            "startSize": 5,
+            "floorSize": 4.5,
+            "maxLength": 14
+          },
+          {
+            "id": "otherVehicle3Make",
+            "section": "otherParty",
+            "label": "Other Vehicle 3 — Make",
+            "type": "text",
+            "page": 1,
+            "x0": 229,
+            "x1": 328,
+            "rows": [
+              377.9
+            ]
+          },
+          {
+            "id": "otherVehicle3Owner",
+            "section": "otherParty",
+            "label": "Other Vehicle 3 — Name & Address of Owner",
+            "type": "text",
+            "page": 1,
+            "x0": 337,
+            "x1": 426,
+            "rows": [
+              377.9
+            ]
+          },
+          {
+            "id": "otherVehicle3Driver",
+            "section": "otherParty",
+            "label": "Other Vehicle 3 — Name & Address of Driver (if different)",
+            "type": "text",
+            "page": 1,
+            "x0": 435,
+            "x1": 568,
+            "rows": [
+              377.9
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "otherPartyInjuries__injury",
+      "section": "otherPartyInjuries",
+      "itemLabel": "Injury",
+      "subFields": [
+        {
+          "key": "Name",
+          "label": "Name of injured",
+          "type": "text"
+        },
+        {
+          "key": "Relationship",
+          "label": "Relationship to accident",
+          "type": "text"
+        },
+        {
+          "key": "Details",
+          "label": "Details of injuries",
+          "type": "text"
+        },
+        {
+          "key": "Hospital",
+          "label": "Name of Hospital if applicable",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 4,
+      "fixedSlots": [
+        [
+          {
+            "id": "injury1Name",
+            "section": "otherPartyInjuries",
+            "label": "Injury 1 — Name of injured",
+            "type": "text",
+            "page": 1,
+            "x0": 186,
+            "x1": 272,
+            "rows": [
+              545.7
+            ]
+          },
+          {
+            "id": "injury1Relationship",
+            "section": "otherPartyInjuries",
+            "label": "Injury 1 — Relationship to accident",
+            "type": "text",
+            "page": 1,
+            "x0": 281,
+            "x1": 393,
+            "rows": [
+              545.7
+            ]
+          },
+          {
+            "id": "injury1Details",
+            "section": "otherPartyInjuries",
+            "label": "Injury 1 — Details of injuries",
+            "type": "text",
+            "page": 1,
+            "x0": 402,
+            "x1": 479,
+            "rows": [
+              545.7
+            ]
+          },
+          {
+            "id": "injury1Hospital",
+            "section": "otherPartyInjuries",
+            "label": "Injury 1 — Name of Hospital if applicable",
+            "type": "text",
+            "page": 1,
+            "x0": 488,
+            "x1": 568,
+            "rows": [
+              545.7
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injury2Name",
+            "section": "otherPartyInjuries",
+            "label": "Injury 2 — Name of injured",
+            "type": "text",
+            "page": 1,
+            "x0": 186,
+            "x1": 272,
+            "rows": [
+              566.6
+            ]
+          },
+          {
+            "id": "injury2Relationship",
+            "section": "otherPartyInjuries",
+            "label": "Injury 2 — Relationship to accident",
+            "type": "text",
+            "page": 1,
+            "x0": 281,
+            "x1": 393,
+            "rows": [
+              566.6
+            ]
+          },
+          {
+            "id": "injury2Details",
+            "section": "otherPartyInjuries",
+            "label": "Injury 2 — Details of injuries",
+            "type": "text",
+            "page": 1,
+            "x0": 402,
+            "x1": 479,
+            "rows": [
+              566.6
+            ]
+          },
+          {
+            "id": "injury2Hospital",
+            "section": "otherPartyInjuries",
+            "label": "Injury 2 — Name of Hospital if applicable",
+            "type": "text",
+            "page": 1,
+            "x0": 488,
+            "x1": 568,
+            "rows": [
+              566.6
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injury3Name",
+            "section": "otherPartyInjuries",
+            "label": "Injury 3 — Name of injured",
+            "type": "text",
+            "page": 1,
+            "x0": 186,
+            "x1": 272,
+            "rows": [
+              587.5
+            ]
+          },
+          {
+            "id": "injury3Relationship",
+            "section": "otherPartyInjuries",
+            "label": "Injury 3 — Relationship to accident",
+            "type": "text",
+            "page": 1,
+            "x0": 281,
+            "x1": 393,
+            "rows": [
+              587.5
+            ]
+          },
+          {
+            "id": "injury3Details",
+            "section": "otherPartyInjuries",
+            "label": "Injury 3 — Details of injuries",
+            "type": "text",
+            "page": 1,
+            "x0": 402,
+            "x1": 479,
+            "rows": [
+              587.5
+            ]
+          },
+          {
+            "id": "injury3Hospital",
+            "section": "otherPartyInjuries",
+            "label": "Injury 3 — Name of Hospital if applicable",
+            "type": "text",
+            "page": 1,
+            "x0": 488,
+            "x1": 568,
+            "rows": [
+              587.5
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injury4Name",
+            "section": "otherPartyInjuries",
+            "label": "Injury 4 — Name of injured",
+            "type": "text",
+            "page": 1,
+            "x0": 186,
+            "x1": 272,
+            "rows": [
+              608.3
+            ]
+          },
+          {
+            "id": "injury4Relationship",
+            "section": "otherPartyInjuries",
+            "label": "Injury 4 — Relationship to accident",
+            "type": "text",
+            "page": 1,
+            "x0": 281,
+            "x1": 393,
+            "rows": [
+              608.3
+            ]
+          },
+          {
+            "id": "injury4Details",
+            "section": "otherPartyInjuries",
+            "label": "Injury 4 — Details of injuries",
+            "type": "text",
+            "page": 1,
+            "x0": 402,
+            "x1": 479,
+            "rows": [
+              608.3
+            ]
+          },
+          {
+            "id": "injury4Hospital",
+            "section": "otherPartyInjuries",
+            "label": "Injury 4 — Name of Hospital if applicable",
+            "type": "text",
+            "page": 1,
+            "x0": 488,
+            "x1": 568,
+            "rows": [
+              608.3
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "witnesses__witness",
+      "section": "witnesses",
+      "itemLabel": "Witness",
+      "subFields": [
+        {
+          "key": "NameAddressPhone",
+          "label": "Name, Address & Phone No",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 2,
+      "fixedSlots": [
+        [
+          {
+            "id": "witness1NameAddressPhone",
+            "section": "witnesses",
+            "label": "Name, Address & Phone No",
+            "type": "text",
+            "page": 1,
+            "x0": 200,
+            "x1": 568,
+            "rows": [
+              630.1
+            ]
+          }
+        ],
+        [
+          {
+            "id": "witness2NameAddressPhone",
+            "section": "witnesses",
+            "label": "Name, Address & Phone No",
+            "type": "text",
+            "page": 1,
+            "x0": 200,
+            "x1": 568,
+            "rows": [
+              651.2
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

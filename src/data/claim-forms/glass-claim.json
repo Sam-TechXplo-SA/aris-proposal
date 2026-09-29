@@ -1,0 +1,462 @@
+{
+  "id": "glass-claim",
+  "insurer": "Old Mutual",
+  "title": "Glass Claim Form",
+  "afTitle": "Glas-Eisvorm",
+  "description": "MUFED 1148 7/00",
+  "filenameField": "insuredName",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Policy & Broker Details"
+    },
+    {
+      "id": "insured",
+      "title": "Insured",
+      "afTitle": "Versekerde"
+    },
+    {
+      "id": "occurrence",
+      "title": "Occurrence",
+      "afTitle": "Gebeurtenis"
+    },
+    {
+      "id": "premises",
+      "title": "Premises",
+      "afTitle": "Perseel"
+    },
+    {
+      "id": "vehicle",
+      "title": "Vehicle",
+      "afTitle": "Voertuig"
+    },
+    {
+      "id": "glass",
+      "title": "Details of Broken Glass",
+      "afTitle": "Besonderhede van gebreekte glas"
+    },
+    {
+      "id": "value",
+      "title": "Value",
+      "afTitle": "Waarde"
+    },
+    {
+      "id": "other",
+      "title": "Other Insurance",
+      "afTitle": "Ander Versekering"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration",
+      "afTitle": "Verklaring"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy No.",
+      "afLabel": "Polisnommer",
+      "type": "text",
+      "x0": 253,
+      "x1": 405,
+      "rows": [
+        107.76
+      ]
+    },
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim No.",
+      "afLabel": "Eisnommer",
+      "type": "text",
+      "x0": 248,
+      "x1": 408,
+      "rows": [
+        124.08
+      ]
+    },
+    {
+      "id": "brokerAgent",
+      "section": "header",
+      "label": "Broker / Agent",
+      "afLabel": "Makelaar / Agent",
+      "type": "text",
+      "x0": 220,
+      "x1": 450,
+      "rows": [
+        140.4
+      ]
+    },
+    {
+      "id": "insuredName",
+      "section": "insured",
+      "label": "Name",
+      "afLabel": "Naam",
+      "type": "text",
+      "required": true,
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        156.72
+      ]
+    },
+    {
+      "id": "occupation",
+      "section": "insured",
+      "label": "Occupation",
+      "afLabel": "Beroep",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        173.04
+      ]
+    },
+    {
+      "id": "insuredAddress",
+      "section": "insured",
+      "label": "Address",
+      "afLabel": "Adres",
+      "type": "text",
+      "multiline": true,
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        189.6,
+        206.88
+      ]
+    },
+    {
+      "id": "dayPhone",
+      "section": "insured",
+      "label": "Day Telephone No.",
+      "afLabel": "Dag Telefoon Nr.",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        224.64
+      ]
+    },
+    {
+      "id": "breakageDateTime",
+      "section": "occurrence",
+      "label": "Date and time of breakage",
+      "afLabel": "Datum en tyd van breekskade",
+      "type": "text",
+      "placeholder": "e.g. 12 March 2026, 14:30",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        240.72
+      ]
+    },
+    {
+      "id": "breakageCause",
+      "section": "occurrence",
+      "label": "Cause of breakage",
+      "afLabel": "Oorsaak van breekskade",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        257.28
+      ]
+    },
+    {
+      "id": "responsibleName",
+      "section": "occurrence",
+      "label": "Name of person responsible for breakage",
+      "afLabel": "Naam van persoon wat skade veroorsaak het",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        273.84
+      ]
+    },
+    {
+      "id": "responsibleAddress",
+      "section": "occurrence",
+      "label": "Address of person responsible for breakage",
+      "afLabel": "Adres van persoon wat skade veroorsaak het",
+      "type": "text",
+      "multiline": true,
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        291.12,
+        307.68
+      ]
+    },
+    {
+      "id": "witnessNames",
+      "section": "occurrence",
+      "label": "Names of witnesses",
+      "afLabel": "Name van getuies",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        324
+      ]
+    },
+    {
+      "id": "witnessAddresses",
+      "section": "occurrence",
+      "label": "Addresses of witnesses",
+      "afLabel": "Addresse van getuies",
+      "type": "text",
+      "multiline": true,
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        340.32,
+        357.84
+      ]
+    },
+    {
+      "id": "premisesAddress",
+      "section": "premises",
+      "label": "Address of premises where breakage occurred",
+      "afLabel": "Adres van perseel waar skade plaas gevind het",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        374.64
+      ]
+    },
+    {
+      "id": "premisesOccupied",
+      "section": "premises",
+      "label": "Were premises occupied? By whom?",
+      "afLabel": "Was perseel bewoon? Deur wie?",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        392.16
+      ]
+    },
+    {
+      "id": "premisesPurpose",
+      "section": "premises",
+      "label": "Purpose for which occupied",
+      "afLabel": "Met watter doel was die perseel gebruik?",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        409.68
+      ]
+    },
+    {
+      "id": "vehicleMakeReg",
+      "section": "vehicle",
+      "label": "Vehicle make and registration no.",
+      "afLabel": "Voertuigfabrikaat en registrasienr.",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        426
+      ]
+    },
+    {
+      "id": "vehicleModelYear",
+      "section": "vehicle",
+      "label": "Model and year",
+      "afLabel": "Model en jaar",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        442.32
+      ]
+    },
+    {
+      "id": "windscreenInfo",
+      "section": "vehicle",
+      "label": "Windscreen tinted or clear, and shatterproof or armour plate",
+      "afLabel": "Windskerm gekleur of nie en splintervry of pantersplaat?",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        459.84
+      ]
+    },
+    {
+      "id": "driverLicence",
+      "section": "vehicle",
+      "label": "Driver's name and licence no.",
+      "afLabel": "Naam van bestuurder en rybewysnr.",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        476.16
+      ]
+    },
+    {
+      "id": "licencePlaceDate",
+      "section": "vehicle",
+      "label": "Place and date of issue",
+      "afLabel": "Plek en datum uitgereik",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        493.68
+      ]
+    },
+    {
+      "id": "glassDescription",
+      "section": "glass",
+      "label": "Full description of broken glass",
+      "afLabel": "Volledige beskrywing van gebreekte glas",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        510
+      ]
+    },
+    {
+      "id": "glassSizeThickness",
+      "section": "glass",
+      "label": "Size and thickness in millimetres",
+      "afLabel": "Grootte en dikte in millimeters",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        527.52
+      ]
+    },
+    {
+      "id": "crackedShattered",
+      "section": "glass",
+      "label": "Cracked or shattered?",
+      "afLabel": "Gekraak of heeltemal verpletter?",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        543.84
+      ]
+    },
+    {
+      "id": "signwriting",
+      "section": "glass",
+      "label": "Any signwriting on broken glass?",
+      "afLabel": "Enige skilderwerk op gebreekte glas?",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        566.4
+      ]
+    },
+    {
+      "id": "totalGlassValue",
+      "section": "value",
+      "label": "Total value of all insured glass",
+      "afLabel": "Totale waarde van alle versekerde glas",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        582.48
+      ]
+    },
+    {
+      "id": "lastValuedWhen",
+      "section": "value",
+      "label": "When last valued?",
+      "afLabel": "Wanneer laas is dit gewaardeer?",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        604.8
+      ]
+    },
+    {
+      "id": "otherInsuranceExists",
+      "section": "other",
+      "label": "Is there any other insurance covering the broken glass?",
+      "afLabel": "Is daar enige ander versekering wat die gebreekte glas dek?",
+      "type": "text",
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        621.6
+      ]
+    },
+    {
+      "id": "otherInsurerName",
+      "section": "other",
+      "label": "If so, give name of insurer",
+      "afLabel": "Indien wel, meld naam van versekeraar",
+      "type": "text",
+      "multiline": true,
+      "x0": 237,
+      "x1": 401,
+      "rows": [
+        640.2,
+        658.8
+      ]
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "I/We declare that to the best of my/our knowledge the above statements are truly made.",
+      "afLabel": "Ek/Ons verklaar dat na my/ons beste wete die bostaande verklarings juis afgelê is."
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Insured's Signature",
+      "afLabel": "Versekerde se Handtekening",
+      "type": "signature",
+      "required": true,
+      "x0": 120,
+      "x1": 270,
+      "bottom": 752,
+      "height": 20
+    },
+    {
+      "id": "capacity",
+      "section": "declaration",
+      "label": "Capacity",
+      "afLabel": "Hoedanigheid",
+      "type": "text",
+      "required": true,
+      "x0": 294,
+      "x1": 411,
+      "rows": [
+        752.9
+      ],
+      "startSize": 7,
+      "floorSize": 5
+    },
+    {
+      "id": "signDate",
+      "section": "declaration",
+      "label": "Date",
+      "afLabel": "Datum",
+      "type": "text",
+      "required": true,
+      "x0": 460,
+      "x1": 540,
+      "rows": [
+        745.2
+      ]
+    }
+  ],
+  "repeatingGroups": []
+}

@@ -1,0 +1,356 @@
+{
+  "id": "santam-drone-claims-notification",
+  "insurer": "Santam",
+  "title": "Drone Claims Notification Sheet",
+  "filenameField": "insuredPilot",
+  "sections": [
+    {
+      "id": "details",
+      "title": "Claims Notification"
+    },
+    {
+      "id": "statement",
+      "title": "Statement — Supporting Documents"
+    }
+  ],
+  "fields": [
+    {
+      "id": "insuredPilot",
+      "section": "details",
+      "label": "Insured/pilot",
+      "type": "text",
+      "required": true,
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        124.58
+      ]
+    },
+    {
+      "id": "telFax",
+      "section": "details",
+      "label": "Tel./Fax",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        156.29
+      ]
+    },
+    {
+      "id": "policyNumber",
+      "section": "details",
+      "label": "Policy number",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        187.97
+      ]
+    },
+    {
+      "id": "dateOfLoss",
+      "section": "details",
+      "label": "Date of Loss",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        219.65
+      ]
+    },
+    {
+      "id": "place",
+      "section": "details",
+      "label": "Place",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        251.35
+      ]
+    },
+    {
+      "id": "notifiedBy",
+      "section": "details",
+      "label": "Notified by",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        283.03
+      ]
+    },
+    {
+      "id": "notifiedByTel",
+      "section": "details",
+      "label": "Tel (of person who notified)",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        314.74
+      ]
+    },
+    {
+      "id": "aircraftRegistrationMarks",
+      "section": "details",
+      "label": "Aircraft Registration marks",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        346.42
+      ]
+    },
+    {
+      "id": "makeAndModel",
+      "section": "details",
+      "label": "Make and model",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        378.1
+      ]
+    },
+    {
+      "id": "damage",
+      "section": "details",
+      "label": "Damage",
+      "type": "text",
+      "multiline": true,
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        409.8,
+        441.48,
+        473.16
+      ]
+    },
+    {
+      "id": "tpDamage",
+      "section": "details",
+      "label": "TP damage",
+      "type": "text",
+      "multiline": true,
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        504.86,
+        536.54,
+        568.22
+      ]
+    },
+    {
+      "id": "passengers",
+      "section": "details",
+      "label": "Passengers",
+      "type": "text",
+      "multiline": true,
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        599.93,
+        631.61,
+        663.29
+      ]
+    },
+    {
+      "id": "causation",
+      "section": "details",
+      "label": "Causation",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        694.99
+      ]
+    },
+    {
+      "id": "estimate",
+      "section": "details",
+      "label": "Estimate",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        726.67
+      ]
+    },
+    {
+      "id": "assessor",
+      "section": "details",
+      "label": "Assessor",
+      "type": "text",
+      "page": 0,
+      "x0": 281,
+      "x1": 489.8,
+      "rows": [
+        758.38
+      ]
+    },
+    {
+      "id": "statementInsuredPilot",
+      "section": "statement",
+      "label": "Insured/pilot statement attached",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Y",
+          "x": 450,
+          "y": 66.86
+        },
+        {
+          "value": "no",
+          "label": "N",
+          "x": 470,
+          "y": 66.86
+        }
+      ]
+    },
+    {
+      "id": "copyOfLicence",
+      "section": "statement",
+      "label": "Copy of licence attached",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Y",
+          "x": 450,
+          "y": 82.7
+        },
+        {
+          "value": "no",
+          "label": "N",
+          "x": 470,
+          "y": 82.7
+        }
+      ]
+    },
+    {
+      "id": "copyOfLogbook",
+      "section": "statement",
+      "label": "Copy of logbook attached",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Y",
+          "x": 450,
+          "y": 98.54
+        },
+        {
+          "value": "no",
+          "label": "N",
+          "x": 470,
+          "y": 98.54
+        }
+      ]
+    },
+    {
+      "id": "copyOfCTT",
+      "section": "statement",
+      "label": "Copy of CTT attached",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Y",
+          "x": 450,
+          "y": 114.38
+        },
+        {
+          "value": "no",
+          "label": "N",
+          "x": 470,
+          "y": 114.38
+        }
+      ]
+    },
+    {
+      "id": "copyOfCofA",
+      "section": "statement",
+      "label": "Copy of C of A attached",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Y",
+          "x": 450,
+          "y": 130.25
+        },
+        {
+          "value": "no",
+          "label": "N",
+          "x": 470,
+          "y": 130.25
+        }
+      ]
+    },
+    {
+      "id": "copyOfRegistration",
+      "section": "statement",
+      "label": "Copy of registration attached",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Y",
+          "x": 450,
+          "y": 146.09
+        },
+        {
+          "value": "no",
+          "label": "N",
+          "x": 470,
+          "y": 146.09
+        }
+      ]
+    },
+    {
+      "id": "copyOfTV272",
+      "section": "statement",
+      "label": "Copy of TV2/72 attached",
+      "type": "choice",
+      "page": 1,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Y",
+          "x": 450,
+          "y": 161.93
+        },
+        {
+          "value": "no",
+          "label": "N",
+          "x": 470,
+          "y": 161.93
+        }
+      ]
+    }
+  ],
+  "repeatingGroups": []
+}

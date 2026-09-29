@@ -1,0 +1,1693 @@
+{
+  "id": "old-mutual-motor-accident-claim",
+  "insurer": "Old Mutual",
+  "title": "Motor Accident Claim Form",
+  "afTitle": "Motorongeluk-Eisvorm",
+  "filenameField": "driverFullName",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Policy & Broker Details"
+    },
+    {
+      "id": "insured",
+      "title": "Insured",
+      "afTitle": "Versekerde"
+    },
+    {
+      "id": "vehicle",
+      "title": "Vehicle",
+      "afTitle": "Voertuig"
+    },
+    {
+      "id": "damage",
+      "title": "Damage",
+      "afTitle": "Skade"
+    },
+    {
+      "id": "driver",
+      "title": "Driver",
+      "afTitle": "Bestuurder"
+    },
+    {
+      "id": "passengers",
+      "title": "Passengers (Insured Vehicle)",
+      "afTitle": "Passasiers (Versekerde Voertuig)"
+    },
+    {
+      "id": "otherVehicles",
+      "title": "Other Party — Other Vehicles",
+      "afTitle": "Ander Party — Ander Voertuie"
+    },
+    {
+      "id": "otherProperty",
+      "title": "Property Other Than Vehicles",
+      "afTitle": "Eiendom Uitgesonderd Voertuie"
+    },
+    {
+      "id": "personalInjuries",
+      "title": "Personal Injuries (Other Than in Insured's Vehicle)",
+      "afTitle": "Persoonlike Beserings"
+    },
+    {
+      "id": "witnesses",
+      "title": "Witnesses",
+      "afTitle": "Getuies"
+    },
+    {
+      "id": "accident",
+      "title": "Accident",
+      "afTitle": "Ongeluk"
+    },
+    {
+      "id": "licenceInspected",
+      "title": "Licence Inspected",
+      "afTitle": "Rybewys Nagegaan"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration",
+      "afTitle": "Verklaring"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy No.",
+      "afLabel": "Polisnr.",
+      "type": "text",
+      "x0": 228,
+      "x1": 299,
+      "rows": [
+        114.3
+      ]
+    },
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim No.",
+      "afLabel": "Eisnr.",
+      "type": "text",
+      "x0": 225,
+      "x1": 299,
+      "rows": [
+        135.9
+      ]
+    },
+    {
+      "id": "brokerAgent",
+      "section": "header",
+      "label": "Broker/Agent",
+      "afLabel": "Makelaar/Agent",
+      "type": "text",
+      "x0": 182,
+      "x1": 410,
+      "rows": [
+        152.2
+      ]
+    },
+    {
+      "id": "nameOccupation",
+      "section": "insured",
+      "label": "Name and Occupation",
+      "afLabel": "Naam en Beroep",
+      "type": "text",
+      "required": true,
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        166.6
+      ]
+    },
+    {
+      "id": "idNumberVat",
+      "section": "insured",
+      "label": "Identity Number / VAT Registration No.",
+      "afLabel": "Identiteitsnommer / BTW Registrasienr.",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        182.2
+      ]
+    },
+    {
+      "id": "addressPhone",
+      "section": "insured",
+      "label": "Address and Day Telephone Number",
+      "afLabel": "Adres en Dag Telefoonnommer",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        197.6
+      ]
+    },
+    {
+      "id": "vehicleMake",
+      "section": "vehicle",
+      "label": "Make",
+      "afLabel": "Fabrikaat",
+      "type": "text",
+      "x0": 118,
+      "x1": 187,
+      "rows": [
+        212
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "vehicleTare",
+      "section": "vehicle",
+      "label": "Tare",
+      "afLabel": "Tarra",
+      "type": "text",
+      "x0": 192,
+      "x1": 241,
+      "rows": [
+        212
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "vehicleGrossMass",
+      "section": "vehicle",
+      "label": "Gross Vehicle Mass",
+      "afLabel": "Bruto Voertuig Massa",
+      "type": "text",
+      "x0": 303,
+      "x1": 339,
+      "rows": [
+        212
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "vehicleKmCompleted",
+      "section": "vehicle",
+      "label": "Kilometres Completed",
+      "afLabel": "Kilometers Afgelé",
+      "type": "text",
+      "x0": 385,
+      "x1": 440,
+      "rows": [
+        212
+      ],
+      "startSize": 6.5,
+      "floorSize": 5
+    },
+    {
+      "id": "vehicleRegistration",
+      "section": "vehicle",
+      "label": "Registration",
+      "afLabel": "Registrasie",
+      "type": "text",
+      "x0": 118,
+      "x1": 187,
+      "rows": [
+        230.4
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "vehicleValue",
+      "section": "vehicle",
+      "label": "Value",
+      "afLabel": "Waarde",
+      "type": "text",
+      "x0": 192,
+      "x1": 241,
+      "rows": [
+        230.4
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "vehicleModelYear",
+      "section": "vehicle",
+      "label": "Model and Year",
+      "afLabel": "Model en Jaar",
+      "type": "text",
+      "x0": 246,
+      "x1": 340,
+      "rows": [
+        230.4
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "vehicleDatePurchase",
+      "section": "vehicle",
+      "label": "Date of purchase",
+      "afLabel": "Datum van aankoop",
+      "type": "text",
+      "x0": 345,
+      "x1": 468,
+      "rows": [
+        230.4
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "financeCompany",
+      "section": "vehicle",
+      "label": "If vehicle subject to Hire Purchase, Credit or Leasing Agreement, state name and address of Finance Company",
+      "afLabel": "Indien voertuig onder Huurkoop, Krediet- of Bruikhuur-ooreenkoms is, meld naam en adres van Finansieringsmaatskappy",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        246
+      ]
+    },
+    {
+      "id": "vehicleRegisteredOwner",
+      "section": "vehicle",
+      "label": "In whose name is the vehicle registered?",
+      "afLabel": "In wie se naam is die voertuig geregistreer?",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        261.6
+      ]
+    },
+    {
+      "id": "damageToOwnVehicle",
+      "section": "damage",
+      "label": "Damage to own vehicle",
+      "afLabel": "Skade aan u eie voertuig",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        275.8
+      ]
+    },
+    {
+      "id": "repairEstimate",
+      "section": "damage",
+      "label": "Estimate for repairs or attach quotation",
+      "afLabel": "Beraamde herstelkoste of heg kwotasie aan",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        291.4
+      ]
+    },
+    {
+      "id": "repairerDetails",
+      "section": "damage",
+      "label": "Repairer's name, address and telephone number",
+      "afLabel": "Hersteller se naam, adres en telefoonnommer",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        307
+      ]
+    },
+    {
+      "id": "vehicleInspectionLocation",
+      "section": "damage",
+      "label": "Where can your damaged vehicle be inspected?",
+      "afLabel": "Waar kan u beskadigde voertuig ondersoek word?",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        322.4
+      ]
+    },
+    {
+      "id": "driverFullName",
+      "section": "driver",
+      "label": "Full Name",
+      "afLabel": "Volle Naam",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        336.8
+      ]
+    },
+    {
+      "id": "driverAddress",
+      "section": "driver",
+      "label": "Address",
+      "afLabel": "Adres",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        352.1
+      ]
+    },
+    {
+      "id": "driverOccupation",
+      "section": "driver",
+      "label": "Occupation",
+      "afLabel": "Beroep",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        367.7
+      ]
+    },
+    {
+      "id": "driverIdNumber",
+      "section": "driver",
+      "label": "Identity Number",
+      "afLabel": "Identiteitsnommer",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        383.1
+      ]
+    },
+    {
+      "id": "licenceNumber",
+      "section": "driver",
+      "label": "Driving Licence — Number",
+      "afLabel": "Rybewys — Nommer",
+      "type": "text",
+      "x0": 118,
+      "x1": 177,
+      "rows": [
+        398.7
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "licenceDate",
+      "section": "driver",
+      "label": "Driving Licence — Date",
+      "afLabel": "Rybewys — Datum",
+      "type": "text",
+      "x0": 182,
+      "x1": 241,
+      "rows": [
+        398.7
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "licencePlace",
+      "section": "driver",
+      "label": "Driving Licence — Place",
+      "afLabel": "Rybewys — Plek",
+      "type": "text",
+      "x0": 246,
+      "x1": 305,
+      "rows": [
+        398.7
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "licenceCode",
+      "section": "driver",
+      "label": "Driving Licence — Code",
+      "afLabel": "Rybewys — Kode",
+      "type": "text",
+      "x0": 310,
+      "x1": 368,
+      "rows": [
+        398.7
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "licenceFullOrLearner",
+      "section": "driver",
+      "label": "Driving Licence — Full/Learner's",
+      "afLabel": "Rybewys — Vol/Leerling",
+      "type": "text",
+      "x0": 373,
+      "x1": 468,
+      "rows": [
+        398.7
+      ],
+      "startSize": 7
+    },
+    {
+      "id": "vehiclePurpose",
+      "section": "driver",
+      "label": "State fully the purpose for which the vehicle was being used",
+      "afLabel": "Meld volledig die doel waarvoor die voertuig gebruik is",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        420.3
+      ]
+    },
+    {
+      "id": "drivingPermission",
+      "section": "driver",
+      "label": "Was he/she driving with your permission?",
+      "afLabel": "Het hy/sy met u toestemming bestuur?",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        435.6
+      ]
+    },
+    {
+      "id": "driverEmployed",
+      "section": "driver",
+      "label": "Was he/she in your employ?",
+      "afLabel": "Was hy/sy in u diens?",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        451.2
+      ]
+    },
+    {
+      "id": "ownerOfAnotherVehicle",
+      "section": "driver",
+      "label": "Is he/she the owner of another Vehicle? If yes, give name of Insurer and policy number",
+      "afLabel": "Is hy/sy die eienaar van 'n ander voertuig? Indien ja, meld naam van versekeraar en polisnommer",
+      "type": "text",
+      "multiline": true,
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        466.8,
+        483.2
+      ]
+    },
+    {
+      "id": "convictionsDetails",
+      "section": "driver",
+      "label": "Details of any convictions for motoring offences",
+      "afLabel": "Besonderhede van enige veroordelings weens motorry-oortreding",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        504.8
+      ]
+    },
+    {
+      "id": "licenceEndorsed",
+      "section": "driver",
+      "label": "Has licence ever been endorsed?",
+      "afLabel": "Is rybewys ooit geëndosseer?",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        519.4
+      ]
+    },
+    {
+      "id": "physicalDefects",
+      "section": "driver",
+      "label": "Has he/she any physical defects?",
+      "afLabel": "Ly hy/sy aan enige liggaamlike gebreke?",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        535
+      ]
+    },
+    {
+      "id": "previousAccidents",
+      "section": "driver",
+      "label": "Details of previous accidents",
+      "afLabel": "Besonderhede van vorige ongelukke",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        550.6
+      ]
+    },
+    {
+      "id": "purposeCarried",
+      "section": "passengers",
+      "label": "For what purpose were they carried?",
+      "afLabel": "Met watter doel is hulle vervoer?",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        619
+      ]
+    },
+    {
+      "id": "areEmployees",
+      "section": "passengers",
+      "label": "Are they employees?",
+      "afLabel": "Is hulle werknemers?",
+      "type": "text",
+      "x0": 118,
+      "x1": 468,
+      "rows": [
+        633.2
+      ]
+    },
+    {
+      "id": "accidentDate",
+      "section": "accident",
+      "label": "Date",
+      "afLabel": "Datum",
+      "type": "text",
+      "page": 1,
+      "x0": 116,
+      "x1": 216,
+      "rows": [
+        190.1
+      ]
+    },
+    {
+      "id": "accidentTime",
+      "section": "accident",
+      "label": "Time",
+      "afLabel": "Tyd",
+      "type": "text",
+      "page": 1,
+      "x0": 221,
+      "x1": 286,
+      "rows": [
+        190.1
+      ]
+    },
+    {
+      "id": "accidentPlace",
+      "section": "accident",
+      "label": "Place",
+      "afLabel": "Plek",
+      "type": "text",
+      "page": 1,
+      "x0": 291,
+      "x1": 471,
+      "rows": [
+        190.1
+      ]
+    },
+    {
+      "id": "speedBeforeAccident",
+      "section": "accident",
+      "label": "Speed — Before accident (kph)",
+      "afLabel": "Spoed — Voor ongeluk (kpu)",
+      "type": "text",
+      "page": 1,
+      "x0": 162,
+      "x1": 256,
+      "rows": [
+        205.4
+      ],
+      "startSize": 5.5,
+      "floorSize": 4.5
+    },
+    {
+      "id": "speedMomentOfImpact",
+      "section": "accident",
+      "label": "Speed — Moment of impact (kph)",
+      "afLabel": "Spoed — Oomblik van botsing (kpu)",
+      "type": "text",
+      "page": 1,
+      "x0": 348,
+      "x1": 450,
+      "rows": [
+        205.4
+      ],
+      "startSize": 5.5,
+      "floorSize": 4.5
+    },
+    {
+      "id": "weatherConditions",
+      "section": "accident",
+      "label": "a) Weather conditions",
+      "afLabel": "a) Weersomstandighede",
+      "type": "text",
+      "page": 1,
+      "x0": 130,
+      "x1": 286,
+      "rows": [
+        221.1
+      ]
+    },
+    {
+      "id": "visibility",
+      "section": "accident",
+      "label": "b) Visibility",
+      "afLabel": "b) Sigbaarheid",
+      "type": "text",
+      "page": 1,
+      "x0": 305,
+      "x1": 471,
+      "rows": [
+        221.1
+      ]
+    },
+    {
+      "id": "roadSurface",
+      "section": "accident",
+      "label": "a) Road surface",
+      "afLabel": "a) Padoppervlak",
+      "type": "text",
+      "page": 1,
+      "x0": 130,
+      "x1": 286,
+      "rows": [
+        236.4
+      ]
+    },
+    {
+      "id": "roadWidth",
+      "section": "accident",
+      "label": "b) Width of road",
+      "afLabel": "b) Breedte van pad",
+      "type": "text",
+      "page": 1,
+      "x0": 305,
+      "x1": 471,
+      "rows": [
+        236.4
+      ]
+    },
+    {
+      "id": "vehicleLightsOn",
+      "section": "accident",
+      "label": "a) Which vehicle lights were on?",
+      "afLabel": "a) Watter voertuigligte was aan?",
+      "type": "text",
+      "page": 1,
+      "x0": 130,
+      "x1": 286,
+      "rows": [
+        262.1
+      ]
+    },
+    {
+      "id": "streetLighting",
+      "section": "accident",
+      "label": "b) Street lighting",
+      "afLabel": "b) Straatbeligting",
+      "type": "text",
+      "page": 1,
+      "x0": 305,
+      "x1": 471,
+      "rows": [
+        262.1
+      ]
+    },
+    {
+      "id": "warningGiven",
+      "section": "accident",
+      "label": "Was any warning given by you, e.g. hooting, indicator etc.?",
+      "afLabel": "Is enige waarskuwing deur u gegee, bv. toeter, flikkerlig ens?",
+      "type": "text",
+      "page": 1,
+      "x0": 116,
+      "x1": 471,
+      "rows": [
+        282.5
+      ]
+    },
+    {
+      "id": "policeOfficerName",
+      "section": "accident",
+      "label": "Name of Police/Traffic officer who recorded details of Accident",
+      "afLabel": "Naam van Polisie-/Verkeersbeampte wat besonderhede van ongeluk geneem het",
+      "type": "text",
+      "page": 1,
+      "x0": 116,
+      "x1": 286,
+      "rows": [
+        311.1
+      ]
+    },
+    {
+      "id": "policeStationRef",
+      "section": "accident",
+      "label": "Police Station and Reference No.",
+      "afLabel": "Polisiestasie en verwysingsnr.",
+      "type": "text",
+      "page": 1,
+      "x0": 291,
+      "x1": 471,
+      "rows": [
+        311.1
+      ]
+    },
+    {
+      "id": "alcoholDrugsTest",
+      "section": "accident",
+      "label": "Was driver tested for Alcohol or drugs?",
+      "afLabel": "Is bestuurder getoets vir Alkohol of dwelmmiddels?",
+      "type": "text",
+      "page": 1,
+      "x0": 116,
+      "x1": 471,
+      "rows": [
+        331.5
+      ]
+    },
+    {
+      "id": "descriptionOfAccident",
+      "section": "accident",
+      "label": "Description of accident",
+      "afLabel": "Beskrywing van ongeluk",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 116,
+      "x1": 471,
+      "rows": [
+        347.1,
+        362.4,
+        378,
+        393.6,
+        409,
+        424.6,
+        440,
+        455.6,
+        470.9
+      ]
+    },
+    {
+      "id": "sketchOfAccidentNote",
+      "section": "accident",
+      "type": "note",
+      "page": 1,
+      "label": "Sketch of accident (if necessary use separate page). Please show clearly the point of impact and indicate the direction of travel by arrows. Give details of any road safety signs or warning signs in vicinity of the scene of accident. This form has no field for a hand-drawn sketch — attach a separate page if a diagram is needed.",
+      "afLabel": "Skets van ongeluk (indien nodig heg aparte sketsplan aan). Dui asseblief die plek van botsing duidelik aan en gebruik pyltjies om die rigting waarin gereis is, aan te toon. Gee besonderhede van enige padveiligheidstekens of waarskuwingstekens in die omgewing van die ongelukstoneel."
+    },
+    {
+      "id": "licenceInspectedNote",
+      "section": "licenceInspected",
+      "type": "note",
+      "page": 1,
+      "label": "I have inspected the driver's licence and it is free of endorsements/endorsed as shown. Please attach copies of driver's licence and page 1 of driver's identity document.",
+      "afLabel": "Ek het die bestuurder se rybewys nagegaan en dit is nie geëndosseer nie/is geëndosseer soos angedui. Heg asseblief afskrifte van die bestuurderslisensie en bladsy 1 van die identiteits dokument hierby aan."
+    },
+    {
+      "id": "licenceInspectedSignature",
+      "section": "licenceInspected",
+      "label": "Signature",
+      "afLabel": "Handtekening",
+      "type": "signature",
+      "page": 1,
+      "x0": 83,
+      "x1": 267,
+      "bottom": 712,
+      "height": 5.5
+    },
+    {
+      "id": "licenceInspectedCapacity",
+      "section": "licenceInspected",
+      "label": "Capacity",
+      "afLabel": "Hoedanigheid",
+      "type": "text",
+      "page": 1,
+      "x0": 336,
+      "x1": 449,
+      "rows": [
+        712
+      ],
+      "startSize": 7,
+      "floorSize": 5
+    },
+    {
+      "id": "licenceInspectedDate",
+      "section": "licenceInspected",
+      "label": "Date",
+      "afLabel": "Datum",
+      "type": "text",
+      "page": 1,
+      "x0": 85,
+      "x1": 195,
+      "rows": [
+        720.5
+      ],
+      "startSize": 4.5,
+      "floorSize": 4
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "page": 1,
+      "label": "We hereby declare the following particulars to be true in every respect.",
+      "afLabel": "Ons verklaar hiermee dat die voorafgaande besonderhede in elke opsig waar is."
+    },
+    {
+      "id": "driverSignature",
+      "section": "declaration",
+      "label": "Signature of Driver",
+      "afLabel": "Bestuurder se Handtekening",
+      "type": "signature",
+      "page": 1,
+      "x0": 120,
+      "x1": 446,
+      "bottom": 737,
+      "height": 5.5
+    },
+    {
+      "id": "driverSignatureDate",
+      "section": "declaration",
+      "label": "Date",
+      "afLabel": "Datum",
+      "type": "text",
+      "page": 1,
+      "x0": 440,
+      "x1": 540,
+      "rows": [
+        745.9
+      ],
+      "startSize": 4.5,
+      "floorSize": 4
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Signature of Insured",
+      "afLabel": "Versekerde se Handtekening",
+      "type": "signature",
+      "required": true,
+      "page": 1,
+      "x0": 120,
+      "x1": 280,
+      "bottom": 768,
+      "height": 5.5
+    },
+    {
+      "id": "insuredCapacity",
+      "section": "declaration",
+      "label": "Capacity",
+      "afLabel": "Hoedanigheid",
+      "type": "text",
+      "required": true,
+      "page": 1,
+      "x0": 340,
+      "x1": 448,
+      "rows": [
+        768
+      ],
+      "startSize": 7,
+      "floorSize": 5
+    },
+    {
+      "id": "insuredSignatureDate",
+      "section": "declaration",
+      "label": "Date",
+      "afLabel": "Datum",
+      "type": "text",
+      "required": true,
+      "page": 1,
+      "x0": 120,
+      "x1": 195,
+      "rows": [
+        776.4
+      ],
+      "startSize": 4.5,
+      "floorSize": 4
+    },
+    {
+      "id": "nb1Note",
+      "section": "declaration",
+      "type": "note",
+      "page": 1,
+      "label": "N.B. 1: It is important that you notify the insurers immediately you become aware of any impending prosecution, inquest or demand.",
+      "afLabel": "N.B. 1: Dit is belangrik dat u die versekeraars onmiddellik in kennis stel sodra u bewus word van enige vervolging, nadoodse ondersoek of eis."
+    },
+    {
+      "id": "nb2Note",
+      "section": "declaration",
+      "type": "note",
+      "page": 1,
+      "label": "N.B. 2: Any personal injuries noted overleaf must be reported separately to the Multilateral Motor Vehicle Accidents Fund without delay.",
+      "afLabel": "N.B. 2: Enige persoonlike beserings wat op die keersy vermeld word moet onmiddellik en afsonderlik aan die Multilaterale Motorvoertuig-Ongelukkefonds gerapporteer word."
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "passengers__passenger",
+      "section": "passengers",
+      "itemLabel": "Passenger",
+      "subFields": [
+        {
+          "key": "Name",
+          "label": "Name",
+          "afLabel": "Naam",
+          "type": "text"
+        },
+        {
+          "key": "Address",
+          "label": "Address",
+          "afLabel": "Adres",
+          "type": "text"
+        },
+        {
+          "key": "Injury",
+          "label": "Injury",
+          "afLabel": "Besering",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 3,
+      "fixedSlots": [
+        [
+          {
+            "id": "passenger1Name",
+            "section": "passengers",
+            "label": "Passenger 1 — Name",
+            "afLabel": "Naam",
+            "type": "text",
+            "x0": 118,
+            "x1": 219,
+            "rows": [
+              577.2
+            ]
+          },
+          {
+            "id": "passenger1Address",
+            "section": "passengers",
+            "label": "Passenger 1 — Address",
+            "afLabel": "Adres",
+            "type": "text",
+            "x0": 224,
+            "x1": 322,
+            "rows": [
+              577.2
+            ]
+          },
+          {
+            "id": "passenger1Injury",
+            "section": "passengers",
+            "label": "Passenger 1 — Injury",
+            "afLabel": "Besering",
+            "type": "text",
+            "x0": 327,
+            "x1": 468,
+            "rows": [
+              577.2
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger2Name",
+            "section": "passengers",
+            "label": "Passenger 2 — Name",
+            "afLabel": "Naam",
+            "type": "text",
+            "x0": 118,
+            "x1": 219,
+            "rows": [
+              590.9
+            ]
+          },
+          {
+            "id": "passenger2Address",
+            "section": "passengers",
+            "label": "Passenger 2 — Address",
+            "afLabel": "Adres",
+            "type": "text",
+            "x0": 224,
+            "x1": 322,
+            "rows": [
+              590.9
+            ]
+          },
+          {
+            "id": "passenger2Injury",
+            "section": "passengers",
+            "label": "Passenger 2 — Injury",
+            "afLabel": "Besering",
+            "type": "text",
+            "x0": 327,
+            "x1": 468,
+            "rows": [
+              590.9
+            ]
+          }
+        ],
+        [
+          {
+            "id": "passenger3Name",
+            "section": "passengers",
+            "label": "Passenger 3 — Name",
+            "afLabel": "Naam",
+            "type": "text",
+            "x0": 118,
+            "x1": 219,
+            "rows": [
+              604.4
+            ]
+          },
+          {
+            "id": "passenger3Address",
+            "section": "passengers",
+            "label": "Passenger 3 — Address",
+            "afLabel": "Adres",
+            "type": "text",
+            "x0": 224,
+            "x1": 322,
+            "rows": [
+              604.4
+            ]
+          },
+          {
+            "id": "passenger3Injury",
+            "section": "passengers",
+            "label": "Passenger 3 — Injury",
+            "afLabel": "Besering",
+            "type": "text",
+            "x0": 327,
+            "x1": 468,
+            "rows": [
+              604.4
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "otherVehicles__otherVehicle",
+      "section": "otherVehicles",
+      "itemLabel": "Other Vehicle",
+      "subFields": [
+        {
+          "key": "Reg",
+          "label": "Registration Number",
+          "afLabel": "Registrasienommer",
+          "type": "text"
+        },
+        {
+          "key": "Make",
+          "label": "Make",
+          "afLabel": "Fabrikaat",
+          "type": "text"
+        },
+        {
+          "key": "OwnerDriver",
+          "label": "Name and Address of Owner and Driver",
+          "afLabel": "Naam en adres van Eienaar en Bestuurder",
+          "type": "text"
+        },
+        {
+          "key": "Damage",
+          "label": "Details of damage",
+          "afLabel": "Besonderhede van skade",
+          "type": "text"
+        },
+        {
+          "key": "Contact",
+          "label": "(1) Contact details: Home, Work or Cell No.",
+          "afLabel": "Kontak besonderhede",
+          "type": "text"
+        },
+        {
+          "key": "Insurance",
+          "label": "(1) Insurance details: Company, Policy and/or Claim No.",
+          "afLabel": "Versekerings besonderhede",
+          "type": "text"
+        },
+        {
+          "key": "Damage2",
+          "label": "(1) Details of damage",
+          "afLabel": "Besonderhede van skade",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 3,
+      "fixedSlots": [
+        [
+          {
+            "id": "otherVehicle1Reg",
+            "section": "otherVehicles",
+            "label": "Vehicle 1 — Registration Number",
+            "afLabel": "Registrasienommer",
+            "type": "text",
+            "x0": 118,
+            "x1": 184,
+            "rows": [
+              661
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "otherVehicle1Make",
+            "section": "otherVehicles",
+            "label": "Vehicle 1 — Make",
+            "afLabel": "Fabrikaat",
+            "type": "text",
+            "x0": 189,
+            "x1": 241,
+            "rows": [
+              661
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "otherVehicle1OwnerDriver",
+            "section": "otherVehicles",
+            "label": "Vehicle 1 — Name and Address of Owner and Driver",
+            "afLabel": "Naam en adres van Eienaar en Bestuurder",
+            "type": "text",
+            "x0": 246,
+            "x1": 354,
+            "rows": [
+              661
+            ]
+          },
+          {
+            "id": "otherVehicle1Damage",
+            "section": "otherVehicles",
+            "label": "Vehicle 1 — Details of damage",
+            "afLabel": "Besonderhede van skade",
+            "type": "text",
+            "x0": 359,
+            "x1": 468,
+            "rows": [
+              661
+            ]
+          },
+          {
+            "id": "otherVehicle1Contact",
+            "section": "otherVehicles",
+            "label": "(1) Contact details: Home, Work or Cell No.",
+            "afLabel": "Kontak besonderhede",
+            "type": "text",
+            "x0": 132,
+            "x1": 227,
+            "rows": [
+              718.4
+            ]
+          },
+          {
+            "id": "otherVehicle1Insurance",
+            "section": "otherVehicles",
+            "label": "(1) Insurance details: Company, Policy and/or Claim No.",
+            "afLabel": "Versekerings besonderhede",
+            "type": "text",
+            "x0": 232,
+            "x1": 354,
+            "rows": [
+              718.4
+            ]
+          },
+          {
+            "id": "otherVehicle1Damage2",
+            "section": "otherVehicles",
+            "label": "(1) Details of damage",
+            "afLabel": "Besonderhede van skade",
+            "type": "text",
+            "x0": 359,
+            "x1": 468,
+            "rows": [
+              718.4
+            ]
+          }
+        ],
+        [
+          {
+            "id": "otherVehicle2Reg",
+            "section": "otherVehicles",
+            "label": "Vehicle 2 — Registration Number",
+            "afLabel": "Registrasienommer",
+            "type": "text",
+            "x0": 118,
+            "x1": 184,
+            "rows": [
+              674.4
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "otherVehicle2Make",
+            "section": "otherVehicles",
+            "label": "Vehicle 2 — Make",
+            "afLabel": "Fabrikaat",
+            "type": "text",
+            "x0": 189,
+            "x1": 241,
+            "rows": [
+              674.4
+            ],
+            "startSize": 7
+          },
+          {
+            "id": "otherVehicle2OwnerDriver",
+            "section": "otherVehicles",
+            "label": "Vehicle 2 — Name and Address of Owner and Driver",
+            "afLabel": "Naam en adres van Eienaar en Bestuurder",
+            "type": "text",
+            "x0": 246,
+            "x1": 354,
+            "rows": [
+              674.4
+            ]
+          },
+          {
+            "id": "otherVehicle2Damage",
+            "section": "otherVehicles",
+            "label": "Vehicle 2 — Details of damage",
+            "afLabel": "Besonderhede van skade",
+            "type": "text",
+            "x0": 359,
+            "x1": 468,
+            "rows": [
+              674.4
+            ]
+          },
+          {
+            "id": "otherVehicle2Contact",
+            "section": "otherVehicles",
+            "label": "(2) Contact details: Home, Work or Cell No.",
+            "afLabel": "Kontak besonderhede",
+            "type": "text",
+            "x0": 132,
+            "x1": 227,
+            "rows": [
+              731.8
+            ]
+          },
+          {
+            "id": "otherVehicle2Insurance",
+            "section": "otherVehicles",
+            "label": "(2) Insurance details: Company, Policy and/or Claim No.",
+            "afLabel": "Versekerings besonderhede",
+            "type": "text",
+            "x0": 232,
+            "x1": 354,
+            "rows": [
+              731.8
+            ]
+          },
+          {
+            "id": "otherVehicle2Damage2",
+            "section": "otherVehicles",
+            "label": "(2) Details of damage",
+            "afLabel": "Besonderhede van skade",
+            "type": "text",
+            "x0": 359,
+            "x1": 468,
+            "rows": [
+              731.8
+            ]
+          }
+        ],
+        [
+          {
+            "id": "otherVehicle3Contact",
+            "section": "otherVehicles",
+            "label": "(3) Contact details: Home, Work or Cell No.",
+            "afLabel": "Kontak besonderhede",
+            "type": "text",
+            "x0": 132,
+            "x1": 227,
+            "rows": [
+              745.5
+            ]
+          },
+          {
+            "id": "otherVehicle3Insurance",
+            "section": "otherVehicles",
+            "label": "(3) Insurance details: Company, Policy and/or Claim No.",
+            "afLabel": "Versekerings besonderhede",
+            "type": "text",
+            "x0": 232,
+            "x1": 354,
+            "rows": [
+              745.5
+            ]
+          },
+          {
+            "id": "otherVehicle3Damage2",
+            "section": "otherVehicles",
+            "label": "(3) Details of damage",
+            "afLabel": "Besonderhede van skade",
+            "type": "text",
+            "x0": 359,
+            "x1": 468,
+            "rows": [
+              745.5
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "otherProperty__otherProperty",
+      "section": "otherProperty",
+      "itemLabel": "Other Property",
+      "subFields": [
+        {
+          "key": "Owner",
+          "label": "Name and Address of Owner",
+          "afLabel": "Naam en adres van Eienaar",
+          "type": "text"
+        },
+        {
+          "key": "Damage",
+          "label": "Details of damage",
+          "afLabel": "Besonderhede van skade",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 3,
+      "fixedSlots": [
+        [
+          {
+            "id": "otherProperty1Owner",
+            "section": "otherProperty",
+            "label": "Property 1 — Name and Address of Owner",
+            "afLabel": "Naam en adres van Eienaar",
+            "type": "text",
+            "x0": 118,
+            "x1": 271,
+            "rows": [
+              773.3
+            ]
+          },
+          {
+            "id": "otherProperty1Damage",
+            "section": "otherProperty",
+            "label": "Property 1 — Details of damage",
+            "afLabel": "Besonderhede van skade",
+            "type": "text",
+            "x0": 276,
+            "x1": 468,
+            "rows": [
+              773.3
+            ]
+          }
+        ],
+        [
+          {
+            "id": "otherProperty2Owner",
+            "section": "otherProperty",
+            "label": "Property 2 — Name and Address of Owner",
+            "afLabel": "Naam en adres van Eienaar",
+            "type": "text",
+            "x0": 118,
+            "x1": 271,
+            "rows": [
+              787
+            ]
+          },
+          {
+            "id": "otherProperty2Damage",
+            "section": "otherProperty",
+            "label": "Property 2 — Details of damage",
+            "afLabel": "Besonderhede van skade",
+            "type": "text",
+            "x0": 276,
+            "x1": 468,
+            "rows": [
+              787
+            ]
+          }
+        ],
+        [
+          {
+            "id": "otherProperty3Owner",
+            "section": "otherProperty",
+            "label": "Property 3 — Name and Address of Owner",
+            "afLabel": "Naam en adres van Eienaar",
+            "type": "text",
+            "x0": 118,
+            "x1": 271,
+            "rows": [
+              800.4
+            ]
+          },
+          {
+            "id": "otherProperty3Damage",
+            "section": "otherProperty",
+            "label": "Property 3 — Details of damage",
+            "afLabel": "Besonderhede van skade",
+            "type": "text",
+            "x0": 276,
+            "x1": 468,
+            "rows": [
+              800.4
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "personalInjuries__injured",
+      "section": "personalInjuries",
+      "itemLabel": "Injured",
+      "subFields": [
+        {
+          "key": "Name",
+          "label": "Name of Injured",
+          "afLabel": "Naam van Beseerde",
+          "type": "text"
+        },
+        {
+          "key": "Relationship",
+          "label": "Relationship to accident (e.g. Driver, Passenger etc.)",
+          "afLabel": "Verband met die ongeluk",
+          "type": "text"
+        },
+        {
+          "key": "Details",
+          "label": "Details of Injuries",
+          "afLabel": "Besonderhede van Beserings",
+          "type": "text"
+        },
+        {
+          "key": "Hospital",
+          "label": "Name of Hospital, if applicable",
+          "afLabel": "Naam van Hospitaal indien van toepassing",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 3,
+      "fixedSlots": [
+        [
+          {
+            "id": "injured1Name",
+            "section": "personalInjuries",
+            "label": "Injured 1 — Name of Injured",
+            "afLabel": "Naam van Beseerde",
+            "type": "text",
+            "page": 1,
+            "x0": 118,
+            "x1": 182,
+            "rows": [
+              79
+            ]
+          },
+          {
+            "id": "injured1Relationship",
+            "section": "personalInjuries",
+            "label": "Injured 1 — Relationship to accident (e.g. Driver, Passenger etc.)",
+            "afLabel": "Verband met die ongeluk",
+            "type": "text",
+            "page": 1,
+            "x0": 189,
+            "x1": 271,
+            "rows": [
+              79
+            ]
+          },
+          {
+            "id": "injured1Details",
+            "section": "personalInjuries",
+            "label": "Injured 1 — Details of Injuries",
+            "afLabel": "Besonderhede van Beserings",
+            "type": "text",
+            "page": 1,
+            "x0": 278,
+            "x1": 349,
+            "rows": [
+              79
+            ]
+          },
+          {
+            "id": "injured1Hospital",
+            "section": "personalInjuries",
+            "label": "Injured 1 — Name of Hospital, if applicable",
+            "afLabel": "Naam van Hospitaal indien van toepassing",
+            "type": "text",
+            "page": 1,
+            "x0": 356,
+            "x1": 471,
+            "rows": [
+              79
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injured2Name",
+            "section": "personalInjuries",
+            "label": "Injured 2 — Name of Injured",
+            "afLabel": "Naam van Beseerde",
+            "type": "text",
+            "page": 1,
+            "x0": 118,
+            "x1": 182,
+            "rows": [
+              96.5
+            ]
+          },
+          {
+            "id": "injured2Relationship",
+            "section": "personalInjuries",
+            "label": "Injured 2 — Relationship to accident (e.g. Driver, Passenger etc.)",
+            "afLabel": "Verband met die ongeluk",
+            "type": "text",
+            "page": 1,
+            "x0": 189,
+            "x1": 271,
+            "rows": [
+              96.5
+            ]
+          },
+          {
+            "id": "injured2Details",
+            "section": "personalInjuries",
+            "label": "Injured 2 — Details of Injuries",
+            "afLabel": "Besonderhede van Beserings",
+            "type": "text",
+            "page": 1,
+            "x0": 278,
+            "x1": 349,
+            "rows": [
+              96.5
+            ]
+          },
+          {
+            "id": "injured2Hospital",
+            "section": "personalInjuries",
+            "label": "Injured 2 — Name of Hospital, if applicable",
+            "afLabel": "Naam van Hospitaal indien van toepassing",
+            "type": "text",
+            "page": 1,
+            "x0": 356,
+            "x1": 471,
+            "rows": [
+              96.5
+            ]
+          }
+        ],
+        [
+          {
+            "id": "injured3Name",
+            "section": "personalInjuries",
+            "label": "Injured 3 — Name of Injured",
+            "afLabel": "Naam van Beseerde",
+            "type": "text",
+            "page": 1,
+            "x0": 118,
+            "x1": 182,
+            "rows": [
+              115
+            ]
+          },
+          {
+            "id": "injured3Relationship",
+            "section": "personalInjuries",
+            "label": "Injured 3 — Relationship to accident (e.g. Driver, Passenger etc.)",
+            "afLabel": "Verband met die ongeluk",
+            "type": "text",
+            "page": 1,
+            "x0": 189,
+            "x1": 271,
+            "rows": [
+              115
+            ]
+          },
+          {
+            "id": "injured3Details",
+            "section": "personalInjuries",
+            "label": "Injured 3 — Details of Injuries",
+            "afLabel": "Besonderhede van Beserings",
+            "type": "text",
+            "page": 1,
+            "x0": 278,
+            "x1": 349,
+            "rows": [
+              115
+            ]
+          },
+          {
+            "id": "injured3Hospital",
+            "section": "personalInjuries",
+            "label": "Injured 3 — Name of Hospital, if applicable",
+            "afLabel": "Naam van Hospitaal indien van toepassing",
+            "type": "text",
+            "page": 1,
+            "x0": 356,
+            "x1": 471,
+            "rows": [
+              115
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "groupKey": "witnesses__witness",
+      "section": "witnesses",
+      "itemLabel": "Witness",
+      "subFields": [
+        {
+          "key": "NameAddressPhone",
+          "label": "Name, Address and Telephone Number",
+          "afLabel": "Naam, Adres en Telefoonnommer",
+          "type": "text",
+          "multiline": true
+        }
+      ],
+      "fixedSlotCount": 2,
+      "fixedSlots": [
+        [
+          {
+            "id": "witness1NameAddressPhone",
+            "section": "witnesses",
+            "label": "Witness 1 — Name, Address and Telephone Number",
+            "afLabel": "Naam, Adres en Telefoonnommer",
+            "type": "text",
+            "multiline": true,
+            "page": 1,
+            "x0": 116,
+            "x1": 471,
+            "rows": [
+              129.2,
+              144.8
+            ]
+          }
+        ],
+        [
+          {
+            "id": "witness2NameAddressPhone",
+            "section": "witnesses",
+            "label": "Witness 2 — Name, Address and Telephone Number",
+            "afLabel": "Naam, Adres en Telefoonnommer",
+            "type": "text",
+            "multiline": true,
+            "page": 1,
+            "x0": 116,
+            "x1": 471,
+            "rows": [
+              160.1,
+              175.7
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

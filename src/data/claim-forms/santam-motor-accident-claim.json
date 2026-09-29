@@ -1,0 +1,736 @@
+{
+  "id": "santam-motor-accident-claim",
+  "insurer": "Santam",
+  "title": "Motor Vehicle Own Damage Claim Form",
+  "afTitle": "Motorvoertuig Eie Skade Eisvorms",
+  "filenameField": "insuredSurname",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Policy & Claim Number"
+    },
+    {
+      "id": "insured",
+      "title": "The Insured",
+      "afTitle": "Die Versekerde"
+    },
+    {
+      "id": "driver",
+      "title": "The Driver at the Time of the Accident",
+      "afTitle": "Die Bestuurder Tydens die Ongeluk"
+    },
+    {
+      "id": "vehicle",
+      "title": "The Vehicle",
+      "afTitle": "Die Voertuig"
+    },
+    {
+      "id": "accident",
+      "title": "The Accident",
+      "afTitle": "Die Ongeluk"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration",
+      "afTitle": "Verklaring"
+    }
+  ],
+  "fields": [
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy Number / Polisnommer",
+      "type": "text",
+      "x0": 113.64,
+      "x1": 318.72,
+      "rows": [
+        67.08
+      ]
+    },
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim Number / Eisnommer",
+      "type": "text",
+      "x0": 404.16,
+      "x1": 573.84,
+      "rows": [
+        67.08
+      ]
+    },
+    {
+      "id": "insuredSurname",
+      "section": "insured",
+      "label": "Surname / Van",
+      "type": "text",
+      "required": true,
+      "x0": 71.28,
+      "x1": 227.64,
+      "rows": [
+        101.88
+      ]
+    },
+    {
+      "id": "insuredInitials",
+      "section": "insured",
+      "label": "Initials / Voorletters",
+      "type": "text",
+      "x0": 285.12,
+      "x1": 390.84,
+      "rows": [
+        101.88
+      ]
+    },
+    {
+      "id": "insuredIdNo",
+      "section": "insured",
+      "label": "ID No.",
+      "type": "text",
+      "x0": 427.68,
+      "x1": 575.28,
+      "rows": [
+        101.88
+      ]
+    },
+    {
+      "id": "insuredAddressH",
+      "section": "insured",
+      "label": "Address (Home) / Adres (H)",
+      "type": "text",
+      "multiline": true,
+      "x0": 99.84,
+      "x1": 270.36,
+      "rows": [
+        120.36,
+        135
+      ]
+    },
+    {
+      "id": "insuredCityH",
+      "section": "insured",
+      "label": "Address (Home), continued",
+      "type": "text",
+      "x0": 23.64,
+      "x1": 113.64,
+      "rows": [
+        149.64
+      ]
+    },
+    {
+      "id": "insuredPostcodeH",
+      "section": "insured",
+      "label": "Postcode (Home) / Poskode",
+      "type": "text",
+      "x0": 185.4,
+      "x1": 270.36,
+      "rows": [
+        149.64
+      ]
+    },
+    {
+      "id": "insuredAddressW",
+      "section": "insured",
+      "label": "Address (Work) / Adres (W)",
+      "type": "text",
+      "multiline": true,
+      "x0": 370.56,
+      "x1": 575.28,
+      "rows": [
+        120.36,
+        135
+      ]
+    },
+    {
+      "id": "insuredCityW",
+      "section": "insured",
+      "label": "Address (Work), continued",
+      "type": "text",
+      "x0": 285.12,
+      "x1": 398.64,
+      "rows": [
+        149.64
+      ]
+    },
+    {
+      "id": "insuredPostcodeW",
+      "section": "insured",
+      "label": "Postcode (Work) / Poskode",
+      "type": "text",
+      "x0": 470.4,
+      "x1": 575.28,
+      "rows": [
+        149.64
+      ]
+    },
+    {
+      "id": "insuredFaxNo",
+      "section": "insured",
+      "label": "Fax No. / Faksnr.",
+      "type": "text",
+      "x0": 64.2,
+      "x1": 270.36,
+      "rows": [
+        184.92
+      ]
+    },
+    {
+      "id": "insuredCellNo",
+      "section": "insured",
+      "label": "Cell No. / Selnr.",
+      "type": "text",
+      "x0": 313.56,
+      "x1": 575.28,
+      "rows": [
+        184.92
+      ]
+    },
+    {
+      "id": "insuredPhoneW",
+      "section": "insured",
+      "label": "Telephone (Work) / Telefoonnr. (W)",
+      "type": "text",
+      "x0": 99.84,
+      "x1": 241.92,
+      "rows": [
+        205.44
+      ]
+    },
+    {
+      "id": "insuredPhoneH",
+      "section": "insured",
+      "label": "Telephone (Home) / (H)",
+      "type": "text",
+      "x0": 278.04,
+      "x1": 363.12,
+      "rows": [
+        205.44
+      ]
+    },
+    {
+      "id": "insuredOccupation",
+      "section": "insured",
+      "label": "Occupation / Beroep",
+      "type": "text",
+      "x0": 420.6,
+      "x1": 575.28,
+      "rows": [
+        205.44
+      ]
+    },
+    {
+      "id": "driverSurname",
+      "section": "driver",
+      "label": "Surname / Van",
+      "type": "text",
+      "x0": 71.28,
+      "x1": 227.64,
+      "rows": [
+        243.84
+      ]
+    },
+    {
+      "id": "driverInitials",
+      "section": "driver",
+      "label": "Initials / Voorletters",
+      "type": "text",
+      "x0": 285.12,
+      "x1": 390.84,
+      "rows": [
+        243.84
+      ]
+    },
+    {
+      "id": "driverIdNo",
+      "section": "driver",
+      "label": "ID No.",
+      "type": "text",
+      "x0": 427.68,
+      "x1": 575.28,
+      "rows": [
+        243.84
+      ]
+    },
+    {
+      "id": "driverAddress",
+      "section": "driver",
+      "label": "Address (Home) / Adres (H) — copy of driver’s licence to be attached",
+      "type": "text",
+      "multiline": true,
+      "x0": 114.12,
+      "x1": 575.28,
+      "rows": [
+        262.44,
+        277.08
+      ]
+    },
+    {
+      "id": "driverAddressContinued",
+      "section": "driver",
+      "label": "Address, continued",
+      "type": "text",
+      "x0": 23.64,
+      "x1": 363.12,
+      "rows": [
+        291.6
+      ]
+    },
+    {
+      "id": "driverPostcode",
+      "section": "driver",
+      "label": "Postcode / Poskode",
+      "type": "text",
+      "x0": 434.76,
+      "x1": 575.28,
+      "rows": [
+        291.6
+      ]
+    },
+    {
+      "id": "driverPhoneW",
+      "section": "driver",
+      "label": "Telephone (Work) / Telefoonnr.",
+      "type": "text",
+      "x0": 99.84,
+      "x1": 241.92,
+      "rows": [
+        312.36
+      ]
+    },
+    {
+      "id": "driverPhoneH",
+      "section": "driver",
+      "label": "Telephone (Home) / (H)",
+      "type": "text",
+      "x0": 263.76,
+      "x1": 363.12,
+      "rows": [
+        312.36
+      ]
+    },
+    {
+      "id": "driverCellNo",
+      "section": "driver",
+      "label": "Cell No. / Selnr.",
+      "type": "text",
+      "x0": 420.6,
+      "x1": 575.28,
+      "rows": [
+        312.36
+      ]
+    },
+    {
+      "id": "driverLicenceCode",
+      "section": "driver",
+      "label": "Driver’s Licence Code / Bestuurderslisensie Kode",
+      "type": "text",
+      "x0": 142.56,
+      "x1": 177.72,
+      "rows": [
+        332.88
+      ]
+    },
+    {
+      "id": "driverLicenceDateIssued",
+      "section": "driver",
+      "label": "Date Issued / Datum uitgereik",
+      "type": "text",
+      "x0": 263.76,
+      "x1": 327.48,
+      "rows": [
+        332.88
+      ]
+    },
+    {
+      "id": "driverLicenceLimitations",
+      "section": "driver",
+      "label": "Limitations / Beperkings",
+      "type": "text",
+      "x0": 377.76,
+      "x1": 441.48,
+      "rows": [
+        332.88
+      ]
+    },
+    {
+      "id": "driverLicenceFullLearner",
+      "section": "driver",
+      "label": "Full/Learner’s / Vol/Leerling",
+      "type": "text",
+      "x0": 498.96,
+      "x1": 575.28,
+      "rows": [
+        332.88
+      ]
+    },
+    {
+      "id": "driverSober",
+      "section": "driver",
+      "label": "Was the driver sober? / Was die bestuurder nugter?",
+      "type": "choice",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes / Ja",
+          "x": 178,
+          "y": 345.3
+        },
+        {
+          "value": "no",
+          "label": "No / Nee",
+          "x": 249,
+          "y": 345.3
+        }
+      ]
+    },
+    {
+      "id": "driverBloodSampleTaken",
+      "section": "driver",
+      "label": "Was a blood sample taken after the accident? / Is ‘n bloedmonster na die ongeluk geneem?",
+      "type": "choice",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes / Ja",
+          "x": 489,
+          "y": 345.3
+        },
+        {
+          "value": "no",
+          "label": "No / Nee",
+          "x": 560.6,
+          "y": 345.3
+        }
+      ]
+    },
+    {
+      "id": "driverSoberResult",
+      "section": "driver",
+      "label": "If Yes, what was the result? / Indien Ja, wat was die uitslag?",
+      "type": "text",
+      "x0": 149.76,
+      "x1": 575.28,
+      "rows": [
+        374.28
+      ]
+    },
+    {
+      "id": "vehicleMake",
+      "section": "vehicle",
+      "label": "Make / Fabrikaat",
+      "type": "text",
+      "x0": 71.28,
+      "x1": 192,
+      "rows": [
+        408.84
+      ]
+    },
+    {
+      "id": "vehicleYear",
+      "section": "vehicle",
+      "label": "Year of Manufacture / Jaar van vervaardiger",
+      "type": "text",
+      "x0": 292.2,
+      "x1": 363.12,
+      "rows": [
+        408.84
+      ]
+    },
+    {
+      "id": "vehicleRegNo",
+      "section": "vehicle",
+      "label": "Registration Number / Registrasienommer",
+      "type": "text",
+      "x0": 456.12,
+      "x1": 575.28,
+      "rows": [
+        408.84
+      ]
+    },
+    {
+      "id": "vehicleColour",
+      "section": "vehicle",
+      "label": "Colour / Kleur",
+      "type": "text",
+      "x0": 71.28,
+      "x1": 192,
+      "rows": [
+        429.48
+      ]
+    },
+    {
+      "id": "vehicleOtherPolicyInsured",
+      "section": "vehicle",
+      "label": "Is the vehicle insured under any other policy? / Is die voertuig onder enige ander polis verseker?",
+      "type": "choice",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes / Ja",
+          "x": 463,
+          "y": 421.14
+        },
+        {
+          "value": "no",
+          "label": "No / Nee",
+          "x": 558.5,
+          "y": 421.14
+        }
+      ]
+    },
+    {
+      "id": "registeredOwnerNameAddress",
+      "section": "vehicle",
+      "label": "Name and Address of Registered Owner / Naam en adres van geregistreerde eienaar",
+      "type": "text",
+      "x0": 192.48,
+      "x1": 575.28,
+      "rows": [
+        450.24
+      ]
+    },
+    {
+      "id": "titleHolderNameAddress",
+      "section": "vehicle",
+      "label": "Name and Address of Title Holder, if subject to hire-purchase / Naam en adres van titelhouer",
+      "type": "text",
+      "x0": 23.64,
+      "x1": 575.28,
+      "rows": [
+        487.08
+      ]
+    },
+    {
+      "id": "damageDescription",
+      "section": "vehicle",
+      "label": "Description of Damage to the Vehicle / Beskrywing van skade aan voertuig",
+      "type": "text",
+      "x0": 171.12,
+      "x1": 575.28,
+      "rows": [
+        507.72
+      ]
+    },
+    {
+      "id": "estimatedRepairCost",
+      "section": "vehicle",
+      "label": "Estimated Cost of Repairs (R) / Beraamde herstelkoste",
+      "type": "text",
+      "placeholder": "e.g. 15000",
+      "x0": 156.84,
+      "x1": 234.84,
+      "rows": [
+        528.48
+      ]
+    },
+    {
+      "id": "repairInstructionsGiven",
+      "section": "vehicle",
+      "label": "Have instructions for repair been given? / Is opdrag vir herstel gegee?",
+      "type": "choice",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes / Ja",
+          "x": 463,
+          "y": 520.08
+        },
+        {
+          "value": "no",
+          "label": "No / Nee",
+          "x": 558.2,
+          "y": 520.08
+        }
+      ]
+    },
+    {
+      "id": "repairByWhom",
+      "section": "vehicle",
+      "label": "If Yes, by whom? / Indien Ja, deur wie?",
+      "type": "text",
+      "x0": 106.92,
+      "x1": 575.28,
+      "rows": [
+        549
+      ]
+    },
+    {
+      "id": "vehicleViewingAddress",
+      "section": "vehicle",
+      "label": "Address where Vehicle may be Seen / Adres waar die voertuig besigtig kan word",
+      "type": "text",
+      "x0": 185.4,
+      "x1": 575.28,
+      "rows": [
+        569.52
+      ]
+    },
+    {
+      "id": "accidentDate",
+      "section": "accident",
+      "label": "Date / Datum",
+      "type": "text",
+      "x0": 64.2,
+      "x1": 192,
+      "rows": [
+        601.2
+      ]
+    },
+    {
+      "id": "accidentPlace",
+      "section": "accident",
+      "label": "Place / Plek",
+      "type": "text",
+      "x0": 228.12,
+      "x1": 420.12,
+      "rows": [
+        601.2
+      ]
+    },
+    {
+      "id": "accidentTimeHour",
+      "section": "accident",
+      "label": "Time (hour) / Tyd",
+      "type": "text",
+      "placeholder": "e.g. 14",
+      "x0": 456.12,
+      "x1": 519.84,
+      "rows": [
+        601.2
+      ]
+    },
+    {
+      "id": "accidentTimeMinute",
+      "section": "accident",
+      "label": "Time (minutes)",
+      "type": "text",
+      "placeholder": "e.g. 30",
+      "x0": 534.6,
+      "x1": 575.28,
+      "rows": [
+        601.2
+      ]
+    },
+    {
+      "id": "accidentCountryIfAbroad",
+      "section": "accident",
+      "label": "If outside the borders of RSA, which country / Indien buite die grense van die Republiek, watter land",
+      "type": "text",
+      "x0": 384.84,
+      "x1": 575.28,
+      "rows": [
+        621.96
+      ]
+    },
+    {
+      "id": "policeStation",
+      "section": "accident",
+      "label": "Police Station/Traffic Department where reported / Polisiekantoor/Verkeersafdeling waar aangemeld",
+      "type": "text",
+      "x0": 235.32,
+      "x1": 575.28,
+      "rows": [
+        642.48
+      ]
+    },
+    {
+      "id": "policeReferenceNo",
+      "section": "accident",
+      "label": "Police/Traffic Reference Number / Verwysingsnommer",
+      "type": "text",
+      "x0": 178.2,
+      "x1": 575.28,
+      "rows": [
+        663.36
+      ]
+    },
+    {
+      "id": "accidentShortDescription",
+      "section": "accident",
+      "label": "Short Description of Accident / Kort beskrywing van ongeluk",
+      "type": "text",
+      "x0": 128.28,
+      "x1": 575.28,
+      "rows": [
+        683.88
+      ]
+    },
+    {
+      "id": "otherPartiesCanClaim",
+      "section": "accident",
+      "label": "4.1 Are there other parties who can claim damages arising from the accident from you, or from whom you can claim damages? / Is daar ander partye wat skadevergoeding van u kan eis of van wie u skadevergoeding kan eis?",
+      "type": "choice",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes / Ja",
+          "x": 488,
+          "y": 716
+        },
+        {
+          "value": "no",
+          "label": "No / Nee",
+          "x": 562,
+          "y": 716
+        }
+      ]
+    },
+    {
+      "id": "passengersInjured",
+      "section": "accident",
+      "label": "4.2 Have any passengers in your vehicle sustained injuries? / Het enige passasiers in u voertuig beserings opgedoen?",
+      "type": "choice",
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes / Ja",
+          "x": 488,
+          "y": 736.7
+        },
+        {
+          "value": "no",
+          "label": "No / Nee",
+          "x": 562,
+          "y": 736.7
+        }
+      ]
+    },
+    {
+      "id": "thirdPartyNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "If your answer to any questions 4.1 or 4.2 above is Yes, please complete the Motor Vehicle Third Party Liability Claim Form.",
+      "afLabel": "Indien u antwoord op enige van vrae 4.1 en 4.2 hierbo Ja is, voltooi asb. die Motorvoertuig Derdeparty Aanspreeklikheid Eisvorm."
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "label": "I declare that to the best of my knowledge and belief the foregoing particulars are true, correct and a complete disclosure of the circumstances relating to the claim and I undertake to render to the company every assistance in my power in dealing with the matter.",
+      "afLabel": "Ek verklaar dat na my beste wete die bostaande besonderhede waar en juis is en ‘n volledige blootlegging is van die omstandighede van die eis en ek onderneem om die maatskappy al die hulp in my vermoë met die hantering van die eis te verleen."
+    },
+    {
+      "id": "signDate",
+      "section": "declaration",
+      "label": "Date / Datum",
+      "type": "text",
+      "required": true,
+      "x0": 58,
+      "x1": 298,
+      "rows": [
+        814.8
+      ]
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Signature of Insured / Handtekening van Versekerde",
+      "type": "signature",
+      "required": true,
+      "x0": 430,
+      "x1": 575.28,
+      "bottom": 814.8,
+      "height": 17
+    }
+  ],
+  "repeatingGroups": []
+}

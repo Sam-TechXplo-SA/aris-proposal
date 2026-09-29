@@ -1,0 +1,3348 @@
+{
+  "id": "charter-risk-property-loss-damage-claim",
+  "insurer": "Charter Risk",
+  "title": "Property Loss / Damage Claim Form",
+  "filenameField": "insuredName",
+  "sections": [
+    {
+      "id": "header",
+      "title": "Claim & Policy"
+    },
+    {
+      "id": "insured",
+      "title": "Insured"
+    },
+    {
+      "id": "lossDamageOccurrence",
+      "title": "Loss / Damage Occurrence"
+    },
+    {
+      "id": "otherPartyCaused",
+      "title": "If Loss / Damage Was Caused By Another Party"
+    },
+    {
+      "id": "previousLossDamage",
+      "title": "Previous Loss / Damage"
+    },
+    {
+      "id": "otherInterest",
+      "title": "Other Interest"
+    },
+    {
+      "id": "value",
+      "title": "Value"
+    },
+    {
+      "id": "otherInsurance",
+      "title": "Other Insurance"
+    },
+    {
+      "id": "declaration",
+      "title": "Declaration And Statement"
+    },
+    {
+      "id": "propertyList",
+      "title": "List of Property Lost, Stolen or Damaged"
+    }
+  ],
+  "fields": [
+    {
+      "id": "claimNo",
+      "section": "header",
+      "label": "Claim No",
+      "type": "text",
+      "x0": 340,
+      "x1": 558,
+      "rows": [
+        144.5
+      ]
+    },
+    {
+      "id": "policyNo",
+      "section": "header",
+      "label": "Policy No",
+      "type": "text",
+      "x0": 330,
+      "x1": 414,
+      "rows": [
+        171.1
+      ],
+      "maxLength": 20
+    },
+    {
+      "id": "identityNo",
+      "section": "header",
+      "label": "Identity No",
+      "type": "text",
+      "x0": 480,
+      "x1": 565,
+      "rows": [
+        171.1
+      ],
+      "maxLength": 13
+    },
+    {
+      "id": "insuredName",
+      "section": "insured",
+      "label": "Name",
+      "type": "text",
+      "required": true,
+      "x0": 82,
+      "x1": 565,
+      "rows": [
+        209.3
+      ]
+    },
+    {
+      "id": "insuredResidentialAddress",
+      "section": "insured",
+      "label": "Residential Address",
+      "type": "text",
+      "multiline": true,
+      "x0": 135,
+      "x1": 463,
+      "rows": [
+        228,
+        242.4
+      ]
+    },
+    {
+      "id": "insuredPostalCode",
+      "section": "insured",
+      "label": "Code",
+      "type": "text",
+      "x0": 504.8,
+      "x1": 567.8,
+      "rows": [
+        242.4
+      ],
+      "maxLength": 4
+    },
+    {
+      "id": "insuredTelWork",
+      "section": "insured",
+      "label": "Telephone (W)",
+      "type": "text",
+      "x0": 112,
+      "x1": 205,
+      "rows": [
+        256.8
+      ]
+    },
+    {
+      "id": "insuredTelHome",
+      "section": "insured",
+      "label": "Telephone (H)",
+      "type": "text",
+      "x0": 226,
+      "x1": 326,
+      "rows": [
+        256.8
+      ]
+    },
+    {
+      "id": "insuredOccupation",
+      "section": "insured",
+      "label": "Occupation",
+      "type": "text",
+      "x0": 391.6,
+      "x1": 570.6,
+      "rows": [
+        256.8
+      ]
+    },
+    {
+      "id": "insuredPreviousLossesDamage",
+      "section": "insured",
+      "label": "Details of Previous Losses/Damage",
+      "type": "text",
+      "x0": 195,
+      "x1": 565,
+      "rows": [
+        275.5
+      ]
+    },
+    {
+      "id": "dateTimeOfLoss",
+      "section": "lossDamageOccurrence",
+      "label": "Date and Time of Loss/Damage",
+      "type": "text",
+      "x0": 182,
+      "x1": 283,
+      "rows": [
+        318.7
+      ],
+      "maxLength": 20
+    },
+    {
+      "id": "whenLossDiscovered",
+      "section": "lossDamageOccurrence",
+      "label": "When Was the Loss/Damage Discovered?",
+      "type": "text",
+      "x0": 480,
+      "x1": 575,
+      "rows": [
+        318.7
+      ],
+      "maxLength": 20
+    },
+    {
+      "id": "whoDiscoveredLoss",
+      "section": "lossDamageOccurrence",
+      "label": "Who Discovered the Loss?",
+      "type": "text",
+      "x0": 163,
+      "x1": 297,
+      "rows": [
+        337.5
+      ]
+    },
+    {
+      "id": "whoDiscoveredName",
+      "section": "lossDamageOccurrence",
+      "label": "Name (of who discovered the loss)",
+      "type": "text",
+      "x0": 344,
+      "x1": 575,
+      "rows": [
+        337.5
+      ]
+    },
+    {
+      "id": "whoDiscoveredAddress",
+      "section": "lossDamageOccurrence",
+      "label": "Address (of who discovered the loss)",
+      "type": "text",
+      "multiline": true,
+      "x0": 82,
+      "x1": 473,
+      "rows": [
+        351.9,
+        365.9
+      ]
+    },
+    {
+      "id": "whoDiscoveredCode",
+      "section": "lossDamageOccurrence",
+      "label": "Code",
+      "type": "text",
+      "x0": 513.6,
+      "x1": 577.8,
+      "rows": [
+        365.9
+      ],
+      "maxLength": 4
+    },
+    {
+      "id": "placeWhereLossOccurred",
+      "section": "lossDamageOccurrence",
+      "label": "Place Where Loss / Damage Occurred",
+      "type": "text",
+      "x0": 209,
+      "x1": 575,
+      "rows": [
+        385
+      ]
+    },
+    {
+      "id": "werePremisesOccupied",
+      "section": "lossDamageOccurrence",
+      "label": "Were the Premises Occupied?",
+      "type": "text",
+      "x0": 170,
+      "x1": 291,
+      "rows": [
+        403.7
+      ]
+    },
+    {
+      "id": "byWhomOccupied",
+      "section": "lossDamageOccurrence",
+      "label": "By Whom?",
+      "type": "text",
+      "x0": 354,
+      "x1": 575,
+      "rows": [
+        403.7
+      ]
+    },
+    {
+      "id": "ifNotOccupiedWhenLast",
+      "section": "lossDamageOccurrence",
+      "label": "If Not Occupied. When Was It Last Occupied?",
+      "type": "text",
+      "x0": 245,
+      "x1": 575,
+      "rows": [
+        418.1
+      ]
+    },
+    {
+      "id": "descriptionOfLossDamage",
+      "section": "lossDamageOccurrence",
+      "label": "Describe in Detail How the Loss / Damage Occurred, and How Entry Was Gained to the Premises.",
+      "type": "text",
+      "multiline": true,
+      "x0": 470,
+      "x1": 575,
+      "rows": [
+        437.2,
+        451.3,
+        465.3,
+        479.7,
+        494.1,
+        508.5,
+        522.6,
+        537,
+        551
+      ]
+    },
+    {
+      "id": "precautionaryMeasures",
+      "section": "lossDamageOccurrence",
+      "label": "Describe the Nature of the Precautionary Measures Taken to Prevent Such Loss in the Future.",
+      "type": "text",
+      "multiline": true,
+      "x0": 470,
+      "x1": 575,
+      "rows": [
+        570.1,
+        584.2,
+        598.6,
+        613
+      ]
+    },
+    {
+      "id": "otherPartyName",
+      "section": "otherPartyCaused",
+      "label": "Name",
+      "type": "text",
+      "x0": 82,
+      "x1": 575,
+      "rows": [
+        651.2
+      ]
+    },
+    {
+      "id": "otherPartyResidentialAddress",
+      "section": "otherPartyCaused",
+      "label": "Residential Address",
+      "type": "text",
+      "multiline": true,
+      "x0": 136,
+      "x1": 473,
+      "rows": [
+        665.6,
+        679.6
+      ]
+    },
+    {
+      "id": "otherPartyCode",
+      "section": "otherPartyCaused",
+      "label": "Code",
+      "type": "text",
+      "x0": 520.6,
+      "x1": 577.8,
+      "rows": [
+        679.6
+      ],
+      "maxLength": 4
+    },
+    {
+      "id": "otherPartyTelWork",
+      "section": "otherPartyCaused",
+      "label": "Telephone (W)",
+      "type": "text",
+      "x0": 114,
+      "x1": 335,
+      "rows": [
+        691.8
+      ]
+    },
+    {
+      "id": "otherPartyTelHome",
+      "section": "otherPartyCaused",
+      "label": "Telephone (H)",
+      "type": "text",
+      "x0": 357,
+      "x1": 575,
+      "rows": [
+        691.8
+      ]
+    },
+    {
+      "id": "policeReferenceNo",
+      "section": "otherPartyCaused",
+      "label": "Police Reference No",
+      "type": "text",
+      "x0": 137,
+      "x1": 238,
+      "rows": [
+        710.6
+      ],
+      "maxLength": 20
+    },
+    {
+      "id": "policeStation",
+      "section": "otherPartyCaused",
+      "label": "Police Station",
+      "type": "text",
+      "x0": 326,
+      "x1": 409,
+      "rows": [
+        710.6
+      ]
+    },
+    {
+      "id": "dateReported",
+      "section": "otherPartyCaused",
+      "label": "Date Reported",
+      "type": "text",
+      "x0": 497,
+      "x1": 575,
+      "rows": [
+        710.6
+      ],
+      "maxLength": 10,
+      "placeholder": "DD/MM/YYYY"
+    },
+    {
+      "id": "hasSufferedLossBefore",
+      "section": "previousLossDamage",
+      "label": "Have You Suffered Any Loss / Damage Before?",
+      "type": "text",
+      "page": 1,
+      "x0": 250.6,
+      "x1": 577.8,
+      "rows": [
+        46.8
+      ]
+    },
+    {
+      "id": "ifSoSupplyDetails",
+      "section": "previousLossDamage",
+      "label": "If So, Supply Details",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 134.6,
+      "x1": 577.8,
+      "rows": [
+        61,
+        75.4,
+        89.65,
+        104,
+        118.25,
+        132.55,
+        146.85,
+        161.25,
+        175.55,
+        189.75,
+        204.15
+      ]
+    },
+    {
+      "id": "insurerNameIfInsured",
+      "section": "previousLossDamage",
+      "label": "If You Were Insured, Indicate Name of Insurer",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 250.6,
+      "x1": 577.8,
+      "rows": [
+        218.4,
+        232.65,
+        247.05,
+        261.35,
+        275.65,
+        290
+      ]
+    },
+    {
+      "id": "otherPartyHasInterest",
+      "section": "otherInterest",
+      "label": "Does Any Other Party Have Interest in the Insured Property, eg Credit Agreement?",
+      "type": "text",
+      "page": 1,
+      "x0": 408,
+      "x1": 565,
+      "rows": [
+        333.1
+      ]
+    },
+    {
+      "id": "otherInterestDetails",
+      "section": "otherInterest",
+      "label": "If So, State Name and Interest",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 180,
+      "x1": 565,
+      "rows": [
+        351.9,
+        366.3,
+        380.7
+      ]
+    },
+    {
+      "id": "estimateTotalValue",
+      "section": "value",
+      "label": "What is Your Estimate of the Total Value of the Property Insured Under the Policy (With the Exclusion of Motor Vehicles)?",
+      "type": "text",
+      "page": 1,
+      "x0": 452,
+      "x1": 565,
+      "rows": [
+        434.7
+      ]
+    },
+    {
+      "id": "whenLastValued",
+      "section": "value",
+      "label": "When Was It Last Valued?",
+      "type": "text",
+      "page": 1,
+      "x0": 162,
+      "x1": 358,
+      "rows": [
+        449.1
+      ]
+    },
+    {
+      "id": "byWhomValued",
+      "section": "value",
+      "label": "By Whom",
+      "type": "text",
+      "page": 1,
+      "x0": 417,
+      "x1": 565,
+      "rows": [
+        449.1
+      ]
+    },
+    {
+      "id": "otherInsuranceCovering",
+      "section": "otherInsurance",
+      "label": "Is There Any Other Insurance Covering This Loss / Damage?",
+      "type": "text",
+      "page": 1,
+      "x0": 302,
+      "x1": 565,
+      "rows": [
+        496.7
+      ]
+    },
+    {
+      "id": "otherInsurerName",
+      "section": "otherInsurance",
+      "label": "If So, State Name of Insurer",
+      "type": "text",
+      "page": 1,
+      "x0": 171,
+      "x1": 565,
+      "rows": [
+        515.7
+      ]
+    },
+    {
+      "id": "otherInsurancePolicyNo",
+      "section": "otherInsurance",
+      "label": "Policy No",
+      "type": "text",
+      "page": 1,
+      "x0": 92,
+      "x1": 294,
+      "rows": [
+        529.8
+      ],
+      "maxLength": 20
+    },
+    {
+      "id": "otherInsuranceBranchOffice",
+      "section": "otherInsurance",
+      "label": "Branch Office",
+      "type": "text",
+      "page": 1,
+      "x0": 383,
+      "x1": 565,
+      "rows": [
+        529.8
+      ]
+    },
+    {
+      "id": "declarationNote",
+      "section": "declaration",
+      "type": "note",
+      "page": 1,
+      "label": "I/We acknowledge the sharing of claims information by insurers is essential to enable the insurance industry to underwrite policies and assess risks fairly and reduce the incidence of fraudulent claims. In the public interest and with a view to limiting premiums, I/We hereby waive any right to privacy in any insurance or claims information supplied by me or on my behalf in respect of any insurance application or claim made or lodged by me/us and I/we consent to such information being disclosed to any other insurance company or its agent. I/We also waive any rights to privacy and consent to disclosure of any information relevant to any insurance claim concerning me or any person I/We represent. I/We further declare that all the particulars to be true in every respect and correct and I/We understand that if any claim lodged under this policy be in any respect fraudulent or if any fraudulent means of devices be used by me/us or anyone acting on my/our behalf or with my/our knowledge or consent to obtain any benefit under this policy or if any event be occasioned by the wilful act or with the connivance of me/us, the benefit afforded under this policy in respect of such claim shall be forfeited."
+    },
+    {
+      "id": "insuredSignature",
+      "section": "declaration",
+      "label": "Insured's Signature",
+      "type": "signature",
+      "required": true,
+      "page": 1,
+      "x0": 32,
+      "x1": 224,
+      "bottom": 760.3,
+      "height": 10
+    },
+    {
+      "id": "insuredSignDate",
+      "section": "declaration",
+      "label": "Date",
+      "type": "text",
+      "required": true,
+      "page": 1,
+      "x0": 328,
+      "x1": 574,
+      "rows": [
+        760.3
+      ]
+    },
+    {
+      "id": "propertyListNote",
+      "section": "propertyList",
+      "type": "note",
+      "page": 2,
+      "label": "NB: Claims in respect of damage to building must be accompanied by a builder's estimate."
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "propertyList__propertyItem",
+      "section": "propertyList",
+      "itemLabel": "Property Item",
+      "subFields": [
+        {
+          "key": "Number",
+          "label": "Number",
+          "type": "text"
+        },
+        {
+          "key": "Description",
+          "label": "Description of Property",
+          "type": "text"
+        },
+        {
+          "key": "DateAcquired",
+          "label": "Date Acquired",
+          "type": "text"
+        },
+        {
+          "key": "FromWhom",
+          "label": "From Whom Purchased or Acquired",
+          "type": "text"
+        },
+        {
+          "key": "Value",
+          "label": "Value",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 31,
+      "fixedSlots": [
+        [
+          {
+            "id": "propertyItem1Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              98
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 1
+            },
+            "defaultValue": "1",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem1Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              98
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 1
+            }
+          },
+          {
+            "id": "propertyItem1DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              98
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 1
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem1FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              98
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 1
+            }
+          },
+          {
+            "id": "propertyItem1Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              98
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 1
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem2Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              112
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 2
+            },
+            "defaultValue": "2",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem2Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              112
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 2
+            }
+          },
+          {
+            "id": "propertyItem2DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              112
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 2
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem2FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              112
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 2
+            }
+          },
+          {
+            "id": "propertyItem2Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              112
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 2
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem3Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              126.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 3
+            },
+            "defaultValue": "3",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem3Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              126.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 3
+            }
+          },
+          {
+            "id": "propertyItem3DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              126.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 3
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem3FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              126.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 3
+            }
+          },
+          {
+            "id": "propertyItem3Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              126.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 3
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem4Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              139.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 4
+            },
+            "defaultValue": "4",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem4Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              139.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 4
+            }
+          },
+          {
+            "id": "propertyItem4DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              139.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 4
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem4FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              139.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 4
+            }
+          },
+          {
+            "id": "propertyItem4Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              139.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 4
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem5Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              153.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 5
+            },
+            "defaultValue": "5",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem5Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              153.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 5
+            }
+          },
+          {
+            "id": "propertyItem5DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              153.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 5
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem5FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              153.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 5
+            }
+          },
+          {
+            "id": "propertyItem5Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              153.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 5
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem6Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              167.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 6
+            },
+            "defaultValue": "6",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem6Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              167.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 6
+            }
+          },
+          {
+            "id": "propertyItem6DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              167.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 6
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem6FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              167.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 6
+            }
+          },
+          {
+            "id": "propertyItem6Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              167.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 6
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem7Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              181.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 7
+            },
+            "defaultValue": "7",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem7Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              181.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 7
+            }
+          },
+          {
+            "id": "propertyItem7DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              181.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 7
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem7FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              181.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 7
+            }
+          },
+          {
+            "id": "propertyItem7Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              181.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 7
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem8Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              195.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 8
+            },
+            "defaultValue": "8",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem8Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              195.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 8
+            }
+          },
+          {
+            "id": "propertyItem8DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              195.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 8
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem8FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              195.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 8
+            }
+          },
+          {
+            "id": "propertyItem8Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              195.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 8
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem9Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              209.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 9
+            },
+            "defaultValue": "9",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem9Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              209.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 9
+            }
+          },
+          {
+            "id": "propertyItem9DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              209.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 9
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem9FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              209.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 9
+            }
+          },
+          {
+            "id": "propertyItem9Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              209.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 9
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem10Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              223.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 10
+            },
+            "defaultValue": "10",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem10Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              223.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 10
+            }
+          },
+          {
+            "id": "propertyItem10DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              223.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 10
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem10FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              223.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 10
+            }
+          },
+          {
+            "id": "propertyItem10Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              223.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 10
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem11Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              237.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 11
+            },
+            "defaultValue": "11",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem11Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              237.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 11
+            }
+          },
+          {
+            "id": "propertyItem11DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              237.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 11
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem11FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              237.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 11
+            }
+          },
+          {
+            "id": "propertyItem11Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              237.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 11
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem12Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              251.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 12
+            },
+            "defaultValue": "12",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem12Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              251.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 12
+            }
+          },
+          {
+            "id": "propertyItem12DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              251.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 12
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem12FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              251.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 12
+            }
+          },
+          {
+            "id": "propertyItem12Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              251.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 12
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem13Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              265.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 13
+            },
+            "defaultValue": "13",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem13Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              265.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 13
+            }
+          },
+          {
+            "id": "propertyItem13DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              265.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 13
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem13FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              265.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 13
+            }
+          },
+          {
+            "id": "propertyItem13Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              265.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 13
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem14Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              279.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 14
+            },
+            "defaultValue": "14",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem14Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              279.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 14
+            }
+          },
+          {
+            "id": "propertyItem14DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              279.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 14
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem14FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              279.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 14
+            }
+          },
+          {
+            "id": "propertyItem14Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              279.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 14
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem15Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              292.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 15
+            },
+            "defaultValue": "15",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem15Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              292.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 15
+            }
+          },
+          {
+            "id": "propertyItem15DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              292.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 15
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem15FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              292.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 15
+            }
+          },
+          {
+            "id": "propertyItem15Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              292.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 15
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem16Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              306.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 16
+            },
+            "defaultValue": "16",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem16Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              306.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 16
+            }
+          },
+          {
+            "id": "propertyItem16DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              306.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 16
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem16FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              306.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 16
+            }
+          },
+          {
+            "id": "propertyItem16Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              306.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 16
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem17Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              320.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 17
+            },
+            "defaultValue": "17",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem17Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              320.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 17
+            }
+          },
+          {
+            "id": "propertyItem17DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              320.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 17
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem17FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              320.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 17
+            }
+          },
+          {
+            "id": "propertyItem17Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              320.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 17
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem18Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              334.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 18
+            },
+            "defaultValue": "18",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem18Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              334.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 18
+            }
+          },
+          {
+            "id": "propertyItem18DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              334.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 18
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem18FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              334.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 18
+            }
+          },
+          {
+            "id": "propertyItem18Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              334.6
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 18
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem19Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              348.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 19
+            },
+            "defaultValue": "19",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem19Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              348.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 19
+            }
+          },
+          {
+            "id": "propertyItem19DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              348.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 19
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem19FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              348.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 19
+            }
+          },
+          {
+            "id": "propertyItem19Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              348.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 19
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem20Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              362.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 20
+            },
+            "defaultValue": "20",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem20Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              362.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 20
+            }
+          },
+          {
+            "id": "propertyItem20DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              362.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 20
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem20FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              362.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 20
+            }
+          },
+          {
+            "id": "propertyItem20Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              362.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 20
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem21Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              376.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 21
+            },
+            "defaultValue": "21",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem21Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              376.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 21
+            }
+          },
+          {
+            "id": "propertyItem21DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              376.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 21
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem21FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              376.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 21
+            }
+          },
+          {
+            "id": "propertyItem21Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              376.4
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 21
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem22Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              390.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 22
+            },
+            "defaultValue": "22",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem22Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              390.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 22
+            }
+          },
+          {
+            "id": "propertyItem22DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              390.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 22
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem22FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              390.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 22
+            }
+          },
+          {
+            "id": "propertyItem22Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              390.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 22
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem23Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              404.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 23
+            },
+            "defaultValue": "23",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem23Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              404.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 23
+            }
+          },
+          {
+            "id": "propertyItem23DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              404.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 23
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem23FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              404.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 23
+            }
+          },
+          {
+            "id": "propertyItem23Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              404.5
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 23
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem24Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              418.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 24
+            },
+            "defaultValue": "24",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem24Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              418.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 24
+            }
+          },
+          {
+            "id": "propertyItem24DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              418.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 24
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem24FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              418.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 24
+            }
+          },
+          {
+            "id": "propertyItem24Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              418.2
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 24
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem25Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              432.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 25
+            },
+            "defaultValue": "25",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem25Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              432.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 25
+            }
+          },
+          {
+            "id": "propertyItem25DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              432.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 25
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem25FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              432.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 25
+            }
+          },
+          {
+            "id": "propertyItem25Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              432.3
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 25
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem26Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              445.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 26
+            },
+            "defaultValue": "26",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem26Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              445.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 26
+            }
+          },
+          {
+            "id": "propertyItem26DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              445.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 26
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem26FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              445.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 26
+            }
+          },
+          {
+            "id": "propertyItem26Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              445.9
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 26
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem27Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              460
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 27
+            },
+            "defaultValue": "27",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem27Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              460
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 27
+            }
+          },
+          {
+            "id": "propertyItem27DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              460
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 27
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem27FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              460
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 27
+            }
+          },
+          {
+            "id": "propertyItem27Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              460
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 27
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem28Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              474.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 28
+            },
+            "defaultValue": "28",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem28Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              474.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 28
+            }
+          },
+          {
+            "id": "propertyItem28DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              474.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 28
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem28FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              474.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 28
+            }
+          },
+          {
+            "id": "propertyItem28Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              474.1
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 28
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem29Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              487.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 29
+            },
+            "defaultValue": "29",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem29Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              487.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 29
+            }
+          },
+          {
+            "id": "propertyItem29DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              487.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 29
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem29FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              487.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 29
+            }
+          },
+          {
+            "id": "propertyItem29Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              487.7
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 29
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem30Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              501.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 30
+            },
+            "defaultValue": "30",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem30Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              501.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 30
+            }
+          },
+          {
+            "id": "propertyItem30DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              501.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 30
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem30FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              501.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 30
+            }
+          },
+          {
+            "id": "propertyItem30Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              501.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 30
+            },
+            "maxLength": 15
+          }
+        ],
+        [
+          {
+            "id": "propertyItem31Number",
+            "section": "propertyList",
+            "label": "Number",
+            "type": "text",
+            "page": 2,
+            "x0": 32,
+            "x1": 103,
+            "rows": [
+              515.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 31
+            },
+            "defaultValue": "31",
+            "maxLength": 4
+          },
+          {
+            "id": "propertyItem31Description",
+            "section": "propertyList",
+            "label": "Description of Property",
+            "type": "text",
+            "page": 2,
+            "x0": 110,
+            "x1": 418,
+            "rows": [
+              515.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 31
+            }
+          },
+          {
+            "id": "propertyItem31DateAcquired",
+            "section": "propertyList",
+            "label": "Date Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 425,
+            "x1": 499,
+            "rows": [
+              515.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 31
+            },
+            "maxLength": 10,
+            "placeholder": "DD/MM/YYYY"
+          },
+          {
+            "id": "propertyItem31FromWhom",
+            "section": "propertyList",
+            "label": "From Whom Purchased or Acquired",
+            "type": "text",
+            "page": 2,
+            "x0": 506,
+            "x1": 706,
+            "rows": [
+              515.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 31
+            }
+          },
+          {
+            "id": "propertyItem31Value",
+            "section": "propertyList",
+            "label": "Value",
+            "type": "text",
+            "page": 2,
+            "x0": 713,
+            "x1": 796,
+            "rows": [
+              515.8
+            ],
+            "repeat": {
+              "group": "propertyItem",
+              "row": 31
+            },
+            "maxLength": 15
+          }
+        ]
+      ]
+    }
+  ]
+}

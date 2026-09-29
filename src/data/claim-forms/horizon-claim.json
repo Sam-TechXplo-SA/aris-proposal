@@ -1,0 +1,853 @@
+{
+  "id": "horizon-claim",
+  "insurer": "Horizon Underwriting Managers",
+  "title": "Transit Claim Form",
+  "filenameField": "insuredName",
+  "defaultLineGap": 8,
+  "sections": [
+    {
+      "id": "header",
+      "title": "Insured & Contact Details"
+    },
+    {
+      "id": "lossDetails",
+      "title": "Details of Loss"
+    },
+    {
+      "id": "cargo",
+      "title": "Cargo Carried"
+    },
+    {
+      "id": "claimDetails",
+      "title": "Details of a Claim"
+    },
+    {
+      "id": "paymentDetails",
+      "title": "Claim Payment Details"
+    }
+  ],
+  "fields": [
+    {
+      "id": "insuredName",
+      "section": "header",
+      "label": "Insured's Name",
+      "type": "text",
+      "required": true,
+      "x0": 117,
+      "x1": 438,
+      "rows": [
+        223.5
+      ]
+    },
+    {
+      "id": "policyNumber",
+      "section": "header",
+      "label": "Policy Number",
+      "type": "text",
+      "x0": 113,
+      "x1": 476,
+      "rows": [
+        245.9
+      ]
+    },
+    {
+      "id": "contactName",
+      "section": "header",
+      "label": "Contact Name",
+      "type": "text",
+      "x0": 221,
+      "x1": 403,
+      "rows": [
+        290.9
+      ]
+    },
+    {
+      "id": "contactNumber",
+      "section": "header",
+      "label": "Contact Number",
+      "type": "text",
+      "x0": 221,
+      "x1": 395,
+      "rows": [
+        313.5
+      ]
+    },
+    {
+      "id": "contactEmail",
+      "section": "header",
+      "label": "Email",
+      "type": "text",
+      "x0": 221,
+      "x1": 406,
+      "rows": [
+        335.9
+      ]
+    },
+    {
+      "id": "dateOfLoss",
+      "section": "lossDetails",
+      "label": "Date of Loss",
+      "type": "text",
+      "x0": 221,
+      "x1": 403,
+      "rows": [
+        380.9
+      ]
+    },
+    {
+      "id": "voyageFrom",
+      "section": "lossDetails",
+      "label": "Voyage — From",
+      "type": "text",
+      "x0": 136,
+      "x1": 262,
+      "rows": [
+        403.4
+      ]
+    },
+    {
+      "id": "voyageTo",
+      "section": "lossDetails",
+      "label": "Voyage — To",
+      "type": "text",
+      "x0": 280,
+      "x1": 403,
+      "rows": [
+        403.4
+      ]
+    },
+    {
+      "id": "briefDescriptionOfLoss",
+      "section": "lossDetails",
+      "label": "Brief Description of Loss",
+      "type": "text",
+      "multiline": true,
+      "x0": 42,
+      "x1": 518,
+      "rows": [
+        448.4,
+        462.9,
+        477.4,
+        491.9,
+        506.4,
+        520.9,
+        535.4,
+        549.9,
+        564.3
+      ]
+    },
+    {
+      "id": "ownerOfGoods",
+      "section": "cargo",
+      "label": "Are You the Owner of the Goods?",
+      "type": "choice",
+      "markSize": 7,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 331.7,
+          "y": 595.3
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 355,
+          "y": 595.3
+        }
+      ]
+    },
+    {
+      "id": "ownerDetails",
+      "section": "cargo",
+      "label": "If No, Details of the Owner",
+      "type": "text",
+      "x0": 230,
+      "x1": 558,
+      "rows": [
+        631.9
+      ],
+      "lineGap": 2.8,
+      "showIf": {
+        "field": "ownerOfGoods",
+        "equals": "no"
+      }
+    },
+    {
+      "id": "otherInsuranceCover",
+      "section": "cargo",
+      "label": "Did Any Other Insurance Cover the Goods at the Time of Loss?",
+      "type": "choice",
+      "markSize": 7,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 331.7,
+          "y": 640.3
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 355,
+          "y": 640.3
+        }
+      ]
+    },
+    {
+      "id": "otherInsuranceDetails",
+      "section": "cargo",
+      "label": "If Yes, Particulars and Name of the Insurer",
+      "type": "text",
+      "x0": 316,
+      "x1": 558,
+      "rows": [
+        676.8
+      ],
+      "lineGap": 2.8,
+      "showIf": {
+        "field": "otherInsuranceCover",
+        "equals": "yes"
+      }
+    },
+    {
+      "id": "inspectionDetails",
+      "section": "cargo",
+      "label": "If Goods Are Damaged, Where Can They Be Inspected? (Contact Name and Phone Number)",
+      "type": "text",
+      "x0": 36,
+      "x1": 558,
+      "rows": [
+        712
+      ],
+      "startSize": 6,
+      "floorSize": 5
+    },
+    {
+      "id": "policeNotified",
+      "section": "cargo",
+      "label": "Have Police Been Notified?",
+      "type": "choice",
+      "markSize": 7,
+      "options": [
+        {
+          "value": "yes",
+          "label": "Yes",
+          "x": 331.7,
+          "y": 707.7
+        },
+        {
+          "value": "no",
+          "label": "No",
+          "x": 355,
+          "y": 707.7
+        }
+      ]
+    },
+    {
+      "id": "policeStationIncidentNumber",
+      "section": "cargo",
+      "label": "If Yes, What Station? Incident Number",
+      "type": "text",
+      "x0": 213,
+      "x1": 318,
+      "rows": [
+        744.3
+      ],
+      "lineGap": 2.8,
+      "showIf": {
+        "field": "policeNotified",
+        "equals": "yes"
+      }
+    },
+    {
+      "id": "policeDate",
+      "section": "cargo",
+      "label": "Date (Reported to Police)",
+      "type": "text",
+      "x0": 352,
+      "x1": 558,
+      "rows": [
+        744.3
+      ],
+      "lineGap": 2.8,
+      "showIf": {
+        "field": "policeNotified",
+        "equals": "yes"
+      }
+    },
+    {
+      "id": "otherActionToReduceLoss",
+      "section": "cargo",
+      "label": "Have You Taken Any Other Action to Reduce Your Loss? If Yes, Please Provide Details",
+      "type": "text",
+      "page": 1,
+      "x0": 36,
+      "x1": 558,
+      "rows": [
+        100
+      ]
+    },
+    {
+      "id": "claimItemsNote",
+      "section": "claimDetails",
+      "type": "note",
+      "page": 1,
+      "label": "Details of a claim — list each commodity/item being claimed for, with details of the loss or damage, the insured amount, and the amount claiming for."
+    },
+    {
+      "id": "supportingDocumentsNote",
+      "section": "claimDetails",
+      "type": "note",
+      "page": 1,
+      "label": "Please provide supporting documents such as: Invoice indicating the value of goods claimed / Repair/Replacement quotations (if applicable); Consignment note/Freight Invoice."
+    },
+    {
+      "id": "supportingDocumentsDetails",
+      "section": "claimDetails",
+      "label": "Supporting Documents — Further Details",
+      "type": "text",
+      "multiline": true,
+      "page": 1,
+      "x0": 78,
+      "x1": 516,
+      "rows": [
+        388.4,
+        402.9,
+        417.3,
+        431.8,
+        446.3,
+        460.9,
+        475.3,
+        489.8,
+        504.3
+      ]
+    },
+    {
+      "id": "nameOfBank",
+      "section": "paymentDetails",
+      "label": "Name of Bank",
+      "type": "text",
+      "page": 1,
+      "x0": 148,
+      "x1": 508,
+      "rows": [
+        562.3
+      ]
+    },
+    {
+      "id": "accountName",
+      "section": "paymentDetails",
+      "label": "Account Name",
+      "type": "text",
+      "page": 1,
+      "x0": 148,
+      "x1": 501,
+      "rows": [
+        591.2
+      ]
+    },
+    {
+      "id": "accountNumber",
+      "section": "paymentDetails",
+      "label": "Account Number",
+      "type": "text",
+      "page": 1,
+      "x0": 148,
+      "x1": 501,
+      "rows": [
+        620.2
+      ]
+    },
+    {
+      "id": "branchCode",
+      "section": "paymentDetails",
+      "label": "Branch Code",
+      "type": "text",
+      "page": 1,
+      "x0": 148,
+      "x1": 498,
+      "rows": [
+        649.2
+      ],
+      "maxLength": 10,
+      "align": "center"
+    }
+  ],
+  "repeatingGroups": [
+    {
+      "groupKey": "claimDetails__claimItem",
+      "section": "claimDetails",
+      "itemLabel": "Claim Item",
+      "subFields": [
+        {
+          "key": "Commodity",
+          "label": "Commodities Carried",
+          "type": "text"
+        },
+        {
+          "key": "Details",
+          "label": "Details of Loss and/or Damage",
+          "type": "text"
+        },
+        {
+          "key": "InsuredAmount",
+          "label": "Insured Amount",
+          "type": "text"
+        },
+        {
+          "key": "ClaimingAmount",
+          "label": "Amount Claiming For",
+          "type": "text"
+        }
+      ],
+      "fixedSlotCount": 6,
+      "fixedSlots": [
+        [
+          {
+            "id": "claimItem1Commodity",
+            "section": "claimDetails",
+            "label": "Commodities Carried",
+            "type": "text",
+            "page": 1,
+            "x0": 47,
+            "x1": 161,
+            "rows": [
+              189.9
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 1
+            },
+            "floorSize": 5,
+            "maxLength": 55
+          },
+          {
+            "id": "claimItem1Details",
+            "section": "claimDetails",
+            "label": "Details of Loss and/or Damage",
+            "type": "text",
+            "page": 1,
+            "x0": 168,
+            "x1": 409,
+            "rows": [
+              189.9
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 1
+            }
+          },
+          {
+            "id": "claimItem1InsuredAmount",
+            "section": "claimDetails",
+            "label": "Insured Amount",
+            "type": "text",
+            "page": 1,
+            "x0": 416,
+            "x1": 494,
+            "rows": [
+              189.9
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 1
+            },
+            "maxLength": 20
+          },
+          {
+            "id": "claimItem1ClaimingAmount",
+            "section": "claimDetails",
+            "label": "Amount Claiming For",
+            "type": "text",
+            "page": 1,
+            "x0": 501,
+            "x1": 572,
+            "rows": [
+              189.9
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 1
+            },
+            "maxLength": 20
+          }
+        ],
+        [
+          {
+            "id": "claimItem2Commodity",
+            "section": "claimDetails",
+            "label": "Commodities Carried",
+            "type": "text",
+            "page": 1,
+            "x0": 47,
+            "x1": 161,
+            "rows": [
+              210.6
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 2
+            },
+            "floorSize": 5,
+            "maxLength": 55
+          },
+          {
+            "id": "claimItem2Details",
+            "section": "claimDetails",
+            "label": "Details of Loss and/or Damage",
+            "type": "text",
+            "page": 1,
+            "x0": 168,
+            "x1": 409,
+            "rows": [
+              210.6
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 2
+            }
+          },
+          {
+            "id": "claimItem2InsuredAmount",
+            "section": "claimDetails",
+            "label": "Insured Amount",
+            "type": "text",
+            "page": 1,
+            "x0": 416,
+            "x1": 494,
+            "rows": [
+              210.6
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 2
+            },
+            "maxLength": 20
+          },
+          {
+            "id": "claimItem2ClaimingAmount",
+            "section": "claimDetails",
+            "label": "Amount Claiming For",
+            "type": "text",
+            "page": 1,
+            "x0": 501,
+            "x1": 572,
+            "rows": [
+              210.6
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 2
+            },
+            "maxLength": 20
+          }
+        ],
+        [
+          {
+            "id": "claimItem3Commodity",
+            "section": "claimDetails",
+            "label": "Commodities Carried",
+            "type": "text",
+            "page": 1,
+            "x0": 47,
+            "x1": 161,
+            "rows": [
+              232.8
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 3
+            },
+            "floorSize": 5,
+            "maxLength": 55
+          },
+          {
+            "id": "claimItem3Details",
+            "section": "claimDetails",
+            "label": "Details of Loss and/or Damage",
+            "type": "text",
+            "page": 1,
+            "x0": 168,
+            "x1": 409,
+            "rows": [
+              232.8
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 3
+            }
+          },
+          {
+            "id": "claimItem3InsuredAmount",
+            "section": "claimDetails",
+            "label": "Insured Amount",
+            "type": "text",
+            "page": 1,
+            "x0": 416,
+            "x1": 494,
+            "rows": [
+              232.8
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 3
+            },
+            "maxLength": 20
+          },
+          {
+            "id": "claimItem3ClaimingAmount",
+            "section": "claimDetails",
+            "label": "Amount Claiming For",
+            "type": "text",
+            "page": 1,
+            "x0": 501,
+            "x1": 572,
+            "rows": [
+              232.8
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 3
+            },
+            "maxLength": 20
+          }
+        ],
+        [
+          {
+            "id": "claimItem4Commodity",
+            "section": "claimDetails",
+            "label": "Commodities Carried",
+            "type": "text",
+            "page": 1,
+            "x0": 47,
+            "x1": 161,
+            "rows": [
+              255.1
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 4
+            },
+            "floorSize": 5,
+            "maxLength": 55
+          },
+          {
+            "id": "claimItem4Details",
+            "section": "claimDetails",
+            "label": "Details of Loss and/or Damage",
+            "type": "text",
+            "page": 1,
+            "x0": 168,
+            "x1": 409,
+            "rows": [
+              255.1
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 4
+            }
+          },
+          {
+            "id": "claimItem4InsuredAmount",
+            "section": "claimDetails",
+            "label": "Insured Amount",
+            "type": "text",
+            "page": 1,
+            "x0": 416,
+            "x1": 494,
+            "rows": [
+              255.1
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 4
+            },
+            "maxLength": 20
+          },
+          {
+            "id": "claimItem4ClaimingAmount",
+            "section": "claimDetails",
+            "label": "Amount Claiming For",
+            "type": "text",
+            "page": 1,
+            "x0": 501,
+            "x1": 572,
+            "rows": [
+              255.1
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 4
+            },
+            "maxLength": 20
+          }
+        ],
+        [
+          {
+            "id": "claimItem5Commodity",
+            "section": "claimDetails",
+            "label": "Commodities Carried",
+            "type": "text",
+            "page": 1,
+            "x0": 47,
+            "x1": 161,
+            "rows": [
+              276.6
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 5
+            },
+            "floorSize": 5,
+            "maxLength": 55
+          },
+          {
+            "id": "claimItem5Details",
+            "section": "claimDetails",
+            "label": "Details of Loss and/or Damage",
+            "type": "text",
+            "page": 1,
+            "x0": 168,
+            "x1": 409,
+            "rows": [
+              276.6
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 5
+            }
+          },
+          {
+            "id": "claimItem5InsuredAmount",
+            "section": "claimDetails",
+            "label": "Insured Amount",
+            "type": "text",
+            "page": 1,
+            "x0": 416,
+            "x1": 494,
+            "rows": [
+              276.6
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 5
+            },
+            "maxLength": 20
+          },
+          {
+            "id": "claimItem5ClaimingAmount",
+            "section": "claimDetails",
+            "label": "Amount Claiming For",
+            "type": "text",
+            "page": 1,
+            "x0": 501,
+            "x1": 572,
+            "rows": [
+              276.6
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 5
+            },
+            "maxLength": 20
+          }
+        ],
+        [
+          {
+            "id": "claimItem6Commodity",
+            "section": "claimDetails",
+            "label": "Commodities Carried",
+            "type": "text",
+            "page": 1,
+            "x0": 47,
+            "x1": 161,
+            "rows": [
+              299.7
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 6
+            },
+            "floorSize": 5,
+            "maxLength": 55
+          },
+          {
+            "id": "claimItem6Details",
+            "section": "claimDetails",
+            "label": "Details of Loss and/or Damage",
+            "type": "text",
+            "page": 1,
+            "x0": 168,
+            "x1": 409,
+            "rows": [
+              299.7
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 6
+            }
+          },
+          {
+            "id": "claimItem6InsuredAmount",
+            "section": "claimDetails",
+            "label": "Insured Amount",
+            "type": "text",
+            "page": 1,
+            "x0": 416,
+            "x1": 494,
+            "rows": [
+              299.7
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 6
+            },
+            "maxLength": 20
+          },
+          {
+            "id": "claimItem6ClaimingAmount",
+            "section": "claimDetails",
+            "label": "Amount Claiming For",
+            "type": "text",
+            "page": 1,
+            "x0": 501,
+            "x1": 572,
+            "rows": [
+              299.7
+            ],
+            "lineGap": 5.5,
+            "repeat": {
+              "group": "claimItem",
+              "row": 6
+            },
+            "maxLength": 20
+          }
+        ]
+      ]
+    }
+  ]
+}
