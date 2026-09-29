@@ -2,12 +2,17 @@
 
 import PageBreadcrumb from "@/components/common/PageBreadCrumb";
 import NotFoundPanel from "@/components/common/NotFoundPanel";
+import ChangeStatusModal from "@/components/claims/ChangeStatusModal";
 import StatusBadge from "@/components/claims/StatusBadge";
+import Button from "@/components/ui/button/Button";
+import { useAuth } from "@/context/AuthContext";
+import { useModal } from "@/hooks/useModal";
 import { Link } from "@/i18n/navigation";
 import Tabs from "@/components/ui/tabs/Tabs";
 import { AlertIcon, ChevronRightIcon } from "@/icons";
 import { findClient, findUser, findSection, formatDate } from "@/lib/mock/helpers";
 import { useData } from "@/lib/mock/store";
+import { INTERNAL_ROLES } from "@/lib/mock/types";
 import { useClaimAccess } from "@/lib/mock/useClaimAccess";
 import { usePathname } from "@/i18n/navigation";
 import { useParams } from "next/navigation";
@@ -15,7 +20,9 @@ import { useParams } from "next/navigation";
 export default function ClaimDetailLayout({ children }: { children: React.ReactNode }) {
   const { id } = useParams<{ id: string }>();
   const { claim, notFound } = useClaimAccess(id);
-  const { state } = useData();
+  const { state, setStatus } = useData();
+  const { currentUser } = useAuth();
+  const statusModal = useModal();
   const pathname = usePathname();
 
   if (notFound || !claim) {
@@ -48,6 +55,9 @@ export default function ClaimDetailLayout({ children }: { children: React.ReactN
       .find((t) => pathname === t.href || pathname.startsWith(`${t.href}/`))?.key ?? "overview";
 
   const broker = findUser(state, claim.brokerId);
+  // Any internal user may override the status; a closed claim can only be moved by an Administrator (reopen rule).
+  const canChangeStatus =
+    !!currentUser && INTERNAL_ROLES.includes(currentUser.role) && (claim.status !== "closed" || currentUser.role === "administrator");
   const facts = [
     { label: "Client", value: client?.name, href: `/clients/${claim.clientId}` },
     { label: "Insurer", value: section?.insurer },
@@ -83,6 +93,11 @@ export default function ClaimDetailLayout({ children }: { children: React.ReactN
               {claim.claimType} · {claim.location}
             </p>
           </div>
+          {canChangeStatus && (
+            <Button size="sm" variant="outline" onClick={statusModal.openModal}>
+              Change status
+            </Button>
+          )}
         </div>
 
         <dl className="mt-5 grid grid-cols-2 gap-x-6 gap-y-4 border-t border-gray-100 px-5 py-4 sm:grid-cols-3 xl:grid-cols-6 dark:border-gray-800">
@@ -106,6 +121,15 @@ export default function ClaimDetailLayout({ children }: { children: React.ReactN
       </div>
 
       {children}
+
+      {canChangeStatus && (
+        <ChangeStatusModal
+          isOpen={statusModal.isOpen}
+          onClose={statusModal.closeModal}
+          current={claim.status}
+          onSave={(status, note) => setStatus({ claimId: claim.id, status, note, actorId: currentUser.id, actorRole: currentUser.role })}
+        />
+      )}
     </div>
   );
 }

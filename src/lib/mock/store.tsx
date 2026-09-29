@@ -82,6 +82,8 @@ export const ASSESSMENT_SEQUENCE: ClaimStatus[] = [
   "awaiting_insurer_decision",
 ];
 
+const PRE_INSURER_STATUSES: ClaimStatus[] = ["partially_submitted", "submitted", "documents_outstanding"];
+
 function nextAssessmentStatus(current: ClaimStatus): ClaimStatus | null {
   const index = ASSESSMENT_SEQUENCE.indexOf(current);
   if (index === -1 || index === ASSESSMENT_SEQUENCE.length - 1) return null;
@@ -126,6 +128,7 @@ type Action =
   | { type: "PROCESS_TO_INSURER"; payload: { claimId: string; insurerClaimNo: string; assessor?: Assessor; actorId: string; actorRole: Role } }
   | { type: "ADVANCE_ASSESSMENT"; payload: { claimId: string; actorId: string; actorRole: Role } }
   | { type: "MARK_DISPUTED"; payload: { claimId: string; actorId: string; actorRole: Role } }
+  | { type: "SET_STATUS"; payload: { claimId: string; status: ClaimStatus; note: string; actorId: string; actorRole: Role } }
   | { type: "RESOLVE_DISPUTE"; payload: { claimId: string; actorId: string; actorRole: Role } }
   | { type: "UPDATE_FINANCIALS"; payload: { claimId: string; grossAmount: number; actorId: string; actorRole: Role } }
   | { type: "UPDATE_LATE_MOTIVATION"; payload: { claimId: string; motivation: string; actorId: string; actorRole: Role } }
@@ -315,9 +318,17 @@ function reducer(state: MockState, action: Action): MockState {
 
     case "PROCESS_TO_INSURER": {
       const { claimId, insurerClaimNo, assessor, actorId, actorRole } = action.payload;
+      const firstForward = !state.claims.find((c) => c.id === claimId)?.insurerClaimNo;
       const claims = state.claims.map((c) =>
         c.id === claimId
-          ? { ...c, insurerClaimNo, assessor: assessor ?? c.assessor, status: "submitted_to_insurer" as ClaimStatus, updatedAt: nowIso() }
+          ? {
+              ...c,
+              insurerClaimNo,
+              assessor: assessor ?? c.assessor,
+              // Only the first forward moves the status; re-saving insurer details later must not roll it back.
+              status: PRE_INSURER_STATUSES.includes(c.status) ? ("submitted_to_insurer" as ClaimStatus) : c.status,
+              updatedAt: nowIso(),
+            }
           : c,
       );
       const claim = claims.find((c) => c.id === claimId);
@@ -326,7 +337,7 @@ function reducer(state: MockState, action: Action): MockState {
         clientId: claim?.clientId,
         actorId,
         actorRole,
-        action: `Forwarded to insurer — claim number ${insurerClaimNo} recorded`,
+        action: firstForward ? `Forwarded to insurer — claim number ${insurerClaimNo} recorded` : "Insurer & assessor details updated",
       });
       return { ...state, claims, auditEntries };
     }
@@ -354,6 +365,34 @@ function reducer(state: MockState, action: Action): MockState {
       if (!claim || claim.status === "disputed") return state;
       const claims = state.claims.map((c) => (c.id === claimId ? { ...c, status: "disputed" as ClaimStatus, preDisputeStatus: c.status, updatedAt: nowIso() } : c));
       const auditEntries = audit(state.auditEntries, { claimId, clientId: claim.clientId, actorId, actorRole, action: "Claim marked as Disputed" });
+      return { ...state, claims, auditEntries };
+    }
+
+    // Manual override: a broker sets any stage directly. Bypasses the workflow rules above
+    // (e.g. close blockers), so a note is mandatory and lands in the audit trail.
+    case "SET_STATUS": {
+      const { claimId, status, note, actorId, actorRole } = action.payload;
+      const claim = state.claims.find((c) => c.id === claimId);
+      if (!claim || claim.status === status || !note.trim()) return state;
+      if (claim.status === "closed" && actorRole !== "administrator") return state; // reopening stays Administrator-only
+      const claims = state.claims.map((c) =>
+        c.id === claimId
+          ? {
+              ...c,
+              status,
+              // Keep "Resolve dispute" working when a dispute is set or cleared by hand.
+              preDisputeStatus: status === "disputed" ? c.status : undefined,
+              updatedAt: nowIso(),
+            }
+          : c,
+      );
+      const auditEntries = audit(state.auditEntries, {
+        claimId,
+        clientId: claim.clientId,
+        actorId,
+        actorRole,
+        action: `Status manually changed from "${STATUS_META[claim.status].label}" to "${STATUS_META[status].label}" — ${note.trim()}`,
+      });
       return { ...state, claims, auditEntries };
     }
 
@@ -568,6 +607,7 @@ interface DataContextValue {
   processToInsurer: (payload: Extract<Action, { type: "PROCESS_TO_INSURER" }>["payload"]) => void;
   advanceAssessment: (payload: Extract<Action, { type: "ADVANCE_ASSESSMENT" }>["payload"]) => void;
   markDisputed: (payload: Extract<Action, { type: "MARK_DISPUTED" }>["payload"]) => void;
+  setStatus: (payload: Extract<Action, { type: "SET_STATUS" }>["payload"]) => void;
   resolveDispute: (payload: Extract<Action, { type: "RESOLVE_DISPUTE" }>["payload"]) => void;
   updateFinancials: (payload: Extract<Action, { type: "UPDATE_FINANCIALS" }>["payload"]) => void;
   updateLateMotivation: (payload: Extract<Action, { type: "UPDATE_LATE_MOTIVATION" }>["payload"]) => void;
@@ -626,6 +666,7 @@ export const DataProvider: React.FC<{ children: React.ReactNode }> = ({ children
       processToInsurer: (payload) => dispatch({ type: "PROCESS_TO_INSURER", payload }),
       advanceAssessment: (payload) => dispatch({ type: "ADVANCE_ASSESSMENT", payload }),
       markDisputed: (payload) => dispatch({ type: "MARK_DISPUTED", payload }),
+      setStatus: (payload) => dispatch({ type: "SET_STATUS", payload }),
       resolveDispute: (payload) => dispatch({ type: "RESOLVE_DISPUTE", payload }),
       updateFinancials: (payload) => dispatch({ type: "UPDATE_FINANCIALS", payload }),
       updateLateMotivation: (payload) => dispatch({ type: "UPDATE_LATE_MOTIVATION", payload }),
